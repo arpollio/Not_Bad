@@ -29,7 +29,8 @@ AHF75271
 AHF75751
 NP_416448
 NP_460922
-
+ABJ90522
+AAO26804
 
 
 #the following are the protein call numbers for the protein sequence of FlgB
@@ -43,6 +44,8 @@ AHF75728
 NP_415591
 NP_460145
 
+AAO27032
+
 
 #the following are the protein call numbers for the protein sequence of FlgI
 BAC24191
@@ -53,3 +56,5 @@ AHF75255
 AHF75735
 NP_415598
 NP_460152
+ABJ90682
+AAO27037
