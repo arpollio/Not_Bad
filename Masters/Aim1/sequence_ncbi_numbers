@@ -12,13 +12,11 @@
 #Buchnera bp
 #Buchnera sg
 #Buchnera aps
-#Haemophilus influenzae
 #Shewinella oneidensis
 #pseudomonas aeruginosa PAO1
-#Vibrio choler 01
-#Xanthamonas axonopodis
-#Nesseria gonorrhoeae
-#nitrosimonas europaea
+#Vibrio choler 01 0395d vco
+#Xanthomonas axonopodis pv. citrumelo F1
+#nitrosomonas europaea
 
 #the following are the protein call numbers for the protein sequence of FliF
 BAC24206
@@ -31,6 +29,12 @@ NP_416448
 NP_460922
 ABJ90522
 AAO26804
+AAM67637
+NP_239907
+NP_718783
+ABQ21013
+AEO42248
+CAD85994
 
 
 #the following are the protein call numbers for the protein sequence of FlgB
@@ -45,7 +49,12 @@ NP_415591
 NP_460145
 
 AAO27032
-
+AAM67879
+NP_240156
+NP_718804
+NP_415591
+AEO42283
+CAD84213
 
 #the following are the protein call numbers for the protein sequence of FlgI
 BAC24191
@@ -58,3 +67,9 @@ NP_415598
 NP_460152
 ABJ90682
 AAO27037
+AAM67886
+NP_240163
+NP_718796
+NP_415598
+AEO42275
+CAD84220
