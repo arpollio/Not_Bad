@@ -1,6 +1,4 @@
-#!/bin/bash/perl
-use strict;
-use muscle;
+#!/bin/bash
 
 $fasta = "Flif_orgninisms.fa";
 $alignment = "FliF_aligned.fa";
