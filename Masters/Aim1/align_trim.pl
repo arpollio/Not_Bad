@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash/perl
 use strict;
 
 my $progname = $0;
@@ -15,6 +15,7 @@ do
 
   # align the sequences
 	muscle -in "$fbase.mapped.fa" -verbose -out "$fbase.unsorted.afa"
+	trimal -in $fbase.unsorted.afa -out $fbase.unsorted.masked.afa -automated1
 
   # extract the taxonomy strings to a common file
 	grep '^>' "$fbase.unsorted.afa" >> "$taxonlist"
