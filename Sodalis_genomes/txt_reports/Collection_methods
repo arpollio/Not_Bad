@@ -1,0 +1,21 @@
+Mauve Alignment
+Mauve is a progressive aligner uses specifically an anchored aligning approach. It pairs an exact string
+as an anchor to then match syntenic regions. By using genbank files it becomes possible to verify the presents or absence
+or specifically conserved syntenic region. I used Sodalis praecaptivus as the references. I then includeded the known
+sodalis clade organisms as well as organisms that are present within a like host.
+
+Small reduced genomes lack any significant paired regions. Non-sodalis clade organisms did not align easily due to the lack
+on long conserved strings of characters. As a wide brush of the data set this is a great first step to identify specific syntenic
+regions within these genomes.
+
+Kegg search
+I was able to verify the genome ID on the front page of specific organism pages. I then could simply search for genes within the
+FliE-R operon.
+
+I have a file with the gene accession numbers from NCBI AND a file that has +/- information for each gene. by keeping this
+information separated allows for quick analysis and simplifies the fasta acquisition for each gene.
+
+BLAST Verification
+Organisms were then searched using the progressive alignment software BLASTx, protein input searching for nucleotide output,
+to unarguably verify the presents or absence of any specific gene. Results were collected by location within the genome,
+And presents absence were collected the same way they were for the KEGG search.
