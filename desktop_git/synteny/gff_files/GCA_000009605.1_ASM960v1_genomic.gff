@@ -1,0 +1,1265 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM960v1
+#!genome-build-accession NCBI_Assembly:GCA_000009605.1
+##sequence-region BA000003.2 1 640681
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=107806
+BA000003.2	DDBJ	region	1	640681	.	+	.	ID=id0;Dbxref=taxon:107806;Is_circular=true;gbkey=Src;isolate=Tokyo1998;mol_type=genomic DNA;nat-host=Acyrthosiphon pisum;note=primary endosymbiont of Acyrthosiphon pisum%3B~synonym: Buchnera sp. APS;strain=APS
+BA000003.2	DDBJ	gene	197	2083	.	+	.	ID=gene0;Name=gidA;gbkey=Gene;gene=gidA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	197	2083	.	+	0	ID=cds0;Parent=gene0;Dbxref=NCBI_GP:BAB12729.1;Name=BAB12729.1;Note=BU001;gbkey=CDS;gene=gidA;product=glucose inhibited division protein A;protein_id=BAB12729.1;transl_table=11
+BA000003.2	DDBJ	gene	2278	3102	.	+	.	ID=gene1;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	2278	3102	.	+	0	ID=cds1;Parent=gene1;Dbxref=NCBI_GP:BAB12730.1;Name=BAB12730.1;Note=BU002;gbkey=CDS;gene=atpB;product=ATP synthase A chain;protein_id=BAB12730.1;transl_table=11
+BA000003.2	DDBJ	gene	3139	3378	.	+	.	ID=gene2;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	3139	3378	.	+	0	ID=cds2;Parent=gene2;Dbxref=NCBI_GP:BAB12731.1;Name=BAB12731.1;Note=BU003;gbkey=CDS;gene=atpE;product=ATP synthase C chain;protein_id=BAB12731.1;transl_table=11
+BA000003.2	DDBJ	gene	3497	3982	.	+	.	ID=gene3;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	3497	3982	.	+	0	ID=cds3;Parent=gene3;Dbxref=NCBI_GP:BAB12732.1;Name=BAB12732.1;Note=BU004;gbkey=CDS;gene=atpF;product=ATP synthase B chain;protein_id=BAB12732.1;transl_table=11
+BA000003.2	DDBJ	gene	3982	4515	.	+	.	ID=gene4;Name=atpH;gbkey=Gene;gene=atpH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	3982	4515	.	+	0	ID=cds4;Parent=gene4;Dbxref=NCBI_GP:BAB12733.1;Name=BAB12733.1;Note=BU005;gbkey=CDS;gene=atpH;product=ATP synthase delta chain;protein_id=BAB12733.1;transl_table=11
+BA000003.2	DDBJ	gene	4530	6068	.	+	.	ID=gene5;Name=atpA;gbkey=Gene;gene=atpA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	4530	6068	.	+	0	ID=cds5;Parent=gene5;Dbxref=NCBI_GP:BAB12734.1;Name=BAB12734.1;Note=BU006;gbkey=CDS;gene=atpA;product=ATP synthase alpha chain;protein_id=BAB12734.1;transl_table=11
+BA000003.2	DDBJ	gene	6101	6973	.	+	.	ID=gene6;Name=atpG;gbkey=Gene;gene=atpG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	6101	6973	.	+	0	ID=cds6;Parent=gene6;Dbxref=NCBI_GP:BAB12735.1;Name=BAB12735.1;Note=BU007;gbkey=CDS;gene=atpG;product=ATP synthase gamma chain;protein_id=BAB12735.1;transl_table=11
+BA000003.2	DDBJ	gene	6997	8394	.	+	.	ID=gene7;Name=atpD;gbkey=Gene;gene=atpD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	6997	8394	.	+	0	ID=cds7;Parent=gene7;Dbxref=NCBI_GP:BAB12736.1;Name=BAB12736.1;Note=BU008;gbkey=CDS;gene=atpD;product=ATP synthase beta chain;protein_id=BAB12736.1;transl_table=11
+BA000003.2	DDBJ	gene	8421	8837	.	+	.	ID=gene8;Name=atpC;gbkey=Gene;gene=atpC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	8421	8837	.	+	0	ID=cds8;Parent=gene8;Dbxref=NCBI_GP:BAB12737.1;Name=BAB12737.1;Note=BU009;gbkey=CDS;gene=atpC;product=ATP synthase epsilon chain;protein_id=BAB12737.1;transl_table=11
+BA000003.2	DDBJ	gene	8911	11322	.	-	.	ID=gene9;Name=gyrB;gbkey=Gene;gene=gyrB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	8911	11322	.	-	0	ID=cds9;Parent=gene9;Dbxref=NCBI_GP:BAB12738.1;Name=BAB12738.1;Note=BU010;gbkey=CDS;gene=gyrB;product=DNA gyrase subunit B;protein_id=BAB12738.1;transl_table=11
+BA000003.2	DDBJ	gene	11449	12549	.	-	.	ID=gene10;Name=dnaN;gbkey=Gene;gene=dnaN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	11449	12549	.	-	0	ID=cds10;Parent=gene10;Dbxref=NCBI_GP:BAB12739.1;Name=BAB12739.1;Note=BU011;gbkey=CDS;gene=dnaN;product=DNA polymerase III beta chain;protein_id=BAB12739.1;transl_table=11
+BA000003.2	DDBJ	gene	12554	13918	.	-	.	ID=gene11;Name=dnaA;gbkey=Gene;gene=dnaA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	12554	13918	.	-	0	ID=cds11;Parent=gene11;Dbxref=NCBI_GP:BAB12740.1;Name=BAB12740.1;Note=BU012;gbkey=CDS;gene=dnaA;product=chromosomal replication initiator protein dnaA;protein_id=BAB12740.1;transl_table=11
+BA000003.2	DDBJ	gene	14369	14512	.	+	.	ID=gene12;Name=rpmH;gbkey=Gene;gene=rpmH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	14369	14512	.	+	0	ID=cds12;Parent=gene12;Dbxref=NCBI_GP:BAB12741.1;Name=BAB12741.1;Note=BU013;gbkey=CDS;gene=rpmH;product=50S ribosomal protein L34;protein_id=BAB12741.1;transl_table=11
+BA000003.2	DDBJ	gene	14525	14872	.	+	.	ID=gene13;Name=rnpA;gbkey=Gene;gene=rnpA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	14525	14872	.	+	0	ID=cds13;Parent=gene13;Dbxref=NCBI_GP:BAB12742.1;Name=BAB12742.1;Note=BU014;gbkey=CDS;gene=rnpA;product=ribonuclease P protein component;protein_id=BAB12742.1;transl_table=11
+BA000003.2	DDBJ	gene	15011	16609	.	+	.	ID=gene14;Name=yidC;gbkey=Gene;gene=yidC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	15011	16609	.	+	0	ID=cds14;Parent=gene14;Dbxref=NCBI_GP:BAB12743.1;Name=BAB12743.1;Note=BU015;gbkey=CDS;gene=yidC;product=60 kD inner-membrane protein;protein_id=BAB12743.1;transl_table=11
+BA000003.2	DDBJ	gene	16651	18009	.	+	.	ID=gene15;Name=thdF;gbkey=Gene;gene=thdF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	16651	18009	.	+	0	ID=cds15;Parent=gene15;Dbxref=NCBI_GP:BAB12744.1;Name=BAB12744.1;Note=BU016;gbkey=CDS;gene=thdF;product=thiophene and furan oxidation protein thdF;protein_id=BAB12744.1;transl_table=11
+BA000003.2	DDBJ	tRNA	18028	18100	.	-	.	ID=rna0;gbkey=tRNA;product=tRNA-Phe
+BA000003.2	DDBJ	exon	18028	18100	.	-	.	ID=id1;Parent=rna0;gbkey=tRNA;product=tRNA-Phe
+BA000003.2	DDBJ	gene	18376	18666	.	+	.	ID=gene16;Name=mopB;gbkey=Gene;gene=mopB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	18376	18666	.	+	0	ID=cds16;Parent=gene16;Dbxref=NCBI_GP:BAB12745.1;Name=BAB12745.1;Note=BU018;gbkey=CDS;gene=mopB;product=10 kD chaperonin;protein_id=BAB12745.1;transl_table=11
+BA000003.2	DDBJ	gene	18715	20361	.	+	.	ID=gene17;Name=mopA;gbkey=Gene;gene=mopA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	18715	20361	.	+	0	ID=cds17;Parent=gene17;Dbxref=NCBI_GP:BAB12746.1;Name=BAB12746.1;Note=BU019;gbkey=CDS;gene=mopA;product=60 kD chaperonin;protein_id=BAB12746.1;transl_table=11
+BA000003.2	DDBJ	gene	20985	21596	.	+	.	ID=gene18;Name=efp;gbkey=Gene;gene=efp;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	20985	21596	.	+	0	ID=cds18;Parent=gene18;Dbxref=NCBI_GP:BAB12747.1;Name=BAB12747.1;Note=BU020;gbkey=CDS;gene=efp;product=elongation factor P;protein_id=BAB12747.1;transl_table=11
+BA000003.2	DDBJ	gene	21614	22354	.	-	.	ID=gene19;Name=dnaC;gbkey=Gene;gene=dnaC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	21614	22354	.	-	0	ID=cds19;Parent=gene19;Dbxref=NCBI_GP:BAB12748.1;Name=BAB12748.1;Note=BU021;gbkey=CDS;gene=dnaC;product=DNA replication protein dnaC;protein_id=BAB12748.1;transl_table=11
+BA000003.2	DDBJ	gene	22354	22848	.	-	.	ID=gene20;Name=dnaT;gbkey=Gene;gene=dnaT;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	22354	22848	.	-	0	ID=cds20;Parent=gene20;Dbxref=NCBI_GP:BAB12749.1;Name=BAB12749.1;Note=BU022;gbkey=CDS;gene=dnaT;product=primosomal protein I;protein_id=BAB12749.1;transl_table=11
+BA000003.2	DDBJ	gene	22945	23520	.	-	.	ID=gene21;Name=yhhF;gbkey=Gene;gene=yhhF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	22945	23520	.	-	0	ID=cds21;Parent=gene21;Dbxref=NCBI_GP:BAB12750.1;Name=BAB12750.1;Note=BU023;gbkey=CDS;gene=yhhF;product=hypothetical protein;protein_id=BAB12750.1;transl_table=11
+BA000003.2	DDBJ	gene	23651	24787	.	+	.	ID=gene22;Name=ftsY;gbkey=Gene;gene=ftsY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	23651	24787	.	+	0	ID=cds22;Parent=gene22;Dbxref=NCBI_GP:BAB12751.1;Name=BAB12751.1;Note=BU024;gbkey=CDS;gene=ftsY;product=cell division protein ftsY;protein_id=BAB12751.1;transl_table=11
+BA000003.2	DDBJ	gene	24950	25804	.	+	.	ID=gene23;Name=rpoH;gbkey=Gene;gene=rpoH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	24950	25804	.	+	0	ID=cds23;Parent=gene23;Dbxref=NCBI_GP:BAB12752.1;Name=BAB12752.1;Note=BU025;gbkey=CDS;gene=rpoH;product=RNA polymerase sigma-32 factor;protein_id=BAB12752.1;transl_table=11
+BA000003.2	DDBJ	gene	25945	27810	.	-	.	ID=gene24;Name=glmS;gbkey=Gene;gene=glmS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	25945	27810	.	-	0	ID=cds24;Parent=gene24;Dbxref=NCBI_GP:BAB12753.1;Name=BAB12753.1;Note=BU026;gbkey=CDS;gene=glmS;product=D-fructose-6-phosphate amidotransferase;protein_id=BAB12753.1;transl_table=11
+BA000003.2	DDBJ	gene	27844	29223	.	-	.	ID=gene25;Name=glmU;gbkey=Gene;gene=glmU;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	27844	29223	.	-	0	ID=cds25;Parent=gene25;Dbxref=NCBI_GP:BAB12754.1;Name=BAB12754.1;Note=BU027;gbkey=CDS;gene=glmU;product=UDP-N-acetylglucosamine pyrophosphorylase;protein_id=BAB12754.1;transl_table=11
+BA000003.2	DDBJ	gene	29403	29972	.	+	.	ID=gene26;Name=yigL;gbkey=Gene;gene=yigL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	29403	29972	.	+	0	ID=cds26;Parent=gene26;Dbxref=NCBI_GP:BAB12755.1;Name=BAB12755.1;Note=BU028;gbkey=CDS;gene=yigL;product=hypothetical protein;protein_id=BAB12755.1;transl_table=11
+BA000003.2	DDBJ	gene	30011	30220	.	+	.	ID=gene27;Name=cof;gbkey=Gene;gene=cof;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	30011	30220	.	+	0	ID=cds27;Parent=gene27;Dbxref=NCBI_GP:BAB12756.1;Name=BAB12756.1;Note=BU029;gbkey=CDS;gene=cof;product=cof protein;protein_id=BAB12756.1;transl_table=11
+BA000003.2	DDBJ	gene	31191	33467	.	+	.	ID=gene28;Name=metE;gbkey=Gene;gene=metE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	31191	33467	.	+	0	ID=cds28;Parent=gene28;Dbxref=NCBI_GP:BAB12757.1;Name=BAB12757.1;Note=BU030;gbkey=CDS;gene=metE;product=5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase;protein_id=BAB12757.1;transl_table=11
+BA000003.2	DDBJ	gene	33590	35167	.	-	.	ID=gene29;Name=purH;gbkey=Gene;gene=purH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	33590	35167	.	-	0	ID=cds29;Parent=gene29;Dbxref=NCBI_GP:BAB12758.1;Name=BAB12758.1;Note=BU031;gbkey=CDS;gene=purH;product=phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase;protein_id=BAB12758.1;transl_table=11
+BA000003.2	DDBJ	gene	35308	35586	.	-	.	ID=gene30;Name=hupA;gbkey=Gene;gene=hupA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	35308	35586	.	-	0	ID=cds30;Parent=gene30;Dbxref=NCBI_GP:BAB12759.1;Name=BAB12759.1;Note=BU032;gbkey=CDS;gene=hupA;product=DNA-binding protein hu-alpha;protein_id=BAB12759.1;transl_table=11
+BA000003.2	DDBJ	gene	36321	40544	.	-	.	ID=gene31;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	36321	40544	.	-	0	ID=cds31;Parent=gene31;Dbxref=NCBI_GP:BAB12760.1;Name=BAB12760.1;Note=BU033;gbkey=CDS;gene=rpoC;product=DNA-directed RNA polymerase beta' chain;protein_id=BAB12760.1;transl_table=11
+BA000003.2	DDBJ	gene	40622	44650	.	-	.	ID=gene32;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	40622	44650	.	-	0	ID=cds32;Parent=gene32;Dbxref=NCBI_GP:BAB12761.1;Name=BAB12761.1;Note=BU034;gbkey=CDS;gene=rpoB;product=DNA-directed RNA polymerase beta chain;protein_id=BAB12761.1;transl_table=11
+BA000003.2	DDBJ	gene	44871	45239	.	-	.	ID=gene33;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	44871	45239	.	-	0	ID=cds33;Parent=gene33;Dbxref=NCBI_GP:BAB12762.1;Name=BAB12762.1;Note=BU035;gbkey=CDS;gene=rplL;product=50S ribosomal protein L7/L12;protein_id=BAB12762.1;transl_table=11
+BA000003.2	DDBJ	gene	45306	45803	.	-	.	ID=gene34;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	45306	45803	.	-	0	ID=cds34;Parent=gene34;Dbxref=NCBI_GP:BAB12763.1;Name=BAB12763.1;Note=BU036;gbkey=CDS;gene=rplJ;product=50S ribosomal protein L10;protein_id=BAB12763.1;transl_table=11
+BA000003.2	DDBJ	gene	46069	46764	.	-	.	ID=gene35;Name=rplA;gbkey=Gene;gene=rplA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	46069	46764	.	-	0	ID=cds35;Parent=gene35;Dbxref=NCBI_GP:BAB12764.1;Name=BAB12764.1;Note=BU037;gbkey=CDS;gene=rplA;product=50S ribosomal protein L1;protein_id=BAB12764.1;transl_table=11
+BA000003.2	DDBJ	gene	46767	47195	.	-	.	ID=gene36;Name=rplK;gbkey=Gene;gene=rplK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	46767	47195	.	-	0	ID=cds36;Parent=gene36;Dbxref=NCBI_GP:BAB12765.1;Name=BAB12765.1;Note=BU038;gbkey=CDS;gene=rplK;product=50S ribosomal protein L11;protein_id=BAB12765.1;transl_table=11
+BA000003.2	DDBJ	gene	47243	47788	.	-	.	ID=gene37;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	47243	47788	.	-	0	ID=cds37;Parent=gene37;Dbxref=NCBI_GP:BAB12766.1;Name=BAB12766.1;Note=BU039;gbkey=CDS;gene=nusG;product=transcription antitermination protein nusG;protein_id=BAB12766.1;transl_table=11
+BA000003.2	DDBJ	gene	47791	48174	.	-	.	ID=gene38;Name=secE;gbkey=Gene;gene=secE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	47791	48174	.	-	0	ID=cds38;Parent=gene38;Dbxref=NCBI_GP:BAB12767.1;Name=BAB12767.1;Note=BU040;gbkey=CDS;gene=secE;product=preprotein translocase secE subunit;protein_id=BAB12767.1;transl_table=11
+BA000003.2	DDBJ	tRNA	48488	48560	.	-	.	ID=rna1;gbkey=tRNA;product=tRNA-Thr
+BA000003.2	DDBJ	exon	48488	48560	.	-	.	ID=id2;Parent=rna1;gbkey=tRNA;product=tRNA-Thr
+BA000003.2	DDBJ	tRNA	48576	48647	.	-	.	ID=rna2;gbkey=tRNA;product=tRNA-Gly
+BA000003.2	DDBJ	exon	48576	48647	.	-	.	ID=id3;Parent=rna2;gbkey=tRNA;product=tRNA-Gly
+BA000003.2	DDBJ	tRNA	48670	48754	.	-	.	ID=rna3;gbkey=tRNA;product=tRNA-Tyr
+BA000003.2	DDBJ	exon	48670	48754	.	-	.	ID=id4;Parent=rna3;gbkey=tRNA;product=tRNA-Tyr
+BA000003.2	DDBJ	tRNA	48770	48842	.	-	.	ID=rna4;gbkey=tRNA;product=tRNA-Thr
+BA000003.2	DDBJ	exon	48770	48842	.	-	.	ID=id5;Parent=rna4;gbkey=tRNA;product=tRNA-Thr
+BA000003.2	DDBJ	gene	48981	50051	.	-	.	ID=gene39;Name=murB;gbkey=Gene;gene=murB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	48981	50051	.	-	0	ID=cds39;Parent=gene39;Dbxref=NCBI_GP:BAB12768.1;Name=BAB12768.1;Note=BU045;gbkey=CDS;gene=murB;product=UDP-N-acetylenolpyruvoylglucosamine reductase;protein_id=BAB12768.1;transl_table=11
+BA000003.2	DDBJ	gene	50166	51044	.	+	.	ID=gene40;Name=metF;gbkey=Gene;gene=metF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	50166	51044	.	+	0	ID=cds40;Parent=gene40;Dbxref=NCBI_GP:BAB12769.1;Name=BAB12769.1;Note=BU046;gbkey=CDS;gene=metF;product=5%2C10-methylenetetrahydrofolate reductase;protein_id=BAB12769.1;transl_table=11
+BA000003.2	DDBJ	gene	51056	52201	.	-	.	ID=gene41;Name=argE;gbkey=Gene;gene=argE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	51056	52201	.	-	0	ID=cds41;Parent=gene41;Dbxref=NCBI_GP:BAB12770.1;Name=BAB12770.1;Note=BU047;gbkey=CDS;gene=argE;product=acetylornithine deacetylase;protein_id=BAB12770.1;transl_table=11
+BA000003.2	DDBJ	gene	52362	53366	.	+	.	ID=gene42;Name=argC;gbkey=Gene;gene=argC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	52362	53366	.	+	0	ID=cds42;Parent=gene42;Dbxref=NCBI_GP:BAB12771.1;Name=BAB12771.1;Note=BU048;gbkey=CDS;gene=argC;product=N-acetyl-gamma-glutamyl-phosphate reductase;protein_id=BAB12771.1;transl_table=11
+BA000003.2	DDBJ	gene	53387	54160	.	+	.	ID=gene43;Name=argB;gbkey=Gene;gene=argB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	53387	54160	.	+	0	ID=cds43;Parent=gene43;Dbxref=NCBI_GP:BAB12772.1;Name=BAB12772.1;Note=BU049;gbkey=CDS;gene=argB;product=acetylglutamate kinase;protein_id=BAB12772.1;transl_table=11
+BA000003.2	DDBJ	gene	54190	55401	.	+	.	ID=gene44;Name=argG;gbkey=Gene;gene=argG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	54190	55401	.	+	0	ID=cds44;Parent=gene44;Dbxref=NCBI_GP:BAB12773.1;Name=BAB12773.1;Note=BU050;gbkey=CDS;gene=argG;product=argininosuccinate synthase;protein_id=BAB12773.1;transl_table=11
+BA000003.2	DDBJ	gene	55473	56852	.	+	.	ID=gene45;Name=argH;gbkey=Gene;gene=argH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	55473	56852	.	+	0	ID=cds45;Parent=gene45;Dbxref=NCBI_GP:BAB12774.1;Name=BAB12774.1;Note=BU051;gbkey=CDS;gene=argH;product=argininosuccinate lyase;protein_id=BAB12774.1;transl_table=11
+BA000003.2	DDBJ	gene	56934	57368	.	+	.	ID=gene46;Name=yibN;gbkey=Gene;gene=yibN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	56934	57368	.	+	0	ID=cds46;Parent=gene46;Dbxref=NCBI_GP:BAB12775.1;Name=BAB12775.1;Note=BU052;gbkey=CDS;gene=yibN;product=hypothetical protein;protein_id=BAB12775.1;transl_table=11
+BA000003.2	DDBJ	gene	57475	57903	.	+	.	ID=gene47;Name=secB;gbkey=Gene;gene=secB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	57475	57903	.	+	0	ID=cds47;Parent=gene47;Dbxref=NCBI_GP:BAB12776.1;Name=BAB12776.1;Note=BU053;gbkey=CDS;gene=secB;product=protein-export protein secB;protein_id=BAB12776.1;transl_table=11
+BA000003.2	DDBJ	gene	58005	58829	.	+	.	ID=gene48;Name=cysE;gbkey=Gene;gene=cysE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	58005	58829	.	+	0	ID=cds48;Parent=gene48;Dbxref=NCBI_GP:BAB12777.1;Name=BAB12777.1;Note=BU054;gbkey=CDS;gene=cysE;product=serine acetyltransferase;protein_id=BAB12777.1;transl_table=11
+BA000003.2	DDBJ	gene	58935	60773	.	-	.	ID=gene49;Name=rpoD;gbkey=Gene;gene=rpoD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	58935	60773	.	-	0	ID=cds49;Parent=gene49;Dbxref=NCBI_GP:BAB12778.1;Name=BAB12778.1;Note=BU055;gbkey=CDS;gene=rpoD;product=RNA polymerase sigma factor rpoD;protein_id=BAB12778.1;transl_table=11
+BA000003.2	DDBJ	gene	60941	62674	.	-	.	ID=gene50;Name=dnaG;gbkey=Gene;gene=dnaG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	60941	62674	.	-	0	ID=cds50;Parent=gene50;Dbxref=NCBI_GP:BAB12779.1;Name=BAB12779.1;Note=BU056;gbkey=CDS;gene=dnaG;product=DNA primase;protein_id=BAB12779.1;transl_table=11
+BA000003.2	DDBJ	gene	62755	62970	.	-	.	ID=gene51;Name=rpsU;gbkey=Gene;gene=rpsU;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	62755	62970	.	-	0	ID=cds51;Parent=gene51;Dbxref=NCBI_GP:BAB12780.1;Name=BAB12780.1;Note=BU057;gbkey=CDS;gene=rpsU;product=30S ribosomal protein S21;protein_id=BAB12780.1;transl_table=11
+BA000003.2	DDBJ	gene	63204	64214	.	+	.	ID=gene52;Name=ygjD;gbkey=Gene;gene=ygjD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	63204	64214	.	+	0	ID=cds52;Parent=gene52;Dbxref=NCBI_GP:BAB12781.1;Name=BAB12781.1;Note=BU058;gbkey=CDS;gene=ygjD;product=O-sialoglycoprotein endopeptidase;protein_id=BAB12781.1;transl_table=11
+BA000003.2	DDBJ	gene	64192	64839	.	-	.	ID=gene53;Name=ribB;gbkey=Gene;gene=ribB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	64192	64839	.	-	0	ID=cds53;Parent=gene53;Dbxref=NCBI_GP:BAB12782.1;Name=BAB12782.1;Note=BU059;gbkey=CDS;gene=ribB;product=3%2C4-dihydroxy-2-butanone 4-phosphate synthase;protein_id=BAB12782.1;transl_table=11
+BA000003.2	DDBJ	gene	65111	66058	.	-	.	ID=gene54;Name=yb3052;gbkey=Gene;gene=yb3052;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	65111	66058	.	-	0	ID=cds54;Parent=gene54;Dbxref=NCBI_GP:BAB12783.1;Name=BAB12783.1;Note=BU060%3B~putative product;gbkey=CDS;gene=yb3052;product=kinase;protein_id=BAB12783.1;transl_table=11
+BA000003.2	DDBJ	gene	66272	67516	.	+	.	ID=gene55;Name=cca;gbkey=Gene;gene=cca;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	66272	67516	.	+	0	ID=cds55;Parent=gene55;Dbxref=NCBI_GP:BAB12784.1;Name=BAB12784.1;Note=BU061;gbkey=CDS;gene=cca;product=tRNA nucleotidyltransferase;protein_id=BAB12784.1;transl_table=11
+BA000003.2	DDBJ	gene	67542	68339	.	-	.	ID=gene56;Name=bacA;gbkey=Gene;gene=bacA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	67542	68339	.	-	0	ID=cds56;Parent=gene56;Dbxref=NCBI_GP:BAB12785.1;Name=BAB12785.1;Note=BU062;gbkey=CDS;gene=bacA;product=bacitracin resistance protein;protein_id=BAB12785.1;transl_table=11
+BA000003.2	DDBJ	gene	68425	68910	.	-	.	ID=gene57;Name=crr;gbkey=Gene;gene=crr;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	68425	68910	.	-	0	ID=cds57;Parent=gene57;Dbxref=NCBI_GP:BAB12786.1;Name=BAB12786.1;Note=BU063;gbkey=CDS;gene=crr;product=glucose-permease IIA component;protein_id=BAB12786.1;transl_table=11
+BA000003.2	DDBJ	gene	68960	70675	.	-	.	ID=gene58;Name=ptsI;gbkey=Gene;gene=ptsI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	68960	70675	.	-	0	ID=cds58;Parent=gene58;Dbxref=NCBI_GP:BAB12787.1;Name=BAB12787.1;Note=BU064;gbkey=CDS;gene=ptsI;product=phosphoenolpyruvate-protein phosphotransferase;protein_id=BAB12787.1;transl_table=11
+BA000003.2	DDBJ	gene	70824	71081	.	-	.	ID=gene59;Name=ptsH;gbkey=Gene;gene=ptsH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	70824	71081	.	-	0	ID=cds59;Parent=gene59;Dbxref=NCBI_GP:BAB12788.1;Name=BAB12788.1;Note=BU065;gbkey=CDS;gene=ptsH;product=phosphocarrier protein HPr;protein_id=BAB12788.1;transl_table=11
+BA000003.2	DDBJ	gene	71230	72177	.	-	.	ID=gene60;Name=cysK;gbkey=Gene;gene=cysK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	71230	72177	.	-	0	ID=cds60;Parent=gene60;Dbxref=NCBI_GP:BAB12789.1;Name=BAB12789.1;Note=BU066;gbkey=CDS;gene=cysK;product=cysteine synthase A;protein_id=BAB12789.1;transl_table=11
+BA000003.2	DDBJ	gene	72432	74459	.	+	.	ID=gene61;Name=lig;gbkey=Gene;gene=lig;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	72432	74459	.	+	0	ID=cds61;Parent=gene61;Dbxref=NCBI_GP:BAB12790.1;Name=BAB12790.1;Note=BU067;gbkey=CDS;gene=lig;product=DNA ligase (NAD+);protein_id=BAB12790.1;transl_table=11
+BA000003.2	DDBJ	tRNA	74471	74543	.	-	.	ID=rna5;gbkey=tRNA;product=tRNA-Lys
+BA000003.2	DDBJ	exon	74471	74543	.	-	.	ID=id6;Parent=rna5;gbkey=tRNA;product=tRNA-Lys
+BA000003.2	DDBJ	tRNA	74572	74644	.	-	.	ID=rna6;gbkey=tRNA;product=tRNA-Val
+BA000003.2	DDBJ	exon	74572	74644	.	-	.	ID=id7;Parent=rna6;gbkey=tRNA;product=tRNA-Val
+BA000003.2	DDBJ	gene	74771	76174	.	+	.	ID=gene62;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	74771	76174	.	+	0	ID=cds62;Parent=gene62;Dbxref=NCBI_GP:BAB12791.1;Name=BAB12791.1;Note=BU070;gbkey=CDS;gene=gltX;product=glutamyl-tRNA synthetase;protein_id=BAB12791.1;transl_table=11
+BA000003.2	DDBJ	tRNA	76347	76422	.	+	.	ID=rna7;gbkey=tRNA;product=tRNA-Ala
+BA000003.2	DDBJ	exon	76347	76422	.	+	.	ID=id8;Parent=rna7;gbkey=tRNA;product=tRNA-Ala
+BA000003.2	DDBJ	gene	76514	76810	.	-	.	ID=gene63;Name=fliE;gbkey=Gene;gene=fliE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	76514	76810	.	-	0	ID=cds63;Parent=gene63;Dbxref=NCBI_GP:BAB12792.1;Name=BAB12792.1;Note=BU072;gbkey=CDS;gene=fliE;product=flagellar hook-basal body complex protein fliE;protein_id=BAB12792.1;transl_table=11
+BA000003.2	DDBJ	gene	77074	78711	.	+	.	ID=gene64;Name=fliF;gbkey=Gene;gene=fliF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	77074	78711	.	+	0	ID=cds64;Parent=gene64;Dbxref=NCBI_GP:BAB12793.1;Name=BAB12793.1;Note=BU073;gbkey=CDS;gene=fliF;product=flagellar M-ring protein;protein_id=BAB12793.1;transl_table=11
+BA000003.2	DDBJ	gene	78708	79703	.	+	.	ID=gene65;Name=fliG;gbkey=Gene;gene=fliG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	78708	79703	.	+	0	ID=cds65;Parent=gene65;Dbxref=NCBI_GP:BAB12794.1;Name=BAB12794.1;Note=BU074;gbkey=CDS;gene=fliG;product=flagellar motor switch protein fliG;protein_id=BAB12794.1;transl_table=11
+BA000003.2	DDBJ	gene	79696	80358	.	+	.	ID=gene66;Name=fliH;gbkey=Gene;gene=fliH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	79696	80358	.	+	0	ID=cds66;Parent=gene66;Dbxref=NCBI_GP:BAB12795.1;Name=BAB12795.1;Note=BU075;gbkey=CDS;gene=fliH;product=flagellar assembly protein fliH;protein_id=BAB12795.1;transl_table=11
+BA000003.2	DDBJ	gene	80316	81719	.	+	.	ID=gene67;Name=fliI;gbkey=Gene;gene=fliI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	80316	81719	.	+	0	ID=cds67;Parent=gene67;Dbxref=NCBI_GP:BAB12796.1;Name=BAB12796.1;Note=BU076;gbkey=CDS;gene=fliI;product=flagellum-specific ATP synthase;protein_id=BAB12796.1;transl_table=11
+BA000003.2	DDBJ	gene	81749	82186	.	+	.	ID=gene68;Name=fliJ;gbkey=Gene;gene=fliJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	81749	82186	.	+	0	ID=cds68;Parent=gene68;Dbxref=NCBI_GP:BAB12797.1;Name=BAB12797.1;Note=BU077;gbkey=CDS;gene=fliJ;product=flagellar fliJ protein;protein_id=BAB12797.1;transl_table=11
+BA000003.2	DDBJ	gene	82195	82533	.	+	.	ID=gene69;Name=yba1;gbkey=Gene;gene=yba1;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	82195	82533	.	+	0	ID=cds69;Parent=gene69;Dbxref=NCBI_GP:BAB12798.1;Name=BAB12798.1;Note=BU078;gbkey=CDS;gene=yba1;product=hypothetical protein;protein_id=BAB12798.1;transl_table=11
+BA000003.2	DDBJ	gene	82624	83331	.	+	.	ID=gene70;Name=fliK;gbkey=Gene;gene=fliK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	82624	83331	.	+	0	ID=cds70;Parent=gene70;Dbxref=NCBI_GP:BAB12799.1;Name=BAB12799.1;Note=BU079;gbkey=CDS;gene=fliK;product=flagellar hook-length control protein;protein_id=BAB12799.1;transl_table=11
+BA000003.2	DDBJ	gene	83392	84339	.	+	.	ID=gene71;Name=fliM;gbkey=Gene;gene=fliM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	83392	84339	.	+	0	ID=cds71;Parent=gene71;Dbxref=NCBI_GP:BAB12800.1;Name=BAB12800.1;Note=BU080;gbkey=CDS;gene=fliM;product=flagellar motor switch protein fliM;protein_id=BAB12800.1;transl_table=11
+BA000003.2	DDBJ	gene	84332	84733	.	+	.	ID=gene72;Name=fliN;gbkey=Gene;gene=fliN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	84332	84733	.	+	0	ID=cds72;Parent=gene72;Dbxref=NCBI_GP:BAB12801.1;Name=BAB12801.1;Note=BU081;gbkey=CDS;gene=fliN;product=flagellar motor switch protein fliN;protein_id=BAB12801.1;transl_table=11
+BA000003.2	DDBJ	gene	84745	85884	.	+	.	ID=gene73;Name=fliP;gbkey=Gene;gene=fliP;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	84745	85884	.	+	0	ID=cds73;Parent=gene73;Dbxref=NCBI_GP:BAB12802.1;Name=BAB12802.1;Note=BU082;gbkey=CDS;gene=fliP;product=flagellar biosynthetic protein fliP;protein_id=BAB12802.1;transl_table=11
+BA000003.2	DDBJ	gene	85956	86225	.	+	.	ID=gene74;Name=fliQ;gbkey=Gene;gene=fliQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	85956	86225	.	+	0	ID=cds74;Parent=gene74;Dbxref=NCBI_GP:BAB12803.1;Name=BAB12803.1;Note=BU083;gbkey=CDS;gene=fliQ;product=flagellar biosynthetic protein fliQ;protein_id=BAB12803.1;transl_table=11
+BA000003.2	DDBJ	gene	86225	87001	.	+	.	ID=gene75;Name=fliR;gbkey=Gene;gene=fliR;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	86225	87001	.	+	0	ID=cds75;Parent=gene75;Dbxref=NCBI_GP:BAB12804.1;Name=BAB12804.1;Note=BU084;gbkey=CDS;gene=fliR;product=flagellar biosynthetic protein fliR;protein_id=BAB12804.1;transl_table=11
+BA000003.2	DDBJ	gene	87154	87321	.	-	.	ID=gene76;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	87154	87321	.	-	0	ID=cds76;Parent=gene76;Dbxref=NCBI_GP:BAB12805.1;Name=BAB12805.1;Note=BU085;gbkey=CDS;gene=rpmG;product=50S ribosomal protein L33;protein_id=BAB12805.1;transl_table=11
+BA000003.2	DDBJ	gene	87332	87559	.	-	.	ID=gene77;Name=rpmB;gbkey=Gene;gene=rpmB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	87332	87559	.	-	0	ID=cds77;Parent=gene77;Dbxref=NCBI_GP:BAB12806.1;Name=BAB12806.1;Note=BU086;gbkey=CDS;gene=rpmB;product=50S ribosomal protein L28;protein_id=BAB12806.1;transl_table=11
+BA000003.2	DDBJ	gene	87905	90817	.	+	.	ID=gene78;Name=ytfN;gbkey=Gene;gene=ytfN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	87905	90817	.	+	0	ID=cds78;Parent=gene78;Dbxref=NCBI_GP:BAB12807.1;Name=BAB12807.1;Note=BU087;gbkey=CDS;gene=ytfN;product=hypothetical protein;protein_id=BAB12807.1;transl_table=11
+BA000003.2	DDBJ	gene	90833	91381	.	-	.	ID=gene79;Name=ppa;gbkey=Gene;gene=ppa;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	90833	91381	.	-	0	ID=cds79;Parent=gene79;Dbxref=NCBI_GP:BAB12808.1;Name=BAB12808.1;Note=BU088;gbkey=CDS;gene=ppa;product=inorganic pyrophosphatase;protein_id=BAB12808.1;transl_table=11
+BA000003.2	DDBJ	gene	91575	92915	.	+	.	ID=gene80;Name=pmbA;gbkey=Gene;gene=pmbA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	91575	92915	.	+	0	ID=cds80;Parent=gene80;Dbxref=NCBI_GP:BAB12809.1;Name=BAB12809.1;Note=BU089;gbkey=CDS;gene=pmbA;product=pmbA protein;protein_id=BAB12809.1;transl_table=11
+BA000003.2	DDBJ	gene	92990	93313	.	-	.	ID=gene81;Name=rnpB;gbkey=Gene;gene=rnpB;gene_biotype=misc_RNA
+BA000003.2	DDBJ	transcript	92990	93313	.	-	.	ID=rna8;Parent=gene81;Note=BU090;gbkey=misc_RNA;gene=rnpB;product=ribonuclease P RNA component
+BA000003.2	DDBJ	exon	92990	93313	.	-	.	ID=id9;Parent=rna8;Note=BU090;gbkey=misc_RNA;gene=rnpB;product=ribonuclease P RNA component
+BA000003.2	DDBJ	gene	93393	94241	.	-	.	ID=gene82;Name=yraL;gbkey=Gene;gene=yraL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	93393	94241	.	-	0	ID=cds81;Parent=gene82;Dbxref=NCBI_GP:BAB12810.1;Name=BAB12810.1;Note=BU091;gbkey=CDS;gene=yraL;product=hypotheical protein;protein_id=BAB12810.1;transl_table=11
+BA000003.2	DDBJ	gene	94380	95600	.	+	.	ID=gene83;Name=fabB;gbkey=Gene;gene=fabB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	94380	95600	.	+	0	ID=cds82;Parent=gene83;Dbxref=NCBI_GP:BAB12811.1;Name=BAB12811.1;Note=BU092;gbkey=CDS;gene=fabB;product=3-oxoacyl-[acyl-carrier-protein] synthase I;protein_id=BAB12811.1;transl_table=11
+BA000003.2	DDBJ	gene	95840	96790	.	+	.	ID=gene84;Name=talA;gbkey=Gene;gene=talA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	95840	96790	.	+	0	ID=cds83;Parent=gene84;Dbxref=NCBI_GP:BAB12812.1;Name=BAB12812.1;Note=BU093;gbkey=CDS;gene=talA;product=transaldolase A;protein_id=BAB12812.1;transl_table=11
+BA000003.2	DDBJ	gene	96845	98842	.	+	.	ID=gene85;Name=tktB;gbkey=Gene;gene=tktB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	96845	98842	.	+	0	ID=cds84;Parent=gene85;Dbxref=NCBI_GP:BAB12813.1;Name=BAB12813.1;Note=BU094;gbkey=CDS;gene=tktB;product=transketolase;protein_id=BAB12813.1;transl_table=11
+BA000003.2	DDBJ	gene	98947	100074	.	+	.	ID=gene86;Name=dapE;gbkey=Gene;gene=dapE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	98947	100074	.	+	0	ID=cds85;Parent=gene86;Dbxref=NCBI_GP:BAB12814.1;Name=BAB12814.1;Note=BU095;gbkey=CDS;gene=dapE;product=succinyl-diaminopimelate desuccinylase;protein_id=BAB12814.1;transl_table=11
+BA000003.2	DDBJ	gene	100464	101348	.	-	.	ID=gene87;Name=dapA;gbkey=Gene;gene=dapA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	100464	101348	.	-	0	ID=cds86;Parent=gene87;Dbxref=NCBI_GP:BAB12815.1;Name=BAB12815.1;Note=BU096;gbkey=CDS;gene=dapA;product=dihydrodipicolinate synthase;protein_id=BAB12815.1;transl_table=11
+BA000003.2	DDBJ	gene	101924	102988	.	-	.	ID=gene88;Name=aroC;gbkey=Gene;gene=aroC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	101924	102988	.	-	0	ID=cds87;Parent=gene88;Dbxref=NCBI_GP:BAB12816.1;Name=BAB12816.1;Note=BU097;gbkey=CDS;gene=aroC;product=chorismate synthase;protein_id=BAB12816.1;transl_table=11
+BA000003.2	DDBJ	gene	103284	103844	.	+	.	ID=gene89;Name=yb2331;gbkey=Gene;gene=yb2331;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	103284	103844	.	+	0	ID=cds88;Parent=gene89;Dbxref=NCBI_GP:BAB12817.1;Name=BAB12817.1;Note=BU098;gbkey=CDS;gene=yb2331;product=hypothetical protein;protein_id=BAB12817.1;transl_table=11
+BA000003.2	DDBJ	gene	104169	105068	.	+	.	ID=gene90;Name=hisG;gbkey=Gene;gene=hisG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	104169	105068	.	+	0	ID=cds89;Parent=gene90;Dbxref=NCBI_GP:BAB12818.1;Name=BAB12818.1;Note=BU099;gbkey=CDS;gene=hisG;product=ATP phosphoribosyltransferase;protein_id=BAB12818.1;transl_table=11
+BA000003.2	DDBJ	gene	105077	106384	.	+	.	ID=gene91;Name=hisD;gbkey=Gene;gene=hisD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	105077	106384	.	+	0	ID=cds90;Parent=gene91;Dbxref=NCBI_GP:BAB12819.1;Name=BAB12819.1;Note=BU100;gbkey=CDS;gene=hisD;product=histidinol dehydrogenase;protein_id=BAB12819.1;transl_table=11
+BA000003.2	DDBJ	gene	106381	107487	.	+	.	ID=gene92;Name=hisC;gbkey=Gene;gene=hisC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	106381	107487	.	+	0	ID=cds91;Parent=gene92;Dbxref=NCBI_GP:BAB12820.1;Name=BAB12820.1;Note=BU101;gbkey=CDS;gene=hisC;product=histidinol-phosphate aminotransferase;protein_id=BAB12820.1;transl_table=11
+BA000003.2	DDBJ	gene	107477	108538	.	+	.	ID=gene93;Name=hisB;gbkey=Gene;gene=hisB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	107477	108538	.	+	0	ID=cds92;Parent=gene93;Dbxref=NCBI_GP:BAB12821.1;Name=BAB12821.1;Note=BU102;gbkey=CDS;gene=hisB;product=imidazoleglycerol-phosphate dehydratase / histidinol-phosphatase;protein_id=BAB12821.1;transl_table=11
+BA000003.2	DDBJ	gene	108538	109128	.	+	.	ID=gene94;Name=hisH;gbkey=Gene;gene=hisH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	108538	109128	.	+	0	ID=cds93;Parent=gene94;Dbxref=NCBI_GP:BAB12822.1;Name=BAB12822.1;Note=BU103;gbkey=CDS;gene=hisH;product=amidotransferase hisH;protein_id=BAB12822.1;transl_table=11
+BA000003.2	DDBJ	gene	109133	109873	.	+	.	ID=gene95;Name=hisA;gbkey=Gene;gene=hisA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	109133	109873	.	+	0	ID=cds94;Parent=gene95;Dbxref=NCBI_GP:BAB12823.1;Name=BAB12823.1;Note=BU104;gbkey=CDS;gene=hisA;product=phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase;protein_id=BAB12823.1;transl_table=11
+BA000003.2	DDBJ	gene	109852	110628	.	+	.	ID=gene96;Name=hisF;gbkey=Gene;gene=hisF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	109852	110628	.	+	0	ID=cds95;Parent=gene96;Dbxref=NCBI_GP:BAB12824.1;Name=BAB12824.1;Note=BU105;gbkey=CDS;gene=hisF;product=hisF protein;protein_id=BAB12824.1;transl_table=11
+BA000003.2	DDBJ	gene	110622	111269	.	+	.	ID=gene97;Name=hisI;gbkey=Gene;gene=hisI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	110622	111269	.	+	0	ID=cds96;Parent=gene97;Dbxref=NCBI_GP:BAB12825.1;Name=BAB12825.1;Note=BU106;gbkey=CDS;gene=hisI;product=phosphoribosyl-AMP cyclohydrolase / phosphoribosyl-ATP pyrophosphohydrolase;protein_id=BAB12825.1;transl_table=11
+BA000003.2	DDBJ	gene	111628	113034	.	+	.	ID=gene98;Name=gnd;gbkey=Gene;gene=gnd;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	111628	113034	.	+	0	ID=cds97;Parent=gene98;Dbxref=NCBI_GP:BAB12826.1;Name=BAB12826.1;Note=BU107;gbkey=CDS;gene=gnd;product=6-phosphogluconate dehydrogenase (decarboxylating);protein_id=BAB12826.1;transl_table=11
+BA000003.2	DDBJ	gene	113197	113817	.	+	.	ID=gene99;Name=dcd;gbkey=Gene;gene=dcd;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	113197	113817	.	+	0	ID=cds98;Parent=gene99;Dbxref=NCBI_GP:BAB12827.1;Name=BAB12827.1;Note=BU108;gbkey=CDS;gene=dcd;product=deoxycytidine triphosphate deaminase;protein_id=BAB12827.1;transl_table=11
+BA000003.2	DDBJ	gene	113965	115608	.	+	.	ID=gene100;Name=metG;gbkey=Gene;gene=metG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	113965	115608	.	+	0	ID=cds99;Parent=gene100;Dbxref=NCBI_GP:BAB12828.1;Name=BAB12828.1;Note=BU109;gbkey=CDS;gene=metG;product=methionyl-tRNA synthetase;protein_id=BAB12828.1;transl_table=11
+BA000003.2	DDBJ	gene	115656	116978	.	-	.	ID=gene101;Name=mesJ;gbkey=Gene;gene=mesJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	115656	116978	.	-	0	ID=cds100;Parent=gene101;Dbxref=NCBI_GP:BAB12829.1;Name=BAB12829.1;Note=BU110;gbkey=CDS;gene=mesJ;product=cell cycle protein mesJ;protein_id=BAB12829.1;transl_table=11
+BA000003.2	DDBJ	tRNA	117007	117080	.	-	.	ID=rna9;gbkey=tRNA;product=tRNA-Val
+BA000003.2	DDBJ	exon	117007	117080	.	-	.	ID=id10;Parent=rna9;gbkey=tRNA;product=tRNA-Val
+BA000003.2	DDBJ	gene	117204	117830	.	+	.	ID=gene102;Name=ribE;gbkey=Gene;gene=ribE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	117204	117830	.	+	0	ID=cds101;Parent=gene102;Dbxref=NCBI_GP:BAB12830.1;Name=BAB12830.1;Note=BU112;gbkey=CDS;gene=ribE;product=riboflavin synthase alpha chain;protein_id=BAB12830.1;transl_table=11
+BA000003.2	DDBJ	gene	117867	118448	.	+	.	ID=gene103;Name=rnfA;gbkey=Gene;gene=rnfA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	117867	118448	.	+	0	ID=cds102;Parent=gene103;Dbxref=NCBI_GP:BAB12831.1;Name=BAB12831.1;Note=BU113;gbkey=CDS;gene=rnfA;product=hypothetical protein;protein_id=BAB12831.1;transl_table=11
+BA000003.2	DDBJ	gene	118451	118954	.	+	.	ID=gene104;Name=rnfB;gbkey=Gene;gene=rnfB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	118451	118954	.	+	0	ID=cds103;Parent=gene104;Dbxref=NCBI_GP:BAB12832.1;Name=BAB12832.1;Note=BU114;gbkey=CDS;gene=rnfB;product=ferredoxin II;protein_id=BAB12832.1;transl_table=11
+BA000003.2	DDBJ	gene	119117	120538	.	+	.	ID=gene105;Name=rnfC;gbkey=Gene;gene=rnfC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	119117	120538	.	+	0	ID=cds104;Parent=gene105;Dbxref=NCBI_GP:BAB12833.1;Name=BAB12833.1;Note=BU115%3B~putative product;gbkey=CDS;gene=rnfC;product=membrane protein;protein_id=BAB12833.1;transl_table=11
+BA000003.2	DDBJ	gene	120631	121629	.	+	.	ID=gene106;Name=ydgO;gbkey=Gene;gene=ydgO;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	120631	121629	.	+	0	ID=cds105;Parent=gene106;Dbxref=NCBI_GP:BAB12834.1;Name=BAB12834.1;Note=BU116;gbkey=CDS;gene=ydgO;product=hypothetical protein;protein_id=BAB12834.1;transl_table=11
+BA000003.2	DDBJ	gene	121778	122272	.	+	.	ID=gene107;Name=rnfG;gbkey=Gene;gene=rnfG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	121778	122272	.	+	0	ID=cds106;Parent=gene107;Dbxref=NCBI_GP:BAB12835.1;Name=BAB12835.1;Note=BU117;gbkey=CDS;gene=rnfG;product=nitrogen fixation protein;protein_id=BAB12835.1;transl_table=11
+BA000003.2	DDBJ	gene	122247	122930	.	+	.	ID=gene108;Name=ydgQ;gbkey=Gene;gene=ydgQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	122247	122930	.	+	0	ID=cds107;Parent=gene108;Dbxref=NCBI_GP:BAB12836.1;Name=BAB12836.1;Note=BU118;gbkey=CDS;gene=ydgQ;product=hypotheical protein;protein_id=BAB12836.1;transl_table=11
+BA000003.2	DDBJ	gene	122941	123573	.	+	.	ID=gene109;Name=nth;gbkey=Gene;gene=nth;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	122941	123573	.	+	0	ID=cds108;Parent=gene109;Dbxref=NCBI_GP:BAB12837.1;Name=BAB12837.1;Note=BU119;gbkey=CDS;gene=nth;product=endonuclease III;protein_id=BAB12837.1;transl_table=11
+BA000003.2	DDBJ	gene	123653	125776	.	+	.	ID=gene110;Name=priA;gbkey=Gene;gene=priA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	123653	125776	.	+	0	ID=cds109;Parent=gene110;Dbxref=NCBI_GP:BAB12838.1;Name=BAB12838.1;Note=BU120;gbkey=CDS;gene=priA;product=primosomal protein N';protein_id=BAB12838.1;transl_table=11
+BA000003.2	DDBJ	gene	125936	127204	.	+	.	ID=gene111;Name=tyrS;gbkey=Gene;gene=tyrS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	125936	127204	.	+	0	ID=cds110;Parent=gene111;Dbxref=NCBI_GP:BAB12839.1;Name=BAB12839.1;Note=BU121;gbkey=CDS;gene=tyrS;product=tyrosyl-tRNA synthetase;protein_id=BAB12839.1;transl_table=11
+BA000003.2	DDBJ	gene	127212	127604	.	-	.	ID=gene112;Name=ydiC;gbkey=Gene;gene=ydiC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	127212	127604	.	-	0	ID=cds111;Parent=gene112;Dbxref=NCBI_GP:BAB12840.1;Name=BAB12840.1;Note=BU122;gbkey=CDS;gene=ydiC;product=hypothetical protein;protein_id=BAB12840.1;transl_table=11
+BA000003.2	DDBJ	gene	127828	128910	.	+	.	ID=gene113;Name=yb1688;gbkey=Gene;gene=yb1688;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	127828	128910	.	+	0	ID=cds112;Parent=gene113;Dbxref=NCBI_GP:BAB12841.1;Name=BAB12841.1;Note=BU123;gbkey=CDS;gene=yb1688;product=hypothetical protein;protein_id=BAB12841.1;transl_table=11
+BA000003.2	DDBJ	gene	129262	130308	.	+	.	ID=gene114;Name=aroH;gbkey=Gene;gene=aroH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	129262	130308	.	+	0	ID=cds113;Parent=gene114;Dbxref=NCBI_GP:BAB12842.1;Name=BAB12842.1;Note=BU124;gbkey=CDS;gene=aroH;product=phospho-2-dehydro-3-deoxyheptonate aldolase (Trp-sensitive);protein_id=BAB12842.1;transl_table=11
+BA000003.2	DDBJ	gene	130460	132388	.	+	.	ID=gene115;Name=thrS;gbkey=Gene;gene=thrS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	130460	132388	.	+	0	ID=cds114;Parent=gene115;Dbxref=NCBI_GP:BAB12843.1;Name=BAB12843.1;Note=BU125;gbkey=CDS;gene=thrS;product=threonyl-tRNA synthetase;protein_id=BAB12843.1;transl_table=11
+BA000003.2	DDBJ	gene	132392	132931	.	+	.	ID=gene116;Name=infC;gbkey=Gene;gene=infC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	132392	132931	.	+	0	ID=cds115;Parent=gene116;Dbxref=NCBI_GP:BAB12844.1;Name=BAB12844.1;Note=BU126;gbkey=CDS;gene=infC;product=translation initiation factor IF-3;protein_id=BAB12844.1;transl_table=11
+BA000003.2	DDBJ	gene	133018	133215	.	+	.	ID=gene117;Name=rpmI;gbkey=Gene;gene=rpmI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	133018	133215	.	+	0	ID=cds116;Parent=gene117;Dbxref=NCBI_GP:BAB12845.1;Name=BAB12845.1;Note=BU127;gbkey=CDS;gene=rpmI;product=50S ribosomal protein L35;protein_id=BAB12845.1;transl_table=11
+BA000003.2	DDBJ	gene	133258	133614	.	+	.	ID=gene118;Name=rplT;gbkey=Gene;gene=rplT;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	133258	133614	.	+	0	ID=cds117;Parent=gene118;Dbxref=NCBI_GP:BAB12846.1;Name=BAB12846.1;Note=BU128;gbkey=CDS;gene=rplT;product=50S ribosomal protein L20;protein_id=BAB12846.1;transl_table=11
+BA000003.2	DDBJ	gene	133809	134798	.	+	.	ID=gene119;Name=pheS;gbkey=Gene;gene=pheS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	133809	134798	.	+	0	ID=cds118;Parent=gene119;Dbxref=NCBI_GP:BAB12847.1;Name=BAB12847.1;Note=BU129;gbkey=CDS;gene=pheS;product=phenylalanyl-tRNA synthetase alpha chain;protein_id=BAB12847.1;transl_table=11
+BA000003.2	DDBJ	gene	134808	137195	.	+	.	ID=gene120;Name=pheT;gbkey=Gene;gene=pheT;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	134808	137195	.	+	0	ID=cds119;Parent=gene120;Dbxref=NCBI_GP:BAB12848.1;Name=BAB12848.1;Note=BU130;gbkey=CDS;gene=pheT;product=phenylalanyl-tRNA synthetase beta chain;protein_id=BAB12848.1;transl_table=11
+BA000003.2	DDBJ	gene	137200	137508	.	+	.	ID=gene121;Name=himA;gbkey=Gene;gene=himA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	137200	137508	.	+	0	ID=cds120;Parent=gene121;Dbxref=NCBI_GP:BAB12849.1;Name=BAB12849.1;Note=BU131;gbkey=CDS;gene=himA;product=integration host factor alpha-subunit;protein_id=BAB12849.1;transl_table=11
+BA000003.2	DDBJ	gene	137550	138623	.	+	.	ID=gene122;Name=queA;gbkey=Gene;gene=queA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	137550	138623	.	+	0	ID=cds121;Parent=gene122;Dbxref=NCBI_GP:BAB12850.1;Name=BAB12850.1;Note=BU132;gbkey=CDS;gene=queA;product=S-adenosylmethionine:tRNA ribosyltransferase-isomerase;protein_id=BAB12850.1;transl_table=11
+BA000003.2	DDBJ	gene	138664	139776	.	+	.	ID=gene123;Name=tgt;gbkey=Gene;gene=tgt;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	138664	139776	.	+	0	ID=cds122;Parent=gene123;Dbxref=NCBI_GP:BAB12851.1;Name=BAB12851.1;Note=BU133;gbkey=CDS;gene=tgt;product=queuine tRNA-ribosyltransferase;protein_id=BAB12851.1;transl_table=11
+BA000003.2	DDBJ	gene	139801	140136	.	+	.	ID=gene124;Name=yajC;gbkey=Gene;gene=yajC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	139801	140136	.	+	0	ID=cds123;Parent=gene124;Dbxref=NCBI_GP:BAB12852.1;Name=BAB12852.1;Note=BU134;gbkey=CDS;gene=yajC;product=hypothetical protein;protein_id=BAB12852.1;transl_table=11
+BA000003.2	DDBJ	gene	140188	142260	.	-	.	ID=gene125;Name=glyS;gbkey=Gene;gene=glyS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	140188	142260	.	-	0	ID=cds124;Parent=gene125;Dbxref=NCBI_GP:BAB12853.1;Name=BAB12853.1;Note=BU135;gbkey=CDS;gene=glyS;product=glycyl-tRNA synthetase beta chain;protein_id=BAB12853.1;transl_table=11
+BA000003.2	DDBJ	gene	142235	143203	.	-	.	ID=gene126;Name=glyQ;gbkey=Gene;gene=glyQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	142235	143203	.	-	0	ID=cds125;Parent=gene126;Dbxref=NCBI_GP:BAB12854.1;Name=BAB12854.1;Note=BU136;gbkey=CDS;gene=glyQ;product=glycyl-tRNA synthetase alpha chain;protein_id=BAB12854.1;transl_table=11
+BA000003.2	DDBJ	gene	143868	144713	.	+	.	ID=gene127;Name=nfo;gbkey=Gene;gene=nfo;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	143868	144713	.	+	0	ID=cds126;Parent=gene127;Dbxref=NCBI_GP:BAB12855.1;Name=BAB12855.1;Note=BU137;gbkey=CDS;gene=nfo;product=endonuclease IV;protein_id=BAB12855.1;transl_table=11
+BA000003.2	DDBJ	gene	144748	145035	.	+	.	ID=gene128;Name=rplY;gbkey=Gene;gene=rplY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	144748	145035	.	+	0	ID=cds127;Parent=gene128;Dbxref=NCBI_GP:BAB12856.1;Name=BAB12856.1;Note=BU138;gbkey=CDS;gene=rplY;product=50S ribosomal protein L25;protein_id=BAB12856.1;transl_table=11
+BA000003.2	DDBJ	gene	145105	145875	.	-	.	ID=gene129;Name=yabI;gbkey=Gene;gene=yabI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	145105	145875	.	-	0	ID=cds128;Parent=gene129;Dbxref=NCBI_GP:BAB12857.1;Name=BAB12857.1;Note=BU139;gbkey=CDS;gene=yabI;product=hypothetical protein;protein_id=BAB12857.1;transl_table=11
+BA000003.2	DDBJ	gene	146062	147354	.	+	.	ID=gene130;Name=surA;gbkey=Gene;gene=surA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	146062	147354	.	+	0	ID=cds129;Parent=gene130;Dbxref=NCBI_GP:BAB12858.1;Name=BAB12858.1;Note=BU140;gbkey=CDS;gene=surA;product=survival protein surA precursor;protein_id=BAB12858.1;transl_table=11
+BA000003.2	DDBJ	gene	147408	148229	.	+	.	ID=gene131;Name=ksgA;gbkey=Gene;gene=ksgA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	147408	148229	.	+	0	ID=cds130;Parent=gene131;Dbxref=NCBI_GP:BAB12859.1;Name=BAB12859.1;Note=BU141;gbkey=CDS;gene=ksgA;product=dimethyladenosine transferase;protein_id=BAB12859.1;transl_table=11
+BA000003.2	DDBJ	gene	148274	149098	.	+	.	ID=gene132;Name=apaH;gbkey=Gene;gene=apaH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	148274	149098	.	+	0	ID=cds131;Parent=gene132;Dbxref=NCBI_GP:BAB12860.1;Name=BAB12860.1;Note=BU142;gbkey=CDS;gene=apaH;product=bis(5'-nucleosyl)-tetraphosphatase (symmetrical);protein_id=BAB12860.1;transl_table=11
+BA000003.2	DDBJ	gene	149125	149610	.	-	.	ID=gene133;Name=folA;gbkey=Gene;gene=folA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	149125	149610	.	-	0	ID=cds132;Parent=gene133;Dbxref=NCBI_GP:BAB12861.1;Name=BAB12861.1;Note=BU143;gbkey=CDS;gene=folA;product=dihydrofolate reductase;protein_id=BAB12861.1;transl_table=11
+BA000003.2	DDBJ	gene	149700	152939	.	-	.	ID=gene134;Name=carB;gbkey=Gene;gene=carB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	149700	152939	.	-	0	ID=cds133;Parent=gene134;Dbxref=NCBI_GP:BAB12862.1;Name=BAB12862.1;Note=BU144;gbkey=CDS;gene=carB;product=carbamoyl-phosphate synthase large chain;protein_id=BAB12862.1;transl_table=11
+BA000003.2	DDBJ	gene	152953	154116	.	-	.	ID=gene135;Name=carA;gbkey=Gene;gene=carA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	152953	154116	.	-	0	ID=cds134;Parent=gene135;Dbxref=NCBI_GP:BAB12863.1;Name=BAB12863.1;Note=BU145;gbkey=CDS;gene=carA;product=carbamoyl-phosphate synthase small chain;protein_id=BAB12863.1;transl_table=11
+BA000003.2	DDBJ	gene	154326	155135	.	-	.	ID=gene136;Name=dapB;gbkey=Gene;gene=dapB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	154326	155135	.	-	0	ID=cds135;Parent=gene136;Dbxref=NCBI_GP:BAB12864.1;Name=BAB12864.1;Note=BU146;gbkey=CDS;gene=dapB;product=dihydrodipicolinate reductase;protein_id=BAB12864.1;transl_table=11
+BA000003.2	DDBJ	gene	155139	156098	.	-	.	ID=gene137;Name=lytB;gbkey=Gene;gene=lytB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	155139	156098	.	-	0	ID=cds136;Parent=gene137;Dbxref=NCBI_GP:BAB12865.1;Name=BAB12865.1;Note=BU147;gbkey=CDS;gene=lytB;product=lytB protein;protein_id=BAB12865.1;transl_table=11
+BA000003.2	DDBJ	gene	156163	156645	.	-	.	ID=gene138;Name=lspA;gbkey=Gene;gene=lspA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	156163	156645	.	-	0	ID=cds137;Parent=gene138;Dbxref=NCBI_GP:BAB12866.1;Name=BAB12866.1;Note=BU148;gbkey=CDS;gene=lspA;product=lipoprotein signal peptidase;protein_id=BAB12866.1;transl_table=11
+BA000003.2	DDBJ	gene	156645	159467	.	-	.	ID=gene139;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	156645	159467	.	-	0	ID=cds138;Parent=gene139;Dbxref=NCBI_GP:BAB12867.1;Name=BAB12867.1;Note=BU149;gbkey=CDS;gene=ileS;product=isoleucyl-tRNA synthetase;protein_id=BAB12867.1;transl_table=11
+BA000003.2	DDBJ	gene	159484	160425	.	-	.	ID=gene140;Name=ribF;gbkey=Gene;gene=ribF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	159484	160425	.	-	0	ID=cds139;Parent=gene140;Dbxref=NCBI_GP:BAB12868.1;Name=BAB12868.1;Note=BU150;gbkey=CDS;gene=ribF;product=riboflavin kinase / FMN adenylyltransferase;protein_id=BAB12868.1;transl_table=11
+BA000003.2	DDBJ	gene	160640	160909	.	+	.	ID=gene141;Name=rpsT;gbkey=Gene;gene=rpsT;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	160640	160909	.	+	0	ID=cds140;Parent=gene141;Dbxref=NCBI_GP:BAB12869.1;Name=BAB12869.1;Note=BU151;gbkey=CDS;gene=rpsT;product=30S ribosomal protein S20;protein_id=BAB12869.1;transl_table=11
+BA000003.2	DDBJ	gene	160960	162093	.	-	.	ID=gene142;Name=dnaJ;gbkey=Gene;gene=dnaJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	160960	162093	.	-	0	ID=cds141;Parent=gene142;Dbxref=NCBI_GP:BAB12870.1;Name=BAB12870.1;Note=BU152;gbkey=CDS;gene=dnaJ;product=dnaJ protein;protein_id=BAB12870.1;transl_table=11
+BA000003.2	DDBJ	gene	162206	164119	.	-	.	ID=gene143;Name=dnaK;gbkey=Gene;gene=dnaK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	162206	164119	.	-	0	ID=cds142;Parent=gene143;Dbxref=NCBI_GP:BAB12871.1;Name=BAB12871.1;Note=BU153;gbkey=CDS;gene=dnaK;product=dnaK protein;protein_id=BAB12871.1;transl_table=11
+BA000003.2	DDBJ	gene	164454	164858	.	+	.	ID=gene144;Name=nuoA;gbkey=Gene;gene=nuoA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	164454	164858	.	+	0	ID=cds143;Parent=gene144;Dbxref=NCBI_GP:BAB12872.1;Name=BAB12872.1;Note=BU154;gbkey=CDS;gene=nuoA;product=NADH dehydrogenase I chain A;protein_id=BAB12872.1;transl_table=11
+BA000003.2	DDBJ	gene	164892	165566	.	+	.	ID=gene145;Name=nuoB;gbkey=Gene;gene=nuoB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	164892	165566	.	+	0	ID=cds144;Parent=gene145;Dbxref=NCBI_GP:BAB12873.1;Name=BAB12873.1;Note=BU155;gbkey=CDS;gene=nuoB;product=NADH dehydrogenase I chain B;protein_id=BAB12873.1;transl_table=11
+BA000003.2	DDBJ	gene	165657	167459	.	+	.	ID=gene146;Name=nuoCD;gbkey=Gene;gene=nuoCD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	165657	167459	.	+	0	ID=cds145;Parent=gene146;Dbxref=NCBI_GP:BAB12874.1;Name=BAB12874.1;Note=BU156;gbkey=CDS;gene=nuoCD;product=NADH dehydrogenase I chain C / D;protein_id=BAB12874.1;transl_table=11
+BA000003.2	DDBJ	gene	167482	167970	.	+	.	ID=gene147;Name=nuoE;gbkey=Gene;gene=nuoE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	167482	167970	.	+	0	ID=cds146;Parent=gene147;Dbxref=NCBI_GP:BAB12875.1;Name=BAB12875.1;Note=BU157;gbkey=CDS;gene=nuoE;product=NADH dehydrogenase I chain E;protein_id=BAB12875.1;transl_table=11
+BA000003.2	DDBJ	gene	167967	169301	.	+	.	ID=gene148;Name=nuoF;gbkey=Gene;gene=nuoF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	167967	169301	.	+	0	ID=cds147;Parent=gene148;Dbxref=NCBI_GP:BAB12876.1;Name=BAB12876.1;Note=BU158;gbkey=CDS;gene=nuoF;product=NADH dehydrogenase I chain F;protein_id=BAB12876.1;transl_table=11
+BA000003.2	DDBJ	gene	169395	172115	.	+	.	ID=gene149;Name=nuoG;gbkey=Gene;gene=nuoG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	169395	172115	.	+	0	ID=cds148;Parent=gene149;Dbxref=NCBI_GP:BAB12877.1;Name=BAB12877.1;Note=BU159;gbkey=CDS;gene=nuoG;product=NADH dehydrogenase I chain G;protein_id=BAB12877.1;transl_table=11
+BA000003.2	DDBJ	gene	172127	173095	.	+	.	ID=gene150;Name=nuoH;gbkey=Gene;gene=nuoH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	172127	173095	.	+	0	ID=cds149;Parent=gene150;Dbxref=NCBI_GP:BAB12878.1;Name=BAB12878.1;Note=BU160;gbkey=CDS;gene=nuoH;product=NADH dehydrogenase I chain H;protein_id=BAB12878.1;transl_table=11
+BA000003.2	DDBJ	gene	173120	173662	.	+	.	ID=gene151;Name=nuoI;gbkey=Gene;gene=nuoI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	173120	173662	.	+	0	ID=cds150;Parent=gene151;Dbxref=NCBI_GP:BAB12879.1;Name=BAB12879.1;Note=BU161;gbkey=CDS;gene=nuoI;product=NADH dehydrogenase I chain I;protein_id=BAB12879.1;transl_table=11
+BA000003.2	DDBJ	gene	173672	174184	.	+	.	ID=gene152;Name=nuoJ;gbkey=Gene;gene=nuoJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	173672	174184	.	+	0	ID=cds151;Parent=gene152;Dbxref=NCBI_GP:BAB12880.1;Name=BAB12880.1;Note=BU162;gbkey=CDS;gene=nuoJ;product=NADH dehydrogenase I chain J;protein_id=BAB12880.1;transl_table=11
+BA000003.2	DDBJ	gene	174215	174517	.	+	.	ID=gene153;Name=nuoK;gbkey=Gene;gene=nuoK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	174215	174517	.	+	0	ID=cds152;Parent=gene153;Dbxref=NCBI_GP:BAB12881.1;Name=BAB12881.1;Note=BU163;gbkey=CDS;gene=nuoK;product=NADH dehydrogenase I chain K;protein_id=BAB12881.1;transl_table=11
+BA000003.2	DDBJ	gene	174514	176358	.	+	.	ID=gene154;Name=nuoL;gbkey=Gene;gene=nuoL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	174514	176358	.	+	0	ID=cds153;Parent=gene154;Dbxref=NCBI_GP:BAB12882.1;Name=BAB12882.1;Note=BU164;gbkey=CDS;gene=nuoL;product=NADH dehydrogenase I chain L;protein_id=BAB12882.1;transl_table=11
+BA000003.2	DDBJ	gene	176455	177972	.	+	.	ID=gene155;Name=nuoM;gbkey=Gene;gene=nuoM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	176455	177972	.	+	0	ID=cds154;Parent=gene155;Dbxref=NCBI_GP:BAB12883.1;Name=BAB12883.1;Note=BU165;gbkey=CDS;gene=nuoM;product=NADH dehydrogenase I chain M;protein_id=BAB12883.1;transl_table=11
+BA000003.2	DDBJ	gene	178030	179439	.	+	.	ID=gene156;Name=nuoN;gbkey=Gene;gene=nuoN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	178030	179439	.	+	0	ID=cds155;Parent=gene156;Dbxref=NCBI_GP:BAB12884.1;Name=BAB12884.1;Note=BU166;gbkey=CDS;gene=nuoN;product=NADH dehydrogenase I chain N;protein_id=BAB12884.1;transl_table=11
+BA000003.2	DDBJ	gene	180565	181800	.	+	.	ID=gene157;Name=folC;gbkey=Gene;gene=folC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	180565	181800	.	+	0	ID=cds156;Parent=gene157;Dbxref=NCBI_GP:BAB12885.1;Name=BAB12885.1;Note=BU167;gbkey=CDS;gene=folC;product=folylpolyglutamate synthase / dihydrofolate synthase;protein_id=BAB12885.1;transl_table=11
+BA000003.2	DDBJ	gene	181820	182301	.	+	.	ID=gene158;Name=cvpA;gbkey=Gene;gene=cvpA;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	181820	182301	.	+	.	ID=id11;Note=authentic frameshift at position 182063%3B 26 pct identical to 140 residues of CVPA_HAEIN SW:P45108;gbkey=misc_feature;gene=cvpA
+BA000003.2	DDBJ	gene	182379	183317	.	-	.	ID=gene159;Name=prsA;gbkey=Gene;gene=prsA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	182379	183317	.	-	0	ID=cds157;Parent=gene159;Dbxref=NCBI_GP:BAB12886.1;Name=BAB12886.1;Note=BU169;gbkey=CDS;gene=prsA;product=ribose-phosphate pyrophosphokinase;protein_id=BAB12886.1;transl_table=11
+BA000003.2	DDBJ	gene	183446	184330	.	-	.	ID=gene160;Name=ychB;gbkey=Gene;gene=ychB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	183446	184330	.	-	0	ID=cds158;Parent=gene160;Dbxref=NCBI_GP:BAB12887.1;Name=BAB12887.1;Note=BU170;gbkey=CDS;gene=ychB;product=hypothetical protein;protein_id=BAB12887.1;transl_table=11
+BA000003.2	DDBJ	gene	184538	185623	.	+	.	ID=gene161;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	184538	185623	.	+	0	ID=cds159;Parent=gene161;Dbxref=NCBI_GP:BAB12888.1;Name=BAB12888.1;Note=BU171;gbkey=CDS;gene=prfA;product=peptide chain release factor 1;protein_id=BAB12888.1;transl_table=11
+BA000003.2	DDBJ	gene	185620	186453	.	+	.	ID=gene162;Name=hemK;gbkey=Gene;gene=hemK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	185620	186453	.	+	0	ID=cds160;Parent=gene162;Dbxref=NCBI_GP:BAB12889.1;Name=BAB12889.1;Note=BU172;gbkey=CDS;gene=hemK;product=hemK protein;protein_id=BAB12889.1;transl_table=11
+BA000003.2	DDBJ	gene	186613	187422	.	+	.	ID=gene163;Name=ychA;gbkey=Gene;gene=ychA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	186613	187422	.	+	0	ID=cds161;Parent=gene163;Dbxref=NCBI_GP:BAB12890.1;Name=BAB12890.1;Note=BU173;gbkey=CDS;gene=ychA;product=hypothetical protein;protein_id=BAB12890.1;transl_table=11
+BA000003.2	DDBJ	gene	187430	188236	.	-	.	ID=gene164;Name=nadE;gbkey=Gene;gene=nadE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	187430	188236	.	-	0	ID=cds162;Parent=gene164;Dbxref=NCBI_GP:BAB12891.1;Name=BAB12891.1;Note=BU174;gbkey=CDS;gene=nadE;product=nh(3)-dependent NAD(+) synthetase;protein_id=BAB12891.1;transl_table=11
+BA000003.2	DDBJ	gene	188320	189537	.	+	.	ID=gene165;Name=ackA;gbkey=Gene;gene=ackA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	188320	189537	.	+	0	ID=cds163;Parent=gene165;Dbxref=NCBI_GP:BAB12892.1;Name=BAB12892.1;Note=BU175;gbkey=CDS;gene=ackA;product=acetate kinase;protein_id=BAB12892.1;transl_table=11
+BA000003.2	DDBJ	gene	189582	191708	.	+	.	ID=gene166;Name=pta;gbkey=Gene;gene=pta;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	189582	191708	.	+	0	ID=cds164;Parent=gene166;Dbxref=NCBI_GP:BAB12893.1;Name=BAB12893.1;Note=BU176;gbkey=CDS;gene=pta;product=phosphate acetyltransferase;protein_id=BAB12893.1;transl_table=11
+BA000003.2	DDBJ	gene	191740	192003	.	-	.	ID=gene167;Name=yfaE;gbkey=Gene;gene=yfaE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	191740	192003	.	-	0	ID=cds165;Parent=gene167;Dbxref=NCBI_GP:BAB12894.1;Name=BAB12894.1;Note=BU177;gbkey=CDS;gene=yfaE;product=hypothetical protein;protein_id=BAB12894.1;transl_table=11
+BA000003.2	DDBJ	gene	192006	193136	.	-	.	ID=gene168;Name=nrdB;gbkey=Gene;gene=nrdB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	192006	193136	.	-	0	ID=cds166;Parent=gene168;Dbxref=NCBI_GP:BAB12895.1;Name=BAB12895.1;Note=BU178;gbkey=CDS;gene=nrdB;product=ribonucleoside-diphosphate reductase 1 beta chain;protein_id=BAB12895.1;transl_table=11
+BA000003.2	DDBJ	gene	193204	195489	.	-	.	ID=gene169;Name=nrdA;gbkey=Gene;gene=nrdA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	193204	195489	.	-	0	ID=cds167;Parent=gene169;Dbxref=NCBI_GP:BAB12896.1;Name=BAB12896.1;Note=BU179;gbkey=CDS;gene=nrdA;product=ribonucleoside-diphosphate reductase 1 alpha chain;protein_id=BAB12896.1;transl_table=11
+BA000003.2	DDBJ	gene	195562	198054	.	-	.	ID=gene170;Name=gyrA;gbkey=Gene;gene=gyrA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	195562	198054	.	-	0	ID=cds168;Parent=gene170;Dbxref=NCBI_GP:BAB12897.1;Name=BAB12897.1;Note=BU180;gbkey=CDS;gene=gyrA;product=DNA gyrase subunit A;protein_id=BAB12897.1;transl_table=11
+BA000003.2	DDBJ	gene	198321	199037	.	+	.	ID=gene171;Name=yba2;gbkey=Gene;gene=yba2;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	198321	199037	.	+	0	ID=cds169;Parent=gene171;Dbxref=NCBI_GP:BAB12898.1;Name=BAB12898.1;Note=BU181;gbkey=CDS;gene=yba2;product=hypothetical protein;protein_id=BAB12898.1;transl_table=11
+BA000003.2	DDBJ	gene	199160	199753	.	-	.	ID=gene172;Name=ahpC;gbkey=Gene;gene=ahpC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	199160	199753	.	-	0	ID=cds170;Parent=gene172;Dbxref=NCBI_GP:BAB12899.1;Name=BAB12899.1;Note=BU182;gbkey=CDS;gene=ahpC;product=alkyl hydroperoxide reductase;protein_id=BAB12899.1;transl_table=11
+BA000003.2	DDBJ	gene	199831	200493	.	+	.	ID=gene173;Name=ung;gbkey=Gene;gene=ung;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	199831	200493	.	+	0	ID=cds171;Parent=gene173;Dbxref=NCBI_GP:BAB12900.1;Name=BAB12900.1;Note=BU183;gbkey=CDS;gene=ung;product=uracil-DNA glycosylase;protein_id=BAB12900.1;transl_table=11
+BA000003.2	DDBJ	gene	200569	201135	.	-	.	ID=gene174;Name=grpE;gbkey=Gene;gene=grpE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	200569	201135	.	-	0	ID=cds172;Parent=gene174;Dbxref=NCBI_GP:BAB12901.1;Name=BAB12901.1;Note=BU184;gbkey=CDS;gene=grpE;product=heat shock protein grpE 2;protein_id=BAB12901.1;transl_table=11
+BA000003.2	DDBJ	gene	201252	202130	.	+	.	ID=gene175;Name=yfjB;gbkey=Gene;gene=yfjB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	201252	202130	.	+	0	ID=cds173;Parent=gene175;Dbxref=NCBI_GP:BAB12902.1;Name=BAB12902.1;Note=BU185;gbkey=CDS;gene=yfjB;product=hypothetical protein;protein_id=BAB12902.1;transl_table=11
+BA000003.2	DDBJ	gene	202263	202571	.	+	.	ID=gene176;Name=smpA;gbkey=Gene;gene=smpA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	202263	202571	.	+	0	ID=cds174;Parent=gene176;Dbxref=NCBI_GP:BAB12903.1;Name=BAB12903.1;Note=BU186;gbkey=CDS;gene=smpA;product=small protein A;protein_id=BAB12903.1;transl_table=11
+BA000003.2	DDBJ	gene	203108	203434	.	+	.	ID=gene177;Name=ydhD;gbkey=Gene;gene=ydhD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	203108	203434	.	+	0	ID=cds175;Parent=gene177;Dbxref=NCBI_GP:BAB12904.1;Name=BAB12904.1;Note=BU187;gbkey=CDS;gene=ydhD;product=hypothetical protein;protein_id=BAB12904.1;transl_table=11
+BA000003.2	DDBJ	gene	203578	204243	.	-	.	ID=gene178;Name=rnt;gbkey=Gene;gene=rnt;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	203578	204243	.	-	0	ID=cds176;Parent=gene178;Dbxref=NCBI_GP:BAB12905.1;Name=BAB12905.1;Note=BU188;gbkey=CDS;gene=rnt;product=ribonuclease T;protein_id=BAB12905.1;transl_table=11
+BA000003.2	DDBJ	gene	204463	205074	.	+	.	ID=gene179;Name=sodA;gbkey=Gene;gene=sodA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	204463	205074	.	+	0	ID=cds177;Parent=gene179;Dbxref=NCBI_GP:BAB12906.1;Name=BAB12906.1;Note=BU189;gbkey=CDS;gene=sodA;product=superoxide dismutase;protein_id=BAB12906.1;transl_table=11
+BA000003.2	DDBJ	gene	205262	205795	.	+	.	ID=gene180;Name=pth;gbkey=Gene;gene=pth;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	205262	205795	.	+	0	ID=cds178;Parent=gene180;Dbxref=NCBI_GP:BAB12907.1;Name=BAB12907.1;Note=BU190;gbkey=CDS;gene=pth;product=peptidyl-tRNA hydrolase;protein_id=BAB12907.1;transl_table=11
+BA000003.2	DDBJ	gene	205836	206924	.	+	.	ID=gene181;Name=ychF;gbkey=Gene;gene=ychF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	205836	206924	.	+	0	ID=cds179;Parent=gene181;Dbxref=NCBI_GP:BAB12908.1;Name=BAB12908.1;Note=BU191%3B~putative product;gbkey=CDS;gene=ychF;product=GTP-binding protein;protein_id=BAB12908.1;transl_table=11
+BA000003.2	DDBJ	gene	207000	208289	.	-	.	ID=gene182;Name=thrC;gbkey=Gene;gene=thrC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	207000	208289	.	-	0	ID=cds180;Parent=gene182;Dbxref=NCBI_GP:BAB12909.1;Name=BAB12909.1;Note=BU192;gbkey=CDS;gene=thrC;product=threonine synthase;protein_id=BAB12909.1;transl_table=11
+BA000003.2	DDBJ	gene	208296	209225	.	-	.	ID=gene183;Name=thrB;gbkey=Gene;gene=thrB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	208296	209225	.	-	0	ID=cds181;Parent=gene183;Dbxref=NCBI_GP:BAB12910.1;Name=BAB12910.1;Note=BU193;gbkey=CDS;gene=thrB;product=homoserine kinase;protein_id=BAB12910.1;transl_table=11
+BA000003.2	DDBJ	gene	209246	211696	.	-	.	ID=gene184;Name=thrA;gbkey=Gene;gene=thrA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	209246	211696	.	-	0	ID=cds182;Parent=gene184;Dbxref=NCBI_GP:BAB12911.1;Name=BAB12911.1;Note=BU194;gbkey=CDS;gene=thrA;product=aspartokinase I / homoserine dehydrogenase I;protein_id=BAB12911.1;transl_table=11
+BA000003.2	DDBJ	gene	212355	212855	.	+	.	ID=gene185;Name=hpt;gbkey=Gene;gene=hpt;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	212355	212855	.	+	0	ID=cds183;Parent=gene185;Dbxref=NCBI_GP:BAB12912.1;Name=BAB12912.1;Note=BU195;gbkey=CDS;gene=hpt;product=hypoxanthine phosphoribosyltransferase;protein_id=BAB12912.1;transl_table=11
+BA000003.2	DDBJ	gene	212899	213756	.	-	.	ID=gene186;Name=panC;gbkey=Gene;gene=panC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	212899	213756	.	-	0	ID=cds184;Parent=gene186;Dbxref=NCBI_GP:BAB12913.1;Name=BAB12913.1;Note=BU196;gbkey=CDS;gene=panC;product=pantoate-beta-alanine ligase;protein_id=BAB12913.1;transl_table=11
+BA000003.2	DDBJ	gene	213771	214562	.	-	.	ID=gene187;Name=panB;gbkey=Gene;gene=panB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	213771	214562	.	-	0	ID=cds185;Parent=gene187;Dbxref=NCBI_GP:BAB12914.1;Name=BAB12914.1;Note=BU197;gbkey=CDS;gene=panB;product=3-methyl-2-oxobutanoate hydroxymethyltransferase;protein_id=BAB12914.1;transl_table=11
+BA000003.2	DDBJ	gene	214678	215133	.	-	.	ID=gene188;Name=dksA;gbkey=Gene;gene=dksA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	214678	215133	.	-	0	ID=cds186;Parent=gene188;Dbxref=NCBI_GP:BAB12915.1;Name=BAB12915.1;Note=BU198;gbkey=CDS;gene=dksA;product=dnaK suppressor protein;protein_id=BAB12915.1;transl_table=11
+BA000003.2	DDBJ	gene	215390	216190	.	+	.	ID=gene189;Name=truA;gbkey=Gene;gene=truA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	215390	216190	.	+	0	ID=cds187;Parent=gene189;Dbxref=NCBI_GP:BAB12916.1;Name=BAB12916.1;Note=BU199;gbkey=CDS;gene=truA;product=pseudouridylate synthase I;protein_id=BAB12916.1;transl_table=11
+BA000003.2	DDBJ	gene	216262	218544	.	+	.	ID=gene190;Name=mrcB;gbkey=Gene;gene=mrcB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	216262	218544	.	+	0	ID=cds188;Parent=gene190;Dbxref=NCBI_GP:BAB12917.1;Name=BAB12917.1;Note=BU200;gbkey=CDS;gene=mrcB;product=penicillin-binding protein 1b;protein_id=BAB12917.1;transl_table=11
+BA000003.2	DDBJ	gene	218774	221401	.	+	.	ID=gene191;Name=secA;gbkey=Gene;gene=secA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	218774	221401	.	+	0	ID=cds189;Parent=gene191;Dbxref=NCBI_GP:BAB12918.1;Name=BAB12918.1;Note=BU201;gbkey=CDS;gene=secA;product=preprotein translocase secA subunit;protein_id=BAB12918.1;transl_table=11
+BA000003.2	DDBJ	gene	221477	221851	.	+	.	ID=gene192;Name=mutT;gbkey=Gene;gene=mutT;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	221477	221851	.	+	0	ID=cds190;Parent=gene192;Dbxref=NCBI_GP:BAB12919.1;Name=BAB12919.1;Note=BU202;gbkey=CDS;gene=mutT;product=mutator mutT protein;protein_id=BAB12919.1;transl_table=11
+BA000003.2	DDBJ	gene	221834	222487	.	-	.	ID=gene193;Name=yacE;gbkey=Gene;gene=yacE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	221834	222487	.	-	0	ID=cds191;Parent=gene193;Dbxref=NCBI_GP:BAB12920.1;Name=BAB12920.1;Note=BU203;gbkey=CDS;gene=yacE;product=hypothetical protein;protein_id=BAB12920.1;transl_table=11
+BA000003.2	DDBJ	gene	222543	223592	.	+	.	ID=gene194;Name=guaC;gbkey=Gene;gene=guaC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	222543	223592	.	+	0	ID=cds192;Parent=gene194;Dbxref=NCBI_GP:BAB12921.1;Name=BAB12921.1;Note=BU204;gbkey=CDS;gene=guaC;product=GMP reductase;protein_id=BAB12921.1;transl_table=11
+BA000003.2	DDBJ	gene	223819	226482	.	+	.	ID=gene195;Name=aceE;gbkey=Gene;gene=aceE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	223819	226482	.	+	0	ID=cds193;Parent=gene195;Dbxref=NCBI_GP:BAB12922.1;Name=BAB12922.1;Note=BU205;gbkey=CDS;gene=aceE;product=pyruvate dehydrogenase e1 component;protein_id=BAB12922.1;transl_table=11
+BA000003.2	DDBJ	gene	226513	227703	.	+	.	ID=gene196;Name=aceF;gbkey=Gene;gene=aceF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	226513	227703	.	+	0	ID=cds194;Parent=gene196;Dbxref=NCBI_GP:BAB12923.1;Name=BAB12923.1;Note=BU206;gbkey=CDS;gene=aceF;product=dihydrolipoamide acetyltransferase;protein_id=BAB12923.1;transl_table=11
+BA000003.2	DDBJ	gene	227748	229169	.	+	.	ID=gene197;Name=lpdA;gbkey=Gene;gene=lpdA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	227748	229169	.	+	0	ID=cds195;Parent=gene197;Dbxref=NCBI_GP:BAB12924.1;Name=BAB12924.1;Note=BU207;gbkey=CDS;gene=lpdA;product=dihydrolipoamide dehydrogenase;protein_id=BAB12924.1;transl_table=11
+BA000003.2	DDBJ	gene	229342	230139	.	-	.	ID=gene198;Name=speD;gbkey=Gene;gene=speD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	229342	230139	.	-	0	ID=cds196;Parent=gene198;Dbxref=NCBI_GP:BAB12925.1;Name=BAB12925.1;Note=BU208;gbkey=CDS;gene=speD;product=S-adenosylmethionine decarboxylase proenzyme;protein_id=BAB12925.1;transl_table=11
+BA000003.2	DDBJ	gene	230158	231018	.	-	.	ID=gene199;Name=speE;gbkey=Gene;gene=speE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	230158	231018	.	-	0	ID=cds197;Parent=gene199;Dbxref=NCBI_GP:BAB12926.1;Name=BAB12926.1;Note=BU209;gbkey=CDS;gene=speE;product=spermidine synthase;protein_id=BAB12926.1;transl_table=11
+BA000003.2	DDBJ	gene	231294	231992	.	-	.	ID=gene200;Name=pfs;gbkey=Gene;gene=pfs;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	231294	231992	.	-	0	ID=cds198;Parent=gene200;Dbxref=NCBI_GP:BAB12927.1;Name=BAB12927.1;Note=BU210;gbkey=CDS;gene=pfs;product=5'-methylthioadenosine / S-adenosylhomocysteine nucleosidase;protein_id=BAB12927.1;transl_table=11
+BA000003.2	DDBJ	gene	232056	232400	.	-	.	ID=gene201;Name=yadR;gbkey=Gene;gene=yadR;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	232056	232400	.	-	0	ID=cds199;Parent=gene201;Dbxref=NCBI_GP:BAB12928.1;Name=BAB12928.1;Note=BU211;gbkey=CDS;gene=yadR;product=hypothetical protein;protein_id=BAB12928.1;transl_table=11
+BA000003.2	DDBJ	gene	232634	233788	.	-	.	ID=gene202;Name=ftsZ;gbkey=Gene;gene=ftsZ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	232634	233788	.	-	0	ID=cds200;Parent=gene202;Dbxref=NCBI_GP:BAB12929.1;Name=BAB12929.1;Note=BU212;gbkey=CDS;gene=ftsZ;product=cell division protein ftsZ;protein_id=BAB12929.1;transl_table=11
+BA000003.2	DDBJ	gene	233846	235102	.	-	.	ID=gene203;Name=ftsA;gbkey=Gene;gene=ftsA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	233846	235102	.	-	0	ID=cds201;Parent=gene203;Dbxref=NCBI_GP:BAB12930.1;Name=BAB12930.1;Note=BU213;gbkey=CDS;gene=ftsA;product=cell division protein ftsA;protein_id=BAB12930.1;transl_table=11
+BA000003.2	DDBJ	gene	235298	236220	.	-	.	ID=gene204;Name=ddlB;gbkey=Gene;gene=ddlB;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	235298	236220	.	-	.	ID=id12;Note=authentic frameshift%3B This 307 aa putative ORF is 53 pct identical to 286 residues of 307 aa protein DDLB_ECOLI SW:P07862;gbkey=misc_feature;gene=ddlB
+BA000003.2	DDBJ	gene	236217	237671	.	-	.	ID=gene205;Name=murC;gbkey=Gene;gene=murC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	236217	237671	.	-	0	ID=cds202;Parent=gene205;Dbxref=NCBI_GP:BAB12931.1;Name=BAB12931.1;Note=BU215;gbkey=CDS;gene=murC;product=UDP-N-acetylmuramate-alanine ligase;protein_id=BAB12931.1;transl_table=11
+BA000003.2	DDBJ	gene	237714	238778	.	-	.	ID=gene206;Name=murG;gbkey=Gene;gene=murG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	237714	238778	.	-	0	ID=cds203;Parent=gene206;Dbxref=NCBI_GP:BAB12932.1;Name=BAB12932.1;Note=BU216;gbkey=CDS;gene=murG;product=UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase;protein_id=BAB12932.1;transl_table=11
+BA000003.2	DDBJ	gene	238775	239974	.	-	.	ID=gene207;Name=ftsW;gbkey=Gene;gene=ftsW;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	238775	239974	.	-	0	ID=cds204;Parent=gene207;Dbxref=NCBI_GP:BAB12933.1;Name=BAB12933.1;Note=BU217;gbkey=CDS;gene=ftsW;product=cell division protein ftsW;protein_id=BAB12933.1;transl_table=11
+BA000003.2	DDBJ	gene	239971	241293	.	-	.	ID=gene208;Name=murD;gbkey=Gene;gene=murD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	239971	241293	.	-	0	ID=cds205;Parent=gene208;Dbxref=NCBI_GP:BAB12934.1;Name=BAB12934.1;Note=BU218;gbkey=CDS;gene=murD;product=UDP-N-acetylmuramoylalanine-D-glutamate ligase;protein_id=BAB12934.1;transl_table=11
+BA000003.2	DDBJ	gene	241293	242366	.	-	.	ID=gene209;Name=mraY;gbkey=Gene;gene=mraY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	241293	242366	.	-	0	ID=cds206;Parent=gene209;Dbxref=NCBI_GP:BAB12935.1;Name=BAB12935.1;Note=BU219;gbkey=CDS;gene=mraY;product=phospho-N-acetylmuramoyl-pentapeptide-transferase;protein_id=BAB12935.1;transl_table=11
+BA000003.2	DDBJ	gene	242360	243727	.	-	.	ID=gene210;Name=murF;gbkey=Gene;gene=murF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	242360	243727	.	-	0	ID=cds207;Parent=gene210;Dbxref=NCBI_GP:BAB12936.1;Name=BAB12936.1;Note=BU220;gbkey=CDS;gene=murF;product=UDP-N-acetylmuramoylalanyl-D-glutamyl-2%2C6-diaminopimelate-D-alanyl-D-alanyl ligase;protein_id=BAB12936.1;transl_table=11
+BA000003.2	DDBJ	gene	243724	245217	.	-	.	ID=gene211;Name=murE;gbkey=Gene;gene=murE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	243724	245217	.	-	0	ID=cds208;Parent=gene211;Dbxref=NCBI_GP:BAB12937.1;Name=BAB12937.1;Note=BU221;gbkey=CDS;gene=murE;product=UDP-N-acetylmuramoylalanyl-D-glutamate-2%2C6-diaminopimelate ligase;protein_id=BAB12937.1;transl_table=11
+BA000003.2	DDBJ	gene	245218	246957	.	-	.	ID=gene212;Name=ftsI;gbkey=Gene;gene=ftsI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	245218	246957	.	-	0	ID=cds209;Parent=gene212;Dbxref=NCBI_GP:BAB12938.1;Name=BAB12938.1;Note=BU222;gbkey=CDS;gene=ftsI;product=cell division protein ftsI;protein_id=BAB12938.1;transl_table=11
+BA000003.2	DDBJ	gene	247072	247275	.	-	.	ID=gene213;Name=ftsL;gbkey=Gene;gene=ftsL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	247072	247275	.	-	0	ID=cds210;Parent=gene213;Dbxref=NCBI_GP:BAB12939.1;Name=BAB12939.1;Note=BU223;gbkey=CDS;gene=ftsL;product=cell division protein ftsL;protein_id=BAB12939.1;transl_table=11
+BA000003.2	DDBJ	gene	247278	248216	.	-	.	ID=gene214;Name=yabC;gbkey=Gene;gene=yabC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	247278	248216	.	-	0	ID=cds211;Parent=gene214;Dbxref=NCBI_GP:BAB12940.1;Name=BAB12940.1;Note=BU224;gbkey=CDS;gene=yabC;product=hypothetical protein;protein_id=BAB12940.1;transl_table=11
+BA000003.2	DDBJ	gene	248338	248814	.	-	.	ID=gene215;Name=ilvH;gbkey=Gene;gene=ilvH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	248338	248814	.	-	0	ID=cds212;Parent=gene215;Dbxref=NCBI_GP:BAB12941.1;Name=BAB12941.1;Note=BU225;gbkey=CDS;gene=ilvH;product=acetolactate synthase small subunit;protein_id=BAB12941.1;transl_table=11
+BA000003.2	DDBJ	gene	248819	250534	.	-	.	ID=gene216;Name=ilvI;gbkey=Gene;gene=ilvI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	248819	250534	.	-	0	ID=cds213;Parent=gene216;Dbxref=NCBI_GP:BAB12942.1;Name=BAB12942.1;Note=BU226;gbkey=CDS;gene=ilvI;product=acetolactate synthase large subunit;protein_id=BAB12942.1;transl_table=11
+BA000003.2	DDBJ	gene	250805	251880	.	-	.	ID=gene217;Name=apbE;gbkey=Gene;gene=apbE;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	250805	251880	.	-	.	ID=id13;Note=authentic frameshift%3B This 358 aa putative ORF is 45 pct identical to 314 residues of 358 aa protein APBE_ECOLI;gbkey=misc_feature;gene=apbE
+BA000003.2	DDBJ	gene	252152	253588	.	+	.	ID=gene218;Name=htrA;gbkey=Gene;gene=htrA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	252152	253588	.	+	0	ID=cds214;Parent=gene218;Dbxref=NCBI_GP:BAB12943.1;Name=BAB12943.1;Note=BU228;gbkey=CDS;gene=htrA;product=protease do precursor;protein_id=BAB12943.1;transl_table=11
+BA000003.2	DDBJ	gene	253632	254456	.	-	.	ID=gene219;Name=dapD;gbkey=Gene;gene=dapD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	253632	254456	.	-	0	ID=cds215;Parent=gene219;Dbxref=NCBI_GP:BAB12944.1;Name=BAB12944.1;Note=BU229;gbkey=CDS;gene=dapD;product=2%2C3%2C4%2C5-tetrahydropyridine-2-carboxylate N-succinyltransferase;protein_id=BAB12944.1;transl_table=11
+BA000003.2	DDBJ	gene	254517	255311	.	-	.	ID=gene220;Name=map;gbkey=Gene;gene=map;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	254517	255311	.	-	0	ID=cds216;Parent=gene220;Dbxref=NCBI_GP:BAB12945.1;Name=BAB12945.1;Note=BU230;gbkey=CDS;gene=map;product=methionine aminopeptidase;protein_id=BAB12945.1;transl_table=11
+BA000003.2	DDBJ	gene	255574	256308	.	+	.	ID=gene221;Name=rpsB;gbkey=Gene;gene=rpsB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	255574	256308	.	+	0	ID=cds217;Parent=gene221;Dbxref=NCBI_GP:BAB12946.1;Name=BAB12946.1;Note=BU231;gbkey=CDS;gene=rpsB;product=30S ribosomal protein S2;protein_id=BAB12946.1;transl_table=11
+BA000003.2	DDBJ	gene	256385	257191	.	+	.	ID=gene222;Name=tsf;gbkey=Gene;gene=tsf;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	256385	257191	.	+	0	ID=cds218;Parent=gene222;Dbxref=NCBI_GP:BAB12947.1;Name=BAB12947.1;Note=BU232;gbkey=CDS;gene=tsf;product=elongation factor Ts;protein_id=BAB12947.1;transl_table=11
+BA000003.2	DDBJ	gene	257242	257970	.	+	.	ID=gene223;Name=pyrH;gbkey=Gene;gene=pyrH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	257242	257970	.	+	0	ID=cds219;Parent=gene223;Dbxref=NCBI_GP:BAB12948.1;Name=BAB12948.1;Note=BU233;gbkey=CDS;gene=pyrH;product=uridylate kinase;protein_id=BAB12948.1;transl_table=11
+BA000003.2	DDBJ	gene	258051	258608	.	+	.	ID=gene224;Name=frr;gbkey=Gene;gene=frr;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	258051	258608	.	+	0	ID=cds220;Parent=gene224;Dbxref=NCBI_GP:BAB12949.1;Name=BAB12949.1;Note=BU234;gbkey=CDS;gene=frr;product=ribosome recycling factor;protein_id=BAB12949.1;transl_table=11
+BA000003.2	DDBJ	gene	258691	259887	.	+	.	ID=gene225;Name=dxr;gbkey=Gene;gene=dxr;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	258691	259887	.	+	0	ID=cds221;Parent=gene225;Dbxref=NCBI_GP:BAB12950.1;Name=BAB12950.1;Note=BU235;gbkey=CDS;gene=dxr;product=1-deoxy-D-xylulose 5-phosphate reductoisomerase;protein_id=BAB12950.1;transl_table=11
+BA000003.2	DDBJ	gene	259980	260735	.	+	.	ID=gene226;Name=uppS;gbkey=Gene;gene=uppS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	259980	260735	.	+	0	ID=cds222;Parent=gene226;Dbxref=NCBI_GP:BAB12951.1;Name=BAB12951.1;Note=BU236;gbkey=CDS;gene=uppS;product=undecaprenyl pyrophosphate synthetase;protein_id=BAB12951.1;transl_table=11
+BA000003.2	DDBJ	gene	260969	262822	.	+	.	ID=gene227;Name=yaeT;gbkey=Gene;gene=yaeT;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	260969	262822	.	+	0	ID=cds223;Parent=gene227;Dbxref=NCBI_GP:BAB12952.1;Name=BAB12952.1;Note=BU237;gbkey=CDS;gene=yaeT;product=hypothetical protein;protein_id=BAB12952.1;transl_table=11
+BA000003.2	DDBJ	gene	262859	266344	.	+	.	ID=gene228;Name=dnaE;gbkey=Gene;gene=dnaE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	262859	266344	.	+	0	ID=cds224;Parent=gene228;Dbxref=NCBI_GP:BAB12953.1;Name=BAB12953.1;Note=BU238;gbkey=CDS;gene=dnaE;product=DNA polymerase III alpha chain;protein_id=BAB12953.1;transl_table=11
+BA000003.2	DDBJ	gene	266472	268190	.	-	.	ID=gene229;Name=proS;gbkey=Gene;gene=proS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	266472	268190	.	-	0	ID=cds225;Parent=gene229;Dbxref=NCBI_GP:BAB12954.1;Name=BAB12954.1;Note=BU239;gbkey=CDS;gene=proS;product=prolyl-tRNA synthetase;protein_id=BAB12954.1;transl_table=11
+BA000003.2	DDBJ	gene	268530	269681	.	+	.	ID=gene230;Name=flhB;gbkey=Gene;gene=flhB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	268530	269681	.	+	0	ID=cds226;Parent=gene230;Dbxref=NCBI_GP:BAB12955.1;Name=BAB12955.1;Note=BU240;gbkey=CDS;gene=flhB;product=flagellar biosynthetic protein flhB;protein_id=BAB12955.1;transl_table=11
+BA000003.2	DDBJ	gene	269665	271764	.	+	.	ID=gene231;Name=flhA;gbkey=Gene;gene=flhA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	269665	271764	.	+	0	ID=cds227;Parent=gene231;Dbxref=NCBI_GP:BAB12956.1;Name=BAB12956.1;Note=BU241;gbkey=CDS;gene=flhA;product=flagellar biosynthesis protein flhA;protein_id=BAB12956.1;transl_table=11
+BA000003.2	DDBJ	gene	271888	273612	.	-	.	ID=gene232;Name=argS;gbkey=Gene;gene=argS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	271888	273612	.	-	0	ID=cds228;Parent=gene232;Dbxref=NCBI_GP:BAB12957.1;Name=BAB12957.1;Note=BU242;gbkey=CDS;gene=argS;product=arginyl-tRNA synthetase;protein_id=BAB12957.1;transl_table=11
+BA000003.2	DDBJ	gene	274065	275524	.	+	.	ID=gene233;Name=rrs;gbkey=Gene;gene=rrs;gene_biotype=rRNA
+BA000003.2	DDBJ	rRNA	274065	275524	.	+	.	ID=rna10;Parent=gene233;Note=BU243;gbkey=rRNA;gene=rrs;product=16S ribosomal RNA
+BA000003.2	DDBJ	exon	274065	275524	.	+	.	ID=id14;Parent=rna10;Note=BU243;gbkey=rRNA;gene=rrs;product=16S ribosomal RNA
+BA000003.2	DDBJ	tRNA	275637	275713	.	+	.	ID=rna11;gbkey=tRNA;product=tRNA-Ile
+BA000003.2	DDBJ	exon	275637	275713	.	+	.	ID=id15;Parent=rna11;gbkey=tRNA;product=tRNA-Ile
+BA000003.2	DDBJ	tRNA	275728	275800	.	+	.	ID=rna12;gbkey=tRNA;product=tRNA-Ala
+BA000003.2	DDBJ	exon	275728	275800	.	+	.	ID=id16;Parent=rna12;gbkey=tRNA;product=tRNA-Ala
+BA000003.2	DDBJ	gene	275795	276550	.	-	.	ID=gene234;Name=gloB;gbkey=Gene;gene=gloB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	275795	276550	.	-	0	ID=cds229;Parent=gene234;Dbxref=NCBI_GP:BAB12958.1;Name=BAB12958.1;Note=BU246;gbkey=CDS;gene=gloB;product=probable hydroxyacylglutathione hydrolase;protein_id=BAB12958.1;transl_table=11
+BA000003.2	DDBJ	gene	276591	277060	.	-	.	ID=gene235;Name=rnhA;gbkey=Gene;gene=rnhA;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	276591	277060	.	-	.	ID=id17;Note=authentic frameshift%3B 57 pct identical to RNH_ECOLI SP:P00647;gbkey=misc_feature;gene=rnhA
+BA000003.2	DDBJ	gene	277113	277826	.	+	.	ID=gene236;Name=dnaQ;gbkey=Gene;gene=dnaQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	277113	277826	.	+	0	ID=cds230;Parent=gene236;Dbxref=NCBI_GP:BAB12959.1;Name=BAB12959.1;Note=BU248;gbkey=CDS;gene=dnaQ;product=DNA polymerase III epsilon chain;protein_id=BAB12959.1;transl_table=11
+BA000003.2	DDBJ	tRNA	277895	277968	.	+	.	ID=rna13;gbkey=tRNA;product=tRNA-Asp
+BA000003.2	DDBJ	exon	277895	277968	.	+	.	ID=id18;Parent=rna13;gbkey=tRNA;product=tRNA-Asp
+BA000003.2	DDBJ	gene	278052	278633	.	+	.	ID=gene237;Name=lpcA;gbkey=Gene;gene=lpcA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	278052	278633	.	+	0	ID=cds231;Parent=gene237;Dbxref=NCBI_GP:BAB12960.1;Name=BAB12960.1;Note=BU250;gbkey=CDS;gene=lpcA;product=phosphoheptose isomerase;protein_id=BAB12960.1;transl_table=11
+BA000003.2	DDBJ	gene	278770	279216	.	+	.	ID=gene238;Name=gpt;gbkey=Gene;gene=gpt;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	278770	279216	.	+	0	ID=cds232;Parent=gene238;Dbxref=NCBI_GP:BAB12961.1;Name=BAB12961.1;Note=BU251;gbkey=CDS;gene=gpt;product=xanthine-guanine phosphoribosyltransferase;protein_id=BAB12961.1;transl_table=11
+BA000003.2	DDBJ	gene	279317	279901	.	+	.	ID=gene239;Name=grpE1;gbkey=Gene;gene=grpE1;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	279317	279901	.	+	0	ID=cds233;Parent=gene239;Dbxref=NCBI_GP:BAB12962.1;Name=BAB12962.1;Note=BU252;gbkey=CDS;gene=grpE1;product=heat shock protein grpE 1;protein_id=BAB12962.1;transl_table=11
+BA000003.2	DDBJ	gene	279980	280279	.	-	.	ID=gene240;Name=yfjF;gbkey=Gene;gene=yfjF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	279980	280279	.	-	0	ID=cds234;Parent=gene240;Dbxref=NCBI_GP:BAB12963.1;Name=BAB12963.1;Note=BU253;gbkey=CDS;gene=yfjF;product=hypothetical protein;protein_id=BAB12963.1;transl_table=11
+BA000003.2	DDBJ	gene	280373	280861	.	+	.	ID=gene241;Name=smpB;gbkey=Gene;gene=smpB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	280373	280861	.	+	0	ID=cds235;Parent=gene241;Dbxref=NCBI_GP:BAB12964.1;Name=BAB12964.1;Note=BU254;gbkey=CDS;gene=smpB;product=small protein B;protein_id=BAB12964.1;transl_table=11
+BA000003.2	DDBJ	gene	280870	281355	.	+	.	ID=gene242;Name=yfhC;gbkey=Gene;gene=yfhC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	280870	281355	.	+	0	ID=cds236;Parent=gene242;Dbxref=NCBI_GP:BAB12965.1;Name=BAB12965.1;Note=BU255;gbkey=CDS;gene=yfhC;product=hypothetical protein yfhC;protein_id=BAB12965.1;transl_table=11
+BA000003.2	DDBJ	gene	281356	281736	.	-	.	ID=gene243;Name=acpS;gbkey=Gene;gene=acpS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	281356	281736	.	-	0	ID=cds237;Parent=gene243;Dbxref=NCBI_GP:BAB12966.1;Name=BAB12966.1;Note=BU256;gbkey=CDS;gene=acpS;product=holo-[acyl-carrier protein] synthase;protein_id=BAB12966.1;transl_table=11
+BA000003.2	DDBJ	gene	281861	282712	.	-	.	ID=gene244;Name=era;gbkey=Gene;gene=era;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	281861	282712	.	-	0	ID=cds238;Parent=gene244;Dbxref=NCBI_GP:BAB12967.1;Name=BAB12967.1;Note=BU257;gbkey=CDS;gene=era;product=GTP-binding protein era;protein_id=BAB12967.1;transl_table=11
+BA000003.2	DDBJ	gene	282709	283389	.	-	.	ID=gene245;Name=rnc;gbkey=Gene;gene=rnc;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	282709	283389	.	-	0	ID=cds239;Parent=gene245;Dbxref=NCBI_GP:BAB12968.1;Name=BAB12968.1;Note=BU258;gbkey=CDS;gene=rnc;product=ribonuclease III;protein_id=BAB12968.1;transl_table=11
+BA000003.2	DDBJ	gene	283520	284464	.	-	.	ID=gene246;Name=lepB;gbkey=Gene;gene=lepB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	283520	284464	.	-	0	ID=cds240;Parent=gene246;Dbxref=NCBI_GP:BAB12969.1;Name=BAB12969.1;Note=BU259;gbkey=CDS;gene=lepB;product=signal peptidase I;protein_id=BAB12969.1;transl_table=11
+BA000003.2	DDBJ	gene	284480	286312	.	-	.	ID=gene247;Name=lepA;gbkey=Gene;gene=lepA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	284480	286312	.	-	0	ID=cds241;Parent=gene247;Dbxref=NCBI_GP:BAB12970.1;Name=BAB12970.1;Note=BU260;gbkey=CDS;gene=lepA;product=GTP-binding protein lepA;protein_id=BAB12970.1;transl_table=11
+BA000003.2	DDBJ	gene	286436	287614	.	+	.	ID=gene248;Name=trmU;gbkey=Gene;gene=trmU;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	286436	287614	.	+	0	ID=cds242;Parent=gene248;Dbxref=NCBI_GP:BAB12971.1;Name=BAB12971.1;Note=BU261;gbkey=CDS;gene=trmU;product=tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase;protein_id=BAB12971.1;transl_table=11
+BA000003.2	DDBJ	gene	287650	288285	.	+	.	ID=gene249;Name=ycfC;gbkey=Gene;gene=ycfC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	287650	288285	.	+	0	ID=cds243;Parent=gene249;Dbxref=NCBI_GP:BAB12972.1;Name=BAB12972.1;Note=BU262;gbkey=CDS;gene=ycfC;product=hypothetical protein;protein_id=BAB12972.1;transl_table=11
+BA000003.2	DDBJ	gene	288324	289694	.	+	.	ID=gene250;Name=purB;gbkey=Gene;gene=purB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	288324	289694	.	+	0	ID=cds244;Parent=gene250;Dbxref=NCBI_GP:BAB12973.1;Name=BAB12973.1;Note=BU263;gbkey=CDS;gene=purB;product=adenylosuccinate lyase;protein_id=BAB12973.1;transl_table=11
+BA000003.2	DDBJ	gene	289718	290383	.	+	.	ID=gene251;Name=mltE;gbkey=Gene;gene=mltE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	289718	290383	.	+	0	ID=cds245;Parent=gene251;Dbxref=NCBI_GP:BAB12974.1;Name=BAB12974.1;Note=BU264;gbkey=CDS;gene=mltE;product=membrane-bound lytic murein transglycosylase E;protein_id=BAB12974.1;transl_table=11
+BA000003.2	DDBJ	gene	290497	291279	.	+	.	ID=gene252;Name=fabI;gbkey=Gene;gene=fabI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	290497	291279	.	+	0	ID=cds246;Parent=gene252;Dbxref=NCBI_GP:BAB12975.1;Name=BAB12975.1;Note=BU265;gbkey=CDS;gene=fabI;product=enoyl-[acyl-carrier-protein] reductase (NADH);protein_id=BAB12975.1;transl_table=11
+BA000003.2	DDBJ	gene	291466	293415	.	+	.	ID=gene253;Name=rnb;gbkey=Gene;gene=rnb;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	291466	293415	.	+	0	ID=cds247;Parent=gene253;Dbxref=NCBI_GP:BAB12976.1;Name=BAB12976.1;Note=BU266;gbkey=CDS;gene=rnb;product=exoribonuclease II;protein_id=BAB12976.1;transl_table=11
+BA000003.2	DDBJ	gene	293524	294171	.	+	.	ID=gene254;Name=ychE;gbkey=Gene;gene=ychE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	293524	294171	.	+	0	ID=cds248;Parent=gene254;Dbxref=NCBI_GP:BAB12977.1;Name=BAB12977.1;Note=BU267;gbkey=CDS;gene=ychE;product=hypothetical protein;protein_id=BAB12977.1;transl_table=11
+BA000003.2	DDBJ	gene	294209	294844	.	+	.	ID=gene255;Name=lipB;gbkey=Gene;gene=lipB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	294209	294844	.	+	0	ID=cds249;Parent=gene255;Dbxref=NCBI_GP:BAB12978.1;Name=BAB12978.1;Note=BU268;gbkey=CDS;gene=lipB;product=lipoate-protein ligase B;protein_id=BAB12978.1;transl_table=11
+BA000003.2	DDBJ	gene	294963	295934	.	+	.	ID=gene256;Name=lipA;gbkey=Gene;gene=lipA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	294963	295934	.	+	0	ID=cds250;Parent=gene256;Dbxref=NCBI_GP:BAB12979.1;Name=BAB12979.1;Note=BU269;gbkey=CDS;gene=lipA;product=lipoic acid synthetase;protein_id=BAB12979.1;transl_table=11
+BA000003.2	DDBJ	gene	296039	296749	.	+	.	ID=gene257;Name=pyrF;gbkey=Gene;gene=pyrF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	296039	296749	.	+	0	ID=cds251;Parent=gene257;Dbxref=NCBI_GP:BAB12980.1;Name=BAB12980.1;Note=BU270;gbkey=CDS;gene=pyrF;product=orotidine 5'-phosphate decarboxylase;protein_id=BAB12980.1;transl_table=11
+BA000003.2	DDBJ	gene	296797	297381	.	+	.	ID=gene258;Name=ribA;gbkey=Gene;gene=ribA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	296797	297381	.	+	0	ID=cds252;Parent=gene258;Dbxref=NCBI_GP:BAB12981.1;Name=BAB12981.1;Note=BU271;gbkey=CDS;gene=ribA;product=GTP cyclohydrolase II;protein_id=BAB12981.1;transl_table=11
+BA000003.2	DDBJ	gene	297485	297892	.	-	.	ID=gene259;Name=hns;gbkey=Gene;gene=hns;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	297485	297892	.	-	0	ID=cds253;Parent=gene259;Dbxref=NCBI_GP:BAB12982.1;Name=BAB12982.1;Note=BU272;gbkey=CDS;gene=hns;product=DNA-binding protein H-ns;protein_id=BAB12982.1;transl_table=11
+BA000003.2	DDBJ	gene	298238	299698	.	-	.	ID=gene260;Name=cls;gbkey=Gene;gene=cls;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	298238	299698	.	-	0	ID=cds254;Parent=gene260;Dbxref=NCBI_GP:BAB12983.1;Name=BAB12983.1;Note=BU273;gbkey=CDS;gene=cls;product=cardiolipin synthetase;protein_id=BAB12983.1;transl_table=11
+BA000003.2	DDBJ	gene	300079	300486	.	-	.	ID=gene261;Name=yciA;gbkey=Gene;gene=yciA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	300079	300486	.	-	0	ID=cds255;Parent=gene261;Dbxref=NCBI_GP:BAB12984.1;Name=BAB12984.1;Note=BU274;gbkey=CDS;gene=yciA;product=hypothetical protein;protein_id=BAB12984.1;transl_table=11
+BA000003.2	DDBJ	gene	300523	301056	.	-	.	ID=gene262;Name=yciB;gbkey=Gene;gene=yciB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	300523	301056	.	-	0	ID=cds256;Parent=gene262;Dbxref=NCBI_GP:BAB12985.1;Name=BAB12985.1;Note=BU275;gbkey=CDS;gene=yciB;product=hypothetical protein;protein_id=BAB12985.1;transl_table=11
+BA000003.2	DDBJ	gene	301084	301827	.	-	.	ID=gene263;Name=yciC;gbkey=Gene;gene=yciC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	301084	301827	.	-	0	ID=cds257;Parent=gene263;Dbxref=NCBI_GP:BAB12986.1;Name=BAB12986.1;Note=BU276;gbkey=CDS;gene=yciC;product=hypothetical protein;protein_id=BAB12986.1;transl_table=11
+BA000003.2	DDBJ	gene	301932	302741	.	-	.	ID=gene264;Name=trpA;gbkey=Gene;gene=trpA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	301932	302741	.	-	0	ID=cds258;Parent=gene264;Dbxref=NCBI_GP:BAB12987.1;Name=BAB12987.1;Note=BU277;gbkey=CDS;gene=trpA;product=tryptophan synthase alpha chain;protein_id=BAB12987.1;transl_table=11
+BA000003.2	DDBJ	gene	302760	303926	.	-	.	ID=gene265;Name=trpB;gbkey=Gene;gene=trpB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	302760	303926	.	-	0	ID=cds259;Parent=gene265;Dbxref=NCBI_GP:BAB12988.1;Name=BAB12988.1;Note=BU278;gbkey=CDS;gene=trpB;product=tryptophan synthase beta chain;protein_id=BAB12988.1;transl_table=11
+BA000003.2	DDBJ	gene	303964	305325	.	-	.	ID=gene266;Name=trpC;gbkey=Gene;gene=trpC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	303964	305325	.	-	0	ID=cds260;Parent=gene266;Dbxref=NCBI_GP:BAB12989.1;Name=BAB12989.1;Note=BU279;gbkey=CDS;gene=trpC;product=indole-3-glycerol phosphate synthase / N-(5'-phospho-ribosyl)anthranilate isomerase;protein_id=BAB12989.1;transl_table=11
+BA000003.2	DDBJ	gene	305306	306334	.	-	.	ID=gene267;Name=trpD;gbkey=Gene;gene=trpD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	305306	306334	.	-	0	ID=cds261;Parent=gene267;Dbxref=NCBI_GP:BAB12990.1;Name=BAB12990.1;Note=BU280;gbkey=CDS;gene=trpD;product=anthranilate phosphoribosyltransferase;protein_id=BAB12990.1;transl_table=11
+BA000003.2	DDBJ	gene	306569	307492	.	+	.	ID=gene268;Name=yedA;gbkey=Gene;gene=yedA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	306569	307492	.	+	0	ID=cds262;Parent=gene268;Dbxref=NCBI_GP:BAB12991.1;Name=BAB12991.1;Note=BU281;gbkey=CDS;gene=yedA;product=hypothetical protein;protein_id=BAB12991.1;transl_table=11
+BA000003.2	DDBJ	gene	307521	308273	.	+	.	ID=gene269;Name=yciL;gbkey=Gene;gene=yciL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	307521	308273	.	+	0	ID=cds263;Parent=gene269;Dbxref=NCBI_GP:BAB12992.1;Name=BAB12992.1;Note=BU282;gbkey=CDS;gene=yciL;product=hypothetical protein;protein_id=BAB12992.1;transl_table=11
+BA000003.2	DDBJ	gene	308270	309358	.	+	.	ID=gene270;Name=sohB;gbkey=Gene;gene=sohB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	308270	309358	.	+	0	ID=cds264;Parent=gene270;Dbxref=NCBI_GP:BAB12993.1;Name=BAB12993.1;Note=BU283;gbkey=CDS;gene=sohB;product=possible protease sohB;protein_id=BAB12993.1;transl_table=11
+BA000003.2	DDBJ	gene	309445	312030	.	+	.	ID=gene271;Name=topA;gbkey=Gene;gene=topA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	309445	312030	.	+	0	ID=cds265;Parent=gene271;Dbxref=NCBI_GP:BAB12994.1;Name=BAB12994.1;Note=BU284;gbkey=CDS;gene=topA;product=DNA topoisomerase I;protein_id=BAB12994.1;transl_table=11
+BA000003.2	DDBJ	gene	312083	312883	.	-	.	ID=gene272;Name=suhB;gbkey=Gene;gene=suhB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	312083	312883	.	-	0	ID=cds266;Parent=gene272;Dbxref=NCBI_GP:BAB12995.1;Name=BAB12995.1;Note=BU285;gbkey=CDS;gene=suhB;product=extragenic suppressor protein suhB;protein_id=BAB12995.1;transl_table=11
+BA000003.2	DDBJ	gene	313130	314221	.	+	.	ID=gene273;Name=yfgB;gbkey=Gene;gene=yfgB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	313130	314221	.	+	0	ID=cds267;Parent=gene273;Dbxref=NCBI_GP:BAB12996.1;Name=BAB12996.1;Note=BU286;gbkey=CDS;gene=yfgB;product=hypothetical protein;protein_id=BAB12996.1;transl_table=11
+BA000003.2	DDBJ	gene	314272	315378	.	+	.	ID=gene274;Name=gcpE;gbkey=Gene;gene=gcpE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	314272	315378	.	+	0	ID=cds268;Parent=gene274;Dbxref=NCBI_GP:BAB12997.1;Name=BAB12997.1;Note=BU287;gbkey=CDS;gene=gcpE;product=gcpE protein;protein_id=BAB12997.1;transl_table=11
+BA000003.2	DDBJ	gene	315404	316675	.	+	.	ID=gene275;Name=hisS;gbkey=Gene;gene=hisS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	315404	316675	.	+	0	ID=cds269;Parent=gene275;Dbxref=NCBI_GP:BAB12998.1;Name=BAB12998.1;Note=BU288;gbkey=CDS;gene=hisS;product=histidyl-tRNA synthetase;protein_id=BAB12998.1;transl_table=11
+BA000003.2	DDBJ	gene	316735	317988	.	+	.	ID=gene276;Name=glyA;gbkey=Gene;gene=glyA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	316735	317988	.	+	0	ID=cds270;Parent=gene276;Dbxref=NCBI_GP:BAB12999.1;Name=BAB12999.1;Note=BU289;gbkey=CDS;gene=glyA;product=serine hydroxymethyltransferase;protein_id=BAB12999.1;transl_table=11
+BA000003.2	DDBJ	gene	318076	318750	.	-	.	ID=gene277;Name=bioD;gbkey=Gene;gene=bioD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	318076	318750	.	-	0	ID=cds271;Parent=gene277;Dbxref=NCBI_GP:BAB13000.1;Name=BAB13000.1;Note=BU290;gbkey=CDS;gene=bioD;product=dethiobiotin synthetase;protein_id=BAB13000.1;transl_table=11
+BA000003.2	DDBJ	gene	319115	320146	.	-	.	ID=gene278;Name=bioB;gbkey=Gene;gene=bioB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	319115	320146	.	-	0	ID=cds272;Parent=gene278;Dbxref=NCBI_GP:BAB13001.1;Name=BAB13001.1;Note=BU291;gbkey=CDS;gene=bioB;product=biotin synthetase;protein_id=BAB13001.1;transl_table=11
+BA000003.2	DDBJ	gene	320225	321511	.	+	.	ID=gene279;Name=bioA;gbkey=Gene;gene=bioA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	320225	321511	.	+	0	ID=cds273;Parent=gene279;Dbxref=NCBI_GP:BAB13002.1;Name=BAB13002.1;Note=BU292;gbkey=CDS;gene=bioA;product=adenosylmethionine-8-amino-7-oxononanoate aminotransferase;protein_id=BAB13002.1;transl_table=11
+BA000003.2	DDBJ	gene	321520	322524	.	-	.	ID=gene280;Name=ybhE;gbkey=Gene;gene=ybhE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	321520	322524	.	-	0	ID=cds274;Parent=gene280;Dbxref=NCBI_GP:BAB13003.1;Name=BAB13003.1;Note=BU293;gbkey=CDS;gene=ybhE;product=hypothetical protein;protein_id=BAB13003.1;transl_table=11
+BA000003.2	DDBJ	gene	322648	325086	.	-	.	ID=gene281;Name=mfd;gbkey=Gene;gene=mfd;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	322648	325086	.	-	0	ID=cds275;Parent=gene281;Dbxref=NCBI_GP:BAB13004.1;Name=BAB13004.1;Note=BU294;gbkey=CDS;gene=mfd;product=transcription-repair coupling factor;protein_id=BAB13004.1;transl_table=11
+BA000003.2	DDBJ	gene	325561	326760	.	+	.	ID=gene282;Name=ycfU;gbkey=Gene;gene=ycfU;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	325561	326760	.	+	0	ID=cds276;Parent=gene282;Dbxref=NCBI_GP:BAB13005.1;Name=BAB13005.1;Note=BU295;gbkey=CDS;gene=ycfU;product=hypothetical protein;protein_id=BAB13005.1;transl_table=11
+BA000003.2	DDBJ	gene	326753	327439	.	+	.	ID=gene283;Name=ycfV;gbkey=Gene;gene=ycfV;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	326753	327439	.	+	0	ID=cds277;Parent=gene283;Dbxref=NCBI_GP:BAB13006.1;Name=BAB13006.1;Note=BU296;gbkey=CDS;gene=ycfV;product=hypothetical ABC transporter ATP-binding protein ycfv;protein_id=BAB13006.1;transl_table=11
+BA000003.2	DDBJ	gene	327457	328694	.	+	.	ID=gene284;Name=ycfW;gbkey=Gene;gene=ycfW;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	327457	328694	.	+	.	ID=id19;Note=authentic frameshift%3B This 423 aa putative ORF is 32 pct identical to 414 residues of 423 aa protein YCFW_ECOLI SW:P75958;gbkey=misc_feature;gene=ycfW
+BA000003.2	DDBJ	gene	328764	329774	.	+	.	ID=gene285;Name=gapA;gbkey=Gene;gene=gapA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	328764	329774	.	+	0	ID=cds278;Parent=gene285;Dbxref=NCBI_GP:BAB13007.1;Name=BAB13007.1;Note=BU298;gbkey=CDS;gene=gapA;product=glyceraldehyde 3-phosphate dehydrogenase A;protein_id=BAB13007.1;transl_table=11
+BA000003.2	DDBJ	gene	330105	330620	.	-	.	ID=gene286;Name=fldA;gbkey=Gene;gene=fldA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	330105	330620	.	-	0	ID=cds279;Parent=gene286;Dbxref=NCBI_GP:BAB13008.1;Name=BAB13008.1;Note=BU299;gbkey=CDS;gene=fldA;product=flavodoxin 1;protein_id=BAB13008.1;transl_table=11
+BA000003.2	DDBJ	gene	330827	332278	.	+	.	ID=gene287;Name=phrB;gbkey=Gene;gene=phrB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	330827	332278	.	+	0	ID=cds280;Parent=gene287;Dbxref=NCBI_GP:BAB13009.1;Name=BAB13009.1;Note=BU300;gbkey=CDS;gene=phrB;product=deoxyribodipyrimidine photolyase;protein_id=BAB13009.1;transl_table=11
+BA000003.2	DDBJ	gene	332275	333018	.	+	.	ID=gene288;Name=ybgI;gbkey=Gene;gene=ybgI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	332275	333018	.	+	0	ID=cds281;Parent=gene288;Dbxref=NCBI_GP:BAB13010.1;Name=BAB13010.1;Note=BU301;gbkey=CDS;gene=ybgI;product=hypothetical protein;protein_id=BAB13010.1;transl_table=11
+BA000003.2	DDBJ	gene	333143	335872	.	+	.	ID=gene289;Name=sucA;gbkey=Gene;gene=sucA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	333143	335872	.	+	0	ID=cds282;Parent=gene289;Dbxref=NCBI_GP:BAB13011.1;Name=BAB13011.1;Note=BU302;gbkey=CDS;gene=sucA;product=2-oxoglutarate dehydrogenase e1 component;protein_id=BAB13011.1;transl_table=11
+BA000003.2	DDBJ	gene	335888	337150	.	+	.	ID=gene290;Name=sucB;gbkey=Gene;gene=sucB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	335888	337150	.	+	0	ID=cds283;Parent=gene290;Dbxref=NCBI_GP:BAB13012.1;Name=BAB13012.1;Note=BU303;gbkey=CDS;gene=sucB;product=dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex;protein_id=BAB13012.1;transl_table=11
+BA000003.2	DDBJ	gene	337248	337943	.	+	.	ID=gene291;Name=gpmA;gbkey=Gene;gene=gpmA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	337248	337943	.	+	0	ID=cds284;Parent=gene291;Dbxref=NCBI_GP:BAB13013.1;Name=BAB13013.1;Note=BU304;gbkey=CDS;gene=gpmA;product=phosphoglycerate mutase;protein_id=BAB13013.1;transl_table=11
+BA000003.2	DDBJ	gene	338127	339089	.	+	.	ID=gene292;Name=pfkA;gbkey=Gene;gene=pfkA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	338127	339089	.	+	0	ID=cds285;Parent=gene292;Dbxref=NCBI_GP:BAB13014.1;Name=BAB13014.1;Note=BU305;gbkey=CDS;gene=pfkA;product=6-phosphofructokinase isozyme I;protein_id=BAB13014.1;transl_table=11
+BA000003.2	DDBJ	gene	339155	339946	.	+	.	ID=gene293;Name=glpF;gbkey=Gene;gene=glpF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	339155	339946	.	+	0	ID=cds286;Parent=gene293;Dbxref=NCBI_GP:BAB13015.1;Name=BAB13015.1;Note=BU306;gbkey=CDS;gene=glpF;product=glycerol uptake facilitator protein;protein_id=BAB13015.1;transl_table=11
+BA000003.2	DDBJ	gene	339955	340722	.	-	.	ID=gene294;Name=tpiA;gbkey=Gene;gene=tpiA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	339955	340722	.	-	0	ID=cds287;Parent=gene294;Dbxref=NCBI_GP:BAB13016.1;Name=BAB13016.1;Note=BU307;gbkey=CDS;gene=tpiA;product=triosephosphate isomerase;protein_id=BAB13016.1;transl_table=11
+BA000003.2	DDBJ	gene	340821	341105	.	-	.	ID=gene295;Name=himD;gbkey=Gene;gene=himD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	340821	341105	.	-	0	ID=cds288;Parent=gene295;Dbxref=NCBI_GP:BAB13017.1;Name=BAB13017.1;Note=BU308;gbkey=CDS;gene=himD;product=integration host factor beta-subunit;protein_id=BAB13017.1;transl_table=11
+BA000003.2	DDBJ	gene	341201	342877	.	-	.	ID=gene296;Name=rpsA;gbkey=Gene;gene=rpsA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	341201	342877	.	-	0	ID=cds289;Parent=gene296;Dbxref=NCBI_GP:BAB13018.1;Name=BAB13018.1;Note=BU309;gbkey=CDS;gene=rpsA;product=30S ribosomal protein S1;protein_id=BAB13018.1;transl_table=11
+BA000003.2	DDBJ	gene	343005	343660	.	-	.	ID=gene297;Name=cmk;gbkey=Gene;gene=cmk;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	343005	343660	.	-	.	ID=id20;Note=authentic frameshift%3B This 218 aa putative ORF is 47 pct identical to 195 residues of 227 aa protein KCY_ECOLI SP:P23863;gbkey=misc_feature;gene=cmk
+BA000003.2	DDBJ	gene	343716	344999	.	-	.	ID=gene298;Name=aroA;gbkey=Gene;gene=aroA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	343716	344999	.	-	0	ID=cds290;Parent=gene298;Dbxref=NCBI_GP:BAB13019.1;Name=BAB13019.1;Note=BU311;gbkey=CDS;gene=aroA;product=3-phosphoshikimate 1-carboxyvinyltransferase;protein_id=BAB13019.1;transl_table=11
+BA000003.2	DDBJ	gene	345066	346151	.	-	.	ID=gene299;Name=serC;gbkey=Gene;gene=serC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	345066	346151	.	-	0	ID=cds291;Parent=gene299;Dbxref=NCBI_GP:BAB13020.1;Name=BAB13020.1;Note=BU312;gbkey=CDS;gene=serC;product=phosphoserine aminotransferase;protein_id=BAB13020.1;transl_table=11
+BA000003.2	DDBJ	gene	346190	347473	.	-	.	ID=gene300;Name=serS;gbkey=Gene;gene=serS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	346190	347473	.	-	0	ID=cds292;Parent=gene300;Dbxref=NCBI_GP:BAB13021.1;Name=BAB13021.1;Note=BU313;gbkey=CDS;gene=serS;product=seryl-tRNA synthetase;protein_id=BAB13021.1;transl_table=11
+BA000003.2	DDBJ	gene	347821	348780	.	+	.	ID=gene301;Name=trxB;gbkey=Gene;gene=trxB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	347821	348780	.	+	0	ID=cds293;Parent=gene301;Dbxref=NCBI_GP:BAB13022.1;Name=BAB13022.1;Note=BU314;gbkey=CDS;gene=trxB;product=thioredoxin reductase;protein_id=BAB13022.1;transl_table=11
+BA000003.2	DDBJ	gene	348887	349105	.	+	.	ID=gene302;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	348887	349105	.	+	0	ID=cds294;Parent=gene302;Dbxref=NCBI_GP:BAB13023.1;Name=BAB13023.1;Note=BU315;gbkey=CDS;gene=infA;product=translation initiation factor IF-1;protein_id=BAB13023.1;transl_table=11
+BA000003.2	DDBJ	gene	349274	351034	.	+	.	ID=gene303;Name=aspS;gbkey=Gene;gene=aspS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	349274	351034	.	+	0	ID=cds295;Parent=gene303;Dbxref=NCBI_GP:BAB13024.1;Name=BAB13024.1;Note=BU316;gbkey=CDS;gene=aspS;product=aspartyl-tRNA synthetase;protein_id=BAB13024.1;transl_table=11
+BA000003.2	DDBJ	gene	351045	351833	.	-	.	ID=gene304;Name=znuB;gbkey=Gene;gene=znuB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	351045	351833	.	-	0	ID=cds296;Parent=gene304;Dbxref=NCBI_GP:BAB13025.1;Name=BAB13025.1;Note=BU317;gbkey=CDS;gene=znuB;product=high-affinity zinc uptake system membrane protein ZnuB;protein_id=BAB13025.1;transl_table=11
+BA000003.2	DDBJ	gene	351891	352607	.	-	.	ID=gene305;Name=znuC;gbkey=Gene;gene=znuC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	351891	352607	.	-	0	ID=cds297;Parent=gene305;Dbxref=NCBI_GP:BAB13026.1;Name=BAB13026.1;Note=BU318;gbkey=CDS;gene=znuC;product=high-affinity zinc uptake system ATP-binding protein ZnuC;protein_id=BAB13026.1;transl_table=11
+BA000003.2	DDBJ	gene	353925	355367	.	-	.	ID=gene306;Name=pykA;gbkey=Gene;gene=pykA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	353925	355367	.	-	0	ID=cds298;Parent=gene306;Dbxref=NCBI_GP:BAB13027.1;Name=BAB13027.1;Note=BU319;gbkey=CDS;gene=pykA;product=pyruvate kinase;protein_id=BAB13027.1;transl_table=11
+BA000003.2	DDBJ	gene	355650	357125	.	+	.	ID=gene307;Name=zwf;gbkey=Gene;gene=zwf;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	355650	357125	.	+	0	ID=cds299;Parent=gene307;Dbxref=NCBI_GP:BAB13028.1;Name=BAB13028.1;Note=BU320;gbkey=CDS;gene=zwf;product=glucose-6-phosphate 1-dehydrogenase;protein_id=BAB13028.1;transl_table=11
+BA000003.2	DDBJ	gene	357310	358188	.	+	.	ID=gene308;Name=htpX;gbkey=Gene;gene=htpX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	357310	358188	.	+	0	ID=cds300;Parent=gene308;Dbxref=NCBI_GP:BAB13029.1;Name=BAB13029.1;Note=BU321;gbkey=CDS;gene=htpX;product=heat shock protein htpX;protein_id=BAB13029.1;transl_table=11
+BA000003.2	DDBJ	gene	358537	358746	.	+	.	ID=gene309;Name=cspC;gbkey=Gene;gene=cspC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	358537	358746	.	+	0	ID=cds301;Parent=gene309;Dbxref=NCBI_GP:BAB13030.1;Name=BAB13030.1;Note=BU322;gbkey=CDS;gene=cspC;product=cold shock-like protein cspC;protein_id=BAB13030.1;transl_table=11
+BA000003.2	DDBJ	gene	359049	360614	.	+	.	ID=gene310;Name=yoaE;gbkey=Gene;gene=yoaE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	359049	360614	.	+	0	ID=cds302;Parent=gene310;Dbxref=NCBI_GP:BAB13031.1;Name=BAB13031.1;Note=BU323;gbkey=CDS;gene=yoaE;product=hypothetical protein;protein_id=BAB13031.1;transl_table=11
+BA000003.2	DDBJ	gene	360644	361309	.	+	.	ID=gene311;Name=yeaZ;gbkey=Gene;gene=yeaZ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	360644	361309	.	+	0	ID=cds303;Parent=gene311;Dbxref=NCBI_GP:BAB13032.1;Name=BAB13032.1;Note=BU324;gbkey=CDS;gene=yeaZ;product=hypothetical protein;protein_id=BAB13032.1;transl_table=11
+BA000003.2	DDBJ	gene	361455	361706	.	-	.	ID=gene312;Name=minE;gbkey=Gene;gene=minE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	361455	361706	.	-	0	ID=cds304;Parent=gene312;Dbxref=NCBI_GP:BAB13033.1;Name=BAB13033.1;Note=BU325;gbkey=CDS;gene=minE;product=cell division topological specificity factor;protein_id=BAB13033.1;transl_table=11
+BA000003.2	DDBJ	gene	361710	362522	.	-	.	ID=gene313;Name=minD;gbkey=Gene;gene=minD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	361710	362522	.	-	0	ID=cds305;Parent=gene313;Dbxref=NCBI_GP:BAB13034.1;Name=BAB13034.1;Note=BU326;gbkey=CDS;gene=minD;product=septum site-determining protein minD;protein_id=BAB13034.1;transl_table=11
+BA000003.2	DDBJ	gene	362549	363262	.	-	.	ID=gene314;Name=minC;gbkey=Gene;gene=minC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	362549	363262	.	-	0	ID=cds306;Parent=gene314;Dbxref=NCBI_GP:BAB13035.1;Name=BAB13035.1;Note=BU327;gbkey=CDS;gene=minC;product=cell division inhibitor minC;protein_id=BAB13035.1;transl_table=11
+BA000003.2	DDBJ	gene	363663	364505	.	+	.	ID=gene315;Name=yjjT;gbkey=Gene;gene=yjjT;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	363663	364505	.	+	0	ID=cds307;Parent=gene315;Dbxref=NCBI_GP:BAB13036.1;Name=BAB13036.1;Note=BU328;gbkey=CDS;gene=yjjT;product=hypothetical protein;protein_id=BAB13036.1;transl_table=11
+BA000003.2	DDBJ	tRNA	364524	364607	.	-	.	ID=rna14;gbkey=tRNA;product=tRNA-Leu
+BA000003.2	DDBJ	exon	364524	364607	.	-	.	ID=id21;Parent=rna14;gbkey=tRNA;product=tRNA-Leu
+BA000003.2	DDBJ	tRNA	364619	364692	.	-	.	ID=rna15;Note=tRNA-Pseudo (GCA);gbkey=tRNA
+BA000003.2	DDBJ	exon	364619	364692	.	-	.	ID=id22;Parent=rna15;Note=tRNA-Pseudo (GCA);gbkey=tRNA
+BA000003.2	DDBJ	tRNA	364863	364947	.	+	.	ID=rna16;gbkey=tRNA;product=tRNA-Ser
+BA000003.2	DDBJ	exon	364863	364947	.	+	.	ID=id23;Parent=rna16;gbkey=tRNA;product=tRNA-Ser
+BA000003.2	DDBJ	gene	365056	366105	.	-	.	ID=gene316;Name=ompA;gbkey=Gene;gene=ompA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	365056	366105	.	-	0	ID=cds308;Parent=gene316;Dbxref=NCBI_GP:BAB13037.1;Name=BAB13037.1;Note=BU332;gbkey=CDS;gene=ompA;product=outer membrane protein A precursor;protein_id=BAB13037.1;transl_table=11
+BA000003.2	DDBJ	gene	366242	367777	.	-	.	ID=gene317;Name=mviN;gbkey=Gene;gene=mviN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	366242	367777	.	-	0	ID=cds309;Parent=gene317;Dbxref=NCBI_GP:BAB13038.1;Name=BAB13038.1;Note=BU333;gbkey=CDS;gene=mviN;product=virulence factor mviN homolog;protein_id=BAB13038.1;transl_table=11
+BA000003.2	DDBJ	gene	368052	369104	.	+	.	ID=gene318;Name=pyrC;gbkey=Gene;gene=pyrC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	368052	369104	.	+	0	ID=cds310;Parent=gene318;Dbxref=NCBI_GP:BAB13039.1;Name=BAB13039.1;Note=BU334;gbkey=CDS;gene=pyrC;product=dihydroorotase;protein_id=BAB13039.1;transl_table=11
+BA000003.2	DDBJ	gene	369124	369531	.	-	.	ID=gene319;Name=flgN;gbkey=Gene;gene=flgN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	369124	369531	.	-	0	ID=cds311;Parent=gene319;Dbxref=NCBI_GP:BAB13040.1;Name=BAB13040.1;Note=BU335;gbkey=CDS;gene=flgN;product=flagella synthesis protein flgN;protein_id=BAB13040.1;transl_table=11
+BA000003.2	DDBJ	gene	369604	370284	.	-	.	ID=gene320;Name=flgA;gbkey=Gene;gene=flgA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	369604	370284	.	-	0	ID=cds312;Parent=gene320;Dbxref=NCBI_GP:BAB13041.1;Name=BAB13041.1;Note=BU336;gbkey=CDS;gene=flgA;product=flagella basal body P-ring formation protein flgA precursor;protein_id=BAB13041.1;transl_table=11
+BA000003.2	DDBJ	gene	370621	370968	.	+	.	ID=gene321;Name=flgB;gbkey=Gene;gene=flgB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	370621	370968	.	+	0	ID=cds313;Parent=gene321;Dbxref=NCBI_GP:BAB13042.1;Name=BAB13042.1;Note=BU337;gbkey=CDS;gene=flgB;product=flagellar basal-body rod protein flgB;protein_id=BAB13042.1;transl_table=11
+BA000003.2	DDBJ	gene	370977	371387	.	+	.	ID=gene322;Name=flgC;gbkey=Gene;gene=flgC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	370977	371387	.	+	0	ID=cds314;Parent=gene322;Dbxref=NCBI_GP:BAB13043.1;Name=BAB13043.1;Note=BU338;gbkey=CDS;gene=flgC;product=flagellar basal-body rod protein flgC;protein_id=BAB13043.1;transl_table=11
+BA000003.2	DDBJ	gene	371399	372109	.	+	.	ID=gene323;Name=flgD;gbkey=Gene;gene=flgD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	371399	372109	.	+	0	ID=cds315;Parent=gene323;Dbxref=NCBI_GP:BAB13044.1;Name=BAB13044.1;Note=BU339;gbkey=CDS;gene=flgD;product=basal-body rod modification protein flgD;protein_id=BAB13044.1;transl_table=11
+BA000003.2	DDBJ	gene	372159	373376	.	+	.	ID=gene324;Name=flgE;gbkey=Gene;gene=flgE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	372159	373376	.	+	0	ID=cds316;Parent=gene324;Dbxref=NCBI_GP:BAB13045.1;Name=BAB13045.1;Note=BU340;gbkey=CDS;gene=flgE;product=flagellar hook protein flgE;protein_id=BAB13045.1;transl_table=11
+BA000003.2	DDBJ	gene	373427	374161	.	+	.	ID=gene325;Name=flgF;gbkey=Gene;gene=flgF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	373427	374161	.	+	0	ID=cds317;Parent=gene325;Dbxref=NCBI_GP:BAB13046.1;Name=BAB13046.1;Note=BU341;gbkey=CDS;gene=flgF;product=flagellar basal-body rod protein flgF;protein_id=BAB13046.1;transl_table=11
+BA000003.2	DDBJ	gene	374179	374961	.	+	.	ID=gene326;Name=flgG;gbkey=Gene;gene=flgG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	374179	374961	.	+	0	ID=cds318;Parent=gene326;Dbxref=NCBI_GP:BAB13047.1;Name=BAB13047.1;Note=BU342;gbkey=CDS;gene=flgG;product=flagellar basal-body rod protein flgG;protein_id=BAB13047.1;transl_table=11
+BA000003.2	DDBJ	gene	375045	375761	.	+	.	ID=gene327;Name=flgH;gbkey=Gene;gene=flgH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	375045	375761	.	+	0	ID=cds319;Parent=gene327;Dbxref=NCBI_GP:BAB13048.1;Name=BAB13048.1;Note=BU343;gbkey=CDS;gene=flgH;product=flagellar L-ring protein precursor;protein_id=BAB13048.1;transl_table=11
+BA000003.2	DDBJ	gene	375942	377099	.	+	.	ID=gene328;Name=flgI;gbkey=Gene;gene=flgI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	375942	377099	.	+	0	ID=cds320;Parent=gene328;Dbxref=NCBI_GP:BAB13049.1;Name=BAB13049.1;Note=BU344;gbkey=CDS;gene=flgI;product=flagellar P-ring protein precursor;protein_id=BAB13049.1;transl_table=11
+BA000003.2	DDBJ	gene	377099	377398	.	+	.	ID=gene329;Name=flgJ;gbkey=Gene;gene=flgJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	377099	377398	.	+	0	ID=cds321;Parent=gene329;Dbxref=NCBI_GP:BAB13050.1;Name=BAB13050.1;Note=BU345;gbkey=CDS;gene=flgJ;product=flagellar protein flgJ;protein_id=BAB13050.1;transl_table=11
+BA000003.2	DDBJ	gene	377500	379131	.	+	.	ID=gene330;Name=flgK;gbkey=Gene;gene=flgK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	377500	379131	.	+	0	ID=cds322;Parent=gene330;Dbxref=NCBI_GP:BAB13051.1;Name=BAB13051.1;Note=BU346;gbkey=CDS;gene=flgK;product=flagellar hook-associated protein 1;protein_id=BAB13051.1;transl_table=11
+BA000003.2	DDBJ	gene	379296	382004	.	-	.	ID=gene331;Name=rne;gbkey=Gene;gene=rne;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	379296	382004	.	-	0	ID=cds323;Parent=gene331;Dbxref=NCBI_GP:BAB13052.1;Name=BAB13052.1;Note=BU347;gbkey=CDS;gene=rne;product=ribonuclease E;protein_id=BAB13052.1;transl_table=11
+BA000003.2	DDBJ	gene	382339	383283	.	+	.	ID=gene332;Name=rluC;gbkey=Gene;gene=rluC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	382339	383283	.	+	0	ID=cds324;Parent=gene332;Dbxref=NCBI_GP:BAB13053.1;Name=BAB13053.1;Note=BU348;gbkey=CDS;gene=rluC;product=ribosomal large subunit pseudouridine synthase C;protein_id=BAB13053.1;transl_table=11
+BA000003.2	DDBJ	gene	383329	383493	.	+	.	ID=gene333;Name=rpmF;gbkey=Gene;gene=rpmF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	383329	383493	.	+	0	ID=cds325;Parent=gene333;Dbxref=NCBI_GP:BAB13054.1;Name=BAB13054.1;Note=BU349;gbkey=CDS;gene=rpmF;product=50S ribosomal protein L32;protein_id=BAB13054.1;transl_table=11
+BA000003.2	DDBJ	gene	383914	384872	.	+	.	ID=gene334;Name=fabD;gbkey=Gene;gene=fabD;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	383914	384872	.	+	.	ID=id24;Note=authentic frameshift%3B This 319 aa putative ORF is 42 pct identical to 293 residues of 319 aa protein FABD_ECOLI SW:P25715;gbkey=misc_feature;gene=fabD
+BA000003.2	DDBJ	gene	384859	385593	.	+	.	ID=gene335;Name=fabG;gbkey=Gene;gene=fabG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	384859	385593	.	+	0	ID=cds326;Parent=gene335;Dbxref=NCBI_GP:BAB13055.1;Name=BAB13055.1;Note=BU351;gbkey=CDS;gene=fabG;product=3-oxoacyl-[acyl-carrier protein] reductase;protein_id=BAB13055.1;transl_table=11
+BA000003.2	DDBJ	gene	385670	385912	.	+	.	ID=gene336;Name=acpP;gbkey=Gene;gene=acpP;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	385670	385912	.	+	0	ID=cds327;Parent=gene336;Dbxref=NCBI_GP:BAB13056.1;Name=BAB13056.1;Note=BU352;gbkey=CDS;gene=acpP;product=acyl carrier protein;protein_id=BAB13056.1;transl_table=11
+BA000003.2	DDBJ	gene	385983	386621	.	+	.	ID=gene337;Name=tmk;gbkey=Gene;gene=tmk;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	385983	386621	.	+	0	ID=cds328;Parent=gene337;Dbxref=NCBI_GP:BAB13057.1;Name=BAB13057.1;Note=BU353;gbkey=CDS;gene=tmk;product=thymidylate kinase;protein_id=BAB13057.1;transl_table=11
+BA000003.2	DDBJ	gene	386618	387598	.	+	.	ID=gene338;Name=holB;gbkey=Gene;gene=holB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	386618	387598	.	+	0	ID=cds329;Parent=gene338;Dbxref=NCBI_GP:BAB13058.1;Name=BAB13058.1;Note=BU354;gbkey=CDS;gene=holB;product=DNA polymerase III delta' subunit;protein_id=BAB13058.1;transl_table=11
+BA000003.2	DDBJ	gene	387632	388426	.	+	.	ID=gene339;Name=ycfH;gbkey=Gene;gene=ycfH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	387632	388426	.	+	0	ID=cds330;Parent=gene339;Dbxref=NCBI_GP:BAB13059.1;Name=BAB13059.1;Note=BU355;gbkey=CDS;gene=ycfH;product=hypothetical protein;protein_id=BAB13059.1;transl_table=11
+BA000003.2	DDBJ	gene	388571	389956	.	+	.	ID=gene340;Name=ptsG;gbkey=Gene;gene=ptsG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	388571	389956	.	+	0	ID=cds331;Parent=gene340;Dbxref=NCBI_GP:BAB13060.1;Name=BAB13060.1;Note=BU356;gbkey=CDS;gene=ptsG;product=pts system glucose-specific IIBC component;protein_id=BAB13060.1;transl_table=11
+BA000003.2	DDBJ	gene	389976	390320	.	+	.	ID=gene341;Name=ycfF;gbkey=Gene;gene=ycfF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	389976	390320	.	+	0	ID=cds332;Parent=gene341;Dbxref=NCBI_GP:BAB13061.1;Name=BAB13061.1;Note=BU357;gbkey=CDS;gene=ycfF;product=hypothetical protein;protein_id=BAB13061.1;transl_table=11
+BA000003.2	DDBJ	gene	390397	390906	.	+	.	ID=gene342;Name=ycfM;gbkey=Gene;gene=ycfM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	390397	390906	.	+	0	ID=cds333;Parent=gene342;Dbxref=NCBI_GP:BAB13062.1;Name=BAB13062.1;Note=BU358;gbkey=CDS;gene=ycfM;product=hypothetical protein;protein_id=BAB13062.1;transl_table=11
+BA000003.2	DDBJ	gene	391155	392303	.	-	.	ID=gene343;Name=ompF;gbkey=Gene;gene=ompF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	391155	392303	.	-	0	ID=cds334;Parent=gene343;Dbxref=NCBI_GP:BAB13063.1;Name=BAB13063.1;Note=BU359;gbkey=CDS;gene=ompF;product=ompF-like porin;protein_id=BAB13063.1;transl_table=11
+BA000003.2	DDBJ	gene	392443	393843	.	-	.	ID=gene344;Name=asnS;gbkey=Gene;gene=asnS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	392443	393843	.	-	0	ID=cds335;Parent=gene344;Dbxref=NCBI_GP:BAB13064.1;Name=BAB13064.1;Note=BU360;gbkey=CDS;gene=asnS;product=asparaginyl-tRNA synthetase;protein_id=BAB13064.1;transl_table=11
+BA000003.2	DDBJ	gene	393991	395190	.	-	.	ID=gene345;Name=pncB;gbkey=Gene;gene=pncB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	393991	395190	.	-	0	ID=cds336;Parent=gene345;Dbxref=NCBI_GP:BAB13065.1;Name=BAB13065.1;Note=BU361;gbkey=CDS;gene=pncB;product=nicotinate phosphoribosyltransferase;protein_id=BAB13065.1;transl_table=11
+BA000003.2	DDBJ	gene	395612	396475	.	+	.	ID=gene346;Name=pyrD;gbkey=Gene;gene=pyrD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	395612	396475	.	+	0	ID=cds337;Parent=gene346;Dbxref=NCBI_GP:BAB13066.1;Name=BAB13066.1;Note=BU362;gbkey=CDS;gene=pyrD;product=dihydroorotate dehydrogenase;protein_id=BAB13066.1;transl_table=11
+BA000003.2	DDBJ	gene	396651	398756	.	+	.	ID=gene347;Name=ycbY;gbkey=Gene;gene=ycbY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	396651	398756	.	+	0	ID=cds338;Parent=gene347;Dbxref=NCBI_GP:BAB13067.1;Name=BAB13067.1;Note=BU363;gbkey=CDS;gene=ycbY;product=hypothetical protein;protein_id=BAB13067.1;transl_table=11
+BA000003.2	DDBJ	gene	398776	400566	.	+	.	ID=gene348;Name=uup;gbkey=Gene;gene=uup;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	398776	400566	.	+	0	ID=cds339;Parent=gene348;Dbxref=NCBI_GP:BAB13068.1;Name=BAB13068.1;Note=BU364;gbkey=CDS;gene=uup;product=ABC transporter ATP-binding protein uup;protein_id=BAB13068.1;transl_table=11
+BA000003.2	DDBJ	gene	400570	401544	.	-	.	ID=gene349;Name=yceA;gbkey=Gene;gene=yceA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	400570	401544	.	-	0	ID=cds340;Parent=gene349;Dbxref=NCBI_GP:BAB13069.1;Name=BAB13069.1;Note=BU365;gbkey=CDS;gene=yceA;product=hypothetical protein;protein_id=BAB13069.1;transl_table=11
+BA000003.2	DDBJ	gene	401601	404468	.	-	.	ID=gene350;Name=valS;gbkey=Gene;gene=valS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	401601	404468	.	-	0	ID=cds341;Parent=gene350;Dbxref=NCBI_GP:BAB13070.1;Name=BAB13070.1;Note=BU366;gbkey=CDS;gene=valS;product=valyl-tRNA synthetase;protein_id=BAB13070.1;transl_table=11
+BA000003.2	DDBJ	gene	404545	406044	.	-	.	ID=gene351;Name=pepA;gbkey=Gene;gene=pepA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	404545	406044	.	-	0	ID=cds342;Parent=gene351;Dbxref=NCBI_GP:BAB13071.1;Name=BAB13071.1;Note=BU367;gbkey=CDS;gene=pepA;product=aminopeptidase A/I;protein_id=BAB13071.1;transl_table=11
+BA000003.2	DDBJ	gene	406304	407320	.	+	.	ID=gene352;Name=argF;gbkey=Gene;gene=argF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	406304	407320	.	+	0	ID=cds343;Parent=gene352;Dbxref=NCBI_GP:BAB13072.1;Name=BAB13072.1;Note=BU368;gbkey=CDS;gene=argF;product=ornithine carbamoyltransferase chain F;protein_id=BAB13072.1;transl_table=11
+BA000003.2	DDBJ	gene	407439	408371	.	+	.	ID=gene353;Name=pyrB;gbkey=Gene;gene=pyrB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	407439	408371	.	+	0	ID=cds344;Parent=gene353;Dbxref=NCBI_GP:BAB13073.1;Name=BAB13073.1;Note=BU369;gbkey=CDS;gene=pyrB;product=aspartate carbamoyltransferase catalytic chain;protein_id=BAB13073.1;transl_table=11
+BA000003.2	DDBJ	gene	408379	408843	.	+	.	ID=gene354;Name=pyrI;gbkey=Gene;gene=pyrI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	408379	408843	.	+	0	ID=cds345;Parent=gene354;Dbxref=NCBI_GP:BAB13074.1;Name=BAB13074.1;Note=BU370;gbkey=CDS;gene=pyrI;product=aspartate carbamoyltransferase regulatory chain;protein_id=BAB13074.1;transl_table=11
+BA000003.2	DDBJ	gene	408889	409275	.	+	.	ID=gene355;Name=yhaR;gbkey=Gene;gene=yhaR;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	408889	409275	.	+	0	ID=cds346;Parent=gene355;Dbxref=NCBI_GP:BAB13075.1;Name=BAB13075.1;Note=BU371;gbkey=CDS;gene=yhaR;product=hypothetical protein;protein_id=BAB13075.1;transl_table=11
+BA000003.2	DDBJ	gene	409362	411167	.	-	.	ID=gene356;Name=deaD;gbkey=Gene;gene=deaD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	409362	411167	.	-	0	ID=cds347;Parent=gene356;Dbxref=NCBI_GP:BAB13076.1;Name=BAB13076.1;Note=BU372;gbkey=CDS;gene=deaD;product=ATP-dependent RNA helicase deaD;protein_id=BAB13076.1;transl_table=11
+BA000003.2	DDBJ	gene	411548	413671	.	-	.	ID=gene357;Name=pnp;gbkey=Gene;gene=pnp;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	411548	413671	.	-	0	ID=cds348;Parent=gene357;Dbxref=NCBI_GP:BAB13077.1;Name=BAB13077.1;Note=BU373;gbkey=CDS;gene=pnp;product=polyribonucleotide nucleotidyltransferase;protein_id=BAB13077.1;transl_table=11
+BA000003.2	DDBJ	gene	413873	414142	.	-	.	ID=gene358;Name=rpsO;gbkey=Gene;gene=rpsO;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	413873	414142	.	-	0	ID=cds349;Parent=gene358;Dbxref=NCBI_GP:BAB13078.1;Name=BAB13078.1;Note=BU374;gbkey=CDS;gene=rpsO;product=30S ribosomal protein S15;protein_id=BAB13078.1;transl_table=11
+BA000003.2	DDBJ	gene	414247	415185	.	-	.	ID=gene359;Name=truB;gbkey=Gene;gene=truB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	414247	415185	.	-	0	ID=cds350;Parent=gene359;Dbxref=NCBI_GP:BAB13079.1;Name=BAB13079.1;Note=BU375;gbkey=CDS;gene=truB;product=tRNA pseudouridine 55 synthase;protein_id=BAB13079.1;transl_table=11
+BA000003.2	DDBJ	gene	415223	415585	.	-	.	ID=gene360;Name=rbfA;gbkey=Gene;gene=rbfA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	415223	415585	.	-	0	ID=cds351;Parent=gene360;Dbxref=NCBI_GP:BAB13080.1;Name=BAB13080.1;Note=BU376;gbkey=CDS;gene=rbfA;product=ribosome-binding factor A;protein_id=BAB13080.1;transl_table=11
+BA000003.2	DDBJ	gene	415631	418225	.	-	.	ID=gene361;Name=infB;gbkey=Gene;gene=infB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	415631	418225	.	-	0	ID=cds352;Parent=gene361;Dbxref=NCBI_GP:BAB13081.1;Name=BAB13081.1;Note=BU377;gbkey=CDS;gene=infB;product=translation initiation factor IF-2;protein_id=BAB13081.1;transl_table=11
+BA000003.2	DDBJ	gene	418243	419733	.	-	.	ID=gene362;Name=nusA;gbkey=Gene;gene=nusA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	418243	419733	.	-	0	ID=cds353;Parent=gene362;Dbxref=NCBI_GP:BAB13082.1;Name=BAB13082.1;Note=BU378;gbkey=CDS;gene=nusA;product=N utilization substance protein A;protein_id=BAB13082.1;transl_table=11
+BA000003.2	DDBJ	tRNA	420072	420157	.	-	.	ID=rna17;gbkey=tRNA;product=tRNA-Leu
+BA000003.2	DDBJ	exon	420072	420157	.	-	.	ID=id25;Parent=rna17;gbkey=tRNA;product=tRNA-Leu
+BA000003.2	DDBJ	gene	420206	420535	.	-	.	ID=gene363;Name=secG;gbkey=Gene;gene=secG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	420206	420535	.	-	0	ID=cds354;Parent=gene363;Dbxref=NCBI_GP:BAB13083.1;Name=BAB13083.1;Note=BU380;gbkey=CDS;gene=secG;product=protein-export membrane protein secG;protein_id=BAB13083.1;transl_table=11
+BA000003.2	DDBJ	gene	420797	422131	.	-	.	ID=gene364;Name=mrsA;gbkey=Gene;gene=mrsA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	420797	422131	.	-	0	ID=cds355;Parent=gene364;Dbxref=NCBI_GP:BAB13084.1;Name=BAB13084.1;Note=BU381;gbkey=CDS;gene=mrsA;product=mrsA protein;protein_id=BAB13084.1;transl_table=11
+BA000003.2	DDBJ	gene	422351	424141	.	-	.	ID=gene365;Name=hflB;gbkey=Gene;gene=hflB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	422351	424141	.	-	0	ID=cds356;Parent=gene365;Dbxref=NCBI_GP:BAB13085.1;Name=BAB13085.1;Note=BU382;gbkey=CDS;gene=hflB;product=cell division protein ftsh;protein_id=BAB13085.1;transl_table=11
+BA000003.2	DDBJ	gene	424252	424872	.	-	.	ID=gene366;Name=ftsJ;gbkey=Gene;gene=ftsJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	424252	424872	.	-	0	ID=cds357;Parent=gene366;Dbxref=NCBI_GP:BAB13086.1;Name=BAB13086.1;Note=BU383;gbkey=CDS;gene=ftsJ;product=cell division protein ftsJ;protein_id=BAB13086.1;transl_table=11
+BA000003.2	DDBJ	gene	424946	425425	.	-	.	ID=gene367;Name=greA;gbkey=Gene;gene=greA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	424946	425425	.	-	0	ID=cds358;Parent=gene367;Dbxref=NCBI_GP:BAB13087.1;Name=BAB13087.1;Note=BU384;gbkey=CDS;gene=greA;product=transcription elongation factor greA;protein_id=BAB13087.1;transl_table=11
+BA000003.2	DDBJ	gene	425949	426191	.	+	.	ID=gene368;Name=yrbA;gbkey=Gene;gene=yrbA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	425949	426191	.	+	0	ID=cds359;Parent=gene368;Dbxref=NCBI_GP:BAB13088.1;Name=BAB13088.1;Note=BU385;gbkey=CDS;gene=yrbA;product=hypothetical protein;protein_id=BAB13088.1;transl_table=11
+BA000003.2	DDBJ	gene	426253	427503	.	+	.	ID=gene369;Name=murA;gbkey=Gene;gene=murA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	426253	427503	.	+	0	ID=cds360;Parent=gene369;Dbxref=NCBI_GP:BAB13089.1;Name=BAB13089.1;Note=BU386;gbkey=CDS;gene=murA;product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase;protein_id=BAB13089.1;transl_table=11
+BA000003.2	DDBJ	gene	427642	427968	.	+	.	ID=gene370;Name=rplU;gbkey=Gene;gene=rplU;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	427642	427968	.	+	0	ID=cds361;Parent=gene370;Dbxref=NCBI_GP:BAB13090.1;Name=BAB13090.1;Note=BU387;gbkey=CDS;gene=rplU;product=50S ribosomal protein L21;protein_id=BAB13090.1;transl_table=11
+BA000003.2	DDBJ	gene	427973	428227	.	+	.	ID=gene371;Name=rpmA;gbkey=Gene;gene=rpmA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	427973	428227	.	+	0	ID=cds362;Parent=gene371;Dbxref=NCBI_GP:BAB13091.1;Name=BAB13091.1;Note=BU388;gbkey=CDS;gene=rpmA;product=50S ribosomal protein L27;protein_id=BAB13091.1;transl_table=11
+BA000003.2	DDBJ	gene	428379	429383	.	+	.	ID=gene372;Name=yhbZ;gbkey=Gene;gene=yhbZ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	428379	429383	.	+	0	ID=cds363;Parent=gene372;Dbxref=NCBI_GP:BAB13092.1;Name=BAB13092.1;Note=BU389;gbkey=CDS;gene=yhbZ;product=hypothetical 43.3 kD GTP-binding protein in dacB-rpmA intergenic region (F390);protein_id=BAB13092.1;transl_table=11
+BA000003.2	DDBJ	gene	429451	429843	.	-	.	ID=gene373;Name=rpsI;gbkey=Gene;gene=rpsI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	429451	429843	.	-	0	ID=cds364;Parent=gene373;Dbxref=NCBI_GP:BAB13093.1;Name=BAB13093.1;Note=BU390;gbkey=CDS;gene=rpsI;product=30S ribosomal protein S9;protein_id=BAB13093.1;transl_table=11
+BA000003.2	DDBJ	gene	429864	430292	.	-	.	ID=gene374;Name=rplM;gbkey=Gene;gene=rplM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	429864	430292	.	-	0	ID=cds365;Parent=gene374;Dbxref=NCBI_GP:BAB13094.1;Name=BAB13094.1;Note=BU391;gbkey=CDS;gene=rplM;product=50S ribosomal protein L13;protein_id=BAB13094.1;transl_table=11
+BA000003.2	DDBJ	gene	430544	431701	.	+	.	ID=gene375;Name=pheA;gbkey=Gene;gene=pheA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	430544	431701	.	+	0	ID=cds366;Parent=gene375;Dbxref=NCBI_GP:BAB13095.1;Name=BAB13095.1;Note=BU392;gbkey=CDS;gene=pheA;product=chorismate mutase / prephenate dehydratase;protein_id=BAB13095.1;transl_table=11
+BA000003.2	DDBJ	gene	431883	433238	.	+	.	ID=gene376;Name=ffh;gbkey=Gene;gene=ffh;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	431883	433238	.	+	0	ID=cds367;Parent=gene376;Dbxref=NCBI_GP:BAB13096.1;Name=BAB13096.1;Note=BU393;gbkey=CDS;gene=ffh;product=signal recognition particle protein;protein_id=BAB13096.1;transl_table=11
+BA000003.2	DDBJ	gene	433347	433586	.	+	.	ID=gene377;Name=rpsP;gbkey=Gene;gene=rpsP;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	433347	433586	.	+	0	ID=cds368;Parent=gene377;Dbxref=NCBI_GP:BAB13097.1;Name=BAB13097.1;Note=BU394;gbkey=CDS;gene=rpsP;product=30S ribosomal protein S16;protein_id=BAB13097.1;transl_table=11
+BA000003.2	DDBJ	gene	433588	434118	.	+	.	ID=gene378;Name=rimM;gbkey=Gene;gene=rimM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	433588	434118	.	+	0	ID=cds369;Parent=gene378;Dbxref=NCBI_GP:BAB13098.1;Name=BAB13098.1;Note=BU395;gbkey=CDS;gene=rimM;product=16s rRNA processing protein rimm;protein_id=BAB13098.1;transl_table=11
+BA000003.2	DDBJ	gene	434133	434846	.	+	.	ID=gene379;Name=trmD;gbkey=Gene;gene=trmD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	434133	434846	.	+	0	ID=cds370;Parent=gene379;Dbxref=NCBI_GP:BAB13099.1;Name=BAB13099.1;Note=BU396;gbkey=CDS;gene=trmD;product=tRNA (guanine-n1)-methyltransferase;protein_id=BAB13099.1;transl_table=11
+BA000003.2	DDBJ	gene	434945	435292	.	+	.	ID=gene380;Name=rplS;gbkey=Gene;gene=rplS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	434945	435292	.	+	0	ID=cds371;Parent=gene380;Dbxref=NCBI_GP:BAB13100.1;Name=BAB13100.1;Note=BU397;gbkey=CDS;gene=rplS;product=50S ribosomal protein L19;protein_id=BAB13100.1;transl_table=11
+BA000003.2	DDBJ	gene	435376	436827	.	-	.	ID=gene381;Name=tldD;gbkey=Gene;gene=tldD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	435376	436827	.	-	0	ID=cds372;Parent=gene381;Dbxref=NCBI_GP:BAB13101.1;Name=BAB13101.1;Note=BU398;gbkey=CDS;gene=tldD;product=tldD protein;protein_id=BAB13101.1;transl_table=11
+BA000003.2	DDBJ	gene	436985	437437	.	+	.	ID=gene382;Name=aroD;gbkey=Gene;gene=aroD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	436985	437437	.	+	0	ID=cds373;Parent=gene382;Dbxref=NCBI_GP:BAB13102.1;Name=BAB13102.1;Note=BU399;gbkey=CDS;gene=aroD;product=type II 3-dehydroquinase;protein_id=BAB13102.1;transl_table=11
+BA000003.2	DDBJ	gene	437630	437926	.	-	.	ID=gene383;Name=fis;gbkey=Gene;gene=fis;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	437630	437926	.	-	0	ID=cds374;Parent=gene383;Dbxref=NCBI_GP:BAB13103.1;Name=BAB13103.1;Note=BU400;gbkey=CDS;gene=fis;product=factor-for-inversion stimulation protein;protein_id=BAB13103.1;transl_table=11
+BA000003.2	DDBJ	gene	438095	439033	.	-	.	ID=gene384;Name=rluD;gbkey=Gene;gene=rluD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	438095	439033	.	-	0	ID=cds375;Parent=gene384;Dbxref=NCBI_GP:BAB13104.1;Name=BAB13104.1;Note=BU401;gbkey=CDS;gene=rluD;product=ribosomal large subunit pseudouridine synthase D;protein_id=BAB13104.1;transl_table=11
+BA000003.2	DDBJ	gene	439198	439938	.	+	.	ID=gene385;Name=yfiO;gbkey=Gene;gene=yfiO;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	439198	439938	.	+	0	ID=cds376;Parent=gene385;Dbxref=NCBI_GP:BAB13105.1;Name=BAB13105.1;Note=BU402;gbkey=CDS;gene=yfiO;product=hypothetical protein;protein_id=BAB13105.1;transl_table=11
+BA000003.2	DDBJ	gene	440103	442739	.	+	.	ID=gene386;Name=alaS;gbkey=Gene;gene=alaS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	440103	442739	.	+	0	ID=cds377;Parent=gene386;Dbxref=NCBI_GP:BAB13106.1;Name=BAB13106.1;Note=BU403;gbkey=CDS;gene=alaS;product=alanyl-tRNA synthetase;protein_id=BAB13106.1;transl_table=11
+BA000003.2	DDBJ	gene	442934	443107	.	+	.	ID=gene387;Name=csrA;gbkey=Gene;gene=csrA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	442934	443107	.	+	0	ID=cds378;Parent=gene387;Dbxref=NCBI_GP:BAB13107.1;Name=BAB13107.1;Note=BU404;gbkey=CDS;gene=csrA;product=carbon storage regulator;protein_id=BAB13107.1;transl_table=11
+BA000003.2	DDBJ	tRNA	443263	443354	.	+	.	ID=rna18;gbkey=tRNA;product=tRNA-Ser
+BA000003.2	DDBJ	exon	443263	443354	.	+	.	ID=id26;Parent=rna18;gbkey=tRNA;product=tRNA-Ser
+BA000003.2	DDBJ	tRNA	443372	443445	.	+	.	ID=rna19;gbkey=tRNA;product=tRNA-Arg
+BA000003.2	DDBJ	exon	443372	443445	.	+	.	ID=id27;Parent=rna19;gbkey=tRNA;product=tRNA-Arg
+BA000003.2	DDBJ	gene	443565	445121	.	+	.	ID=gene388;Name=gshA;gbkey=Gene;gene=gshA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	443565	445121	.	+	0	ID=cds379;Parent=gene388;Dbxref=NCBI_GP:BAB13108.1;Name=BAB13108.1;Note=BU407;gbkey=CDS;gene=gshA;product=glutamate-cysteine ligase;protein_id=BAB13108.1;transl_table=11
+BA000003.2	DDBJ	gene	445268	446404	.	-	.	ID=gene389;Name=metK;gbkey=Gene;gene=metK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	445268	446404	.	-	0	ID=cds380;Parent=gene389;Dbxref=NCBI_GP:BAB13109.1;Name=BAB13109.1;Note=BU408;gbkey=CDS;gene=metK;product=S-adenosylmethionine synthetase;protein_id=BAB13109.1;transl_table=11
+BA000003.2	DDBJ	gene	446639	447391	.	+	.	ID=gene390;Name=endA;gbkey=Gene;gene=endA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	446639	447391	.	+	0	ID=cds381;Parent=gene390;Dbxref=NCBI_GP:BAB13110.1;Name=BAB13110.1;Note=BU409;gbkey=CDS;gene=endA;product=endonuclease I;protein_id=BAB13110.1;transl_table=11
+BA000003.2	DDBJ	gene	447363	448124	.	+	.	ID=gene391;Name=yggJ;gbkey=Gene;gene=yggJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	447363	448124	.	+	0	ID=cds382;Parent=gene391;Dbxref=NCBI_GP:BAB13111.1;Name=BAB13111.1;Note=BU410;gbkey=CDS;gene=yggJ;product=hypothetical protein;protein_id=BAB13111.1;transl_table=11
+BA000003.2	DDBJ	gene	448198	448869	.	-	.	ID=gene392;Name=rpiA;gbkey=Gene;gene=rpiA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	448198	448869	.	-	0	ID=cds383;Parent=gene392;Dbxref=NCBI_GP:BAB13112.1;Name=BAB13112.1;Note=BU411;gbkey=CDS;gene=rpiA;product=ribose 5-phosphate isomerase A;protein_id=BAB13112.1;transl_table=11
+BA000003.2	DDBJ	tRNA	449053	449127	.	-	.	ID=rna20;gbkey=tRNA;product=tRNA-Gln
+BA000003.2	DDBJ	exon	449053	449127	.	-	.	ID=id28;Parent=rna20;gbkey=tRNA;product=tRNA-Gln
+BA000003.2	DDBJ	tRNA	449220	449301	.	-	.	ID=rna21;gbkey=tRNA;product=tRNA-Leu
+BA000003.2	DDBJ	exon	449220	449301	.	-	.	ID=id29;Parent=rna21;gbkey=tRNA;product=tRNA-Leu
+BA000003.2	DDBJ	tRNA	449313	449389	.	-	.	ID=rna22;gbkey=tRNA;product=tRNA-Met
+BA000003.2	DDBJ	exon	449313	449389	.	-	.	ID=id30;Parent=rna22;gbkey=tRNA;product=tRNA-Met
+BA000003.2	DDBJ	gene	449495	451210	.	+	.	ID=gene393;Name=glnS;gbkey=Gene;gene=glnS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	449495	451210	.	+	0	ID=cds384;Parent=gene393;Dbxref=NCBI_GP:BAB13113.1;Name=BAB13113.1;Note=BU415;gbkey=CDS;gene=glnS;product=glutaminyl-tRNA synthetase;protein_id=BAB13113.1;transl_table=11
+BA000003.2	DDBJ	gene	451384	453021	.	+	.	ID=gene394;Name=pyrG;gbkey=Gene;gene=pyrG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	451384	453021	.	+	0	ID=cds385;Parent=gene394;Dbxref=NCBI_GP:BAB13114.1;Name=BAB13114.1;Note=BU416;gbkey=CDS;gene=pyrG;product=CTP synthase;protein_id=BAB13114.1;transl_table=11
+BA000003.2	DDBJ	gene	453051	454355	.	+	.	ID=gene395;Name=eno;gbkey=Gene;gene=eno;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	453051	454355	.	+	0	ID=cds386;Parent=gene395;Dbxref=NCBI_GP:BAB13115.1;Name=BAB13115.1;Note=BU417;gbkey=CDS;gene=eno;product=enolase;protein_id=BAB13115.1;transl_table=11
+BA000003.2	DDBJ	gene	454513	455517	.	-	.	ID=gene396;Name=nlpD;gbkey=Gene;gene=nlpD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	454513	455517	.	-	0	ID=cds387;Parent=gene396;Dbxref=NCBI_GP:BAB13116.1;Name=BAB13116.1;Note=BU418;gbkey=CDS;gene=nlpD;product=lipoprotein nlpD precursor;protein_id=BAB13116.1;transl_table=11
+BA000003.2	DDBJ	gene	455608	456093	.	-	.	ID=gene397;Name=ygbB;gbkey=Gene;gene=ygbB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	455608	456093	.	-	0	ID=cds388;Parent=gene397;Dbxref=NCBI_GP:BAB13117.1;Name=BAB13117.1;Note=BU419;gbkey=CDS;gene=ygbB;product=hypothetical protein;protein_id=BAB13117.1;transl_table=11
+BA000003.2	DDBJ	gene	456109	456822	.	-	.	ID=gene398;Name=ygbP;gbkey=Gene;gene=ygbP;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	456109	456822	.	-	0	ID=cds389;Parent=gene398;Dbxref=NCBI_GP:BAB13118.1;Name=BAB13118.1;Note=BU420;gbkey=CDS;gene=ygbP;product=hypothetical protein;protein_id=BAB13118.1;transl_table=11
+BA000003.2	DDBJ	gene	456905	457120	.	-	.	ID=gene399;Name=ygbQ;gbkey=Gene;gene=ygbQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	456905	457120	.	-	0	ID=cds390;Parent=gene399;Dbxref=NCBI_GP:BAB13119.1;Name=BAB13119.1;Note=BU421;gbkey=CDS;gene=ygbQ;product=hypothetical protein;protein_id=BAB13119.1;transl_table=11
+BA000003.2	DDBJ	gene	457178	457798	.	-	.	ID=gene400;Name=cysC;gbkey=Gene;gene=cysC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	457178	457798	.	-	0	ID=cds391;Parent=gene400;Dbxref=NCBI_GP:BAB13120.1;Name=BAB13120.1;Note=BU422;gbkey=CDS;gene=cysC;product=adenylylsulfate kinase;protein_id=BAB13120.1;transl_table=11
+BA000003.2	DDBJ	gene	457799	459220	.	-	.	ID=gene401;Name=cysN;gbkey=Gene;gene=cysN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	457799	459220	.	-	0	ID=cds392;Parent=gene401;Dbxref=NCBI_GP:BAB13121.1;Name=BAB13121.1;Note=BU423;gbkey=CDS;gene=cysN;product=sulfate adenylate transferase subunit 1;protein_id=BAB13121.1;transl_table=11
+BA000003.2	DDBJ	gene	459239	460147	.	-	.	ID=gene402;Name=cysD;gbkey=Gene;gene=cysD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	459239	460147	.	-	0	ID=cds393;Parent=gene402;Dbxref=NCBI_GP:BAB13122.1;Name=BAB13122.1;Note=BU424;gbkey=CDS;gene=cysD;product=sulfate adenylate transferase subunit 2;protein_id=BAB13122.1;transl_table=11
+BA000003.2	DDBJ	gene	460157	461578	.	-	.	ID=gene403;Name=cysG;gbkey=Gene;gene=cysG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	460157	461578	.	-	0	ID=cds394;Parent=gene403;Dbxref=NCBI_GP:BAB13123.1;Name=BAB13123.1;Note=BU425;gbkey=CDS;gene=cysG;product=siroheme synthase / precorrin-2 oxidase / ferrochelatase;protein_id=BAB13123.1;transl_table=11
+BA000003.2	DDBJ	gene	461917	462651	.	-	.	ID=gene404;Name=cysH;gbkey=Gene;gene=cysH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	461917	462651	.	-	0	ID=cds395;Parent=gene404;Dbxref=NCBI_GP:BAB13124.1;Name=BAB13124.1;Note=BU426;gbkey=CDS;gene=cysH;product=phosphoadenosine phosphosulfate reductase;protein_id=BAB13124.1;transl_table=11
+BA000003.2	DDBJ	gene	462667	464376	.	-	.	ID=gene405;Name=cysI;gbkey=Gene;gene=cysI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	462667	464376	.	-	0	ID=cds396;Parent=gene405;Dbxref=NCBI_GP:BAB13125.1;Name=BAB13125.1;Note=BU427;gbkey=CDS;gene=cysI;product=sulfite reductase (NADPH) hemoprotein beta-component;protein_id=BAB13125.1;transl_table=11
+BA000003.2	DDBJ	gene	464376	466181	.	-	.	ID=gene406;Name=cysJ;gbkey=Gene;gene=cysJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	464376	466181	.	-	0	ID=cds397;Parent=gene406;Dbxref=NCBI_GP:BAB13126.1;Name=BAB13126.1;Note=BU428;gbkey=CDS;gene=cysJ;product=sulfite reductase (NADPH) flavoprotein alpha-component;protein_id=BAB13126.1;transl_table=11
+BA000003.2	DDBJ	gene	466372	468780	.	-	.	ID=gene407;Name=mutS;gbkey=Gene;gene=mutS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	466372	468780	.	-	0	ID=cds398;Parent=gene407;Dbxref=NCBI_GP:BAB13127.1;Name=BAB13127.1;Note=BU429;gbkey=CDS;gene=mutS;product=DNA mismatch repair protein mutS;protein_id=BAB13127.1;transl_table=11
+BA000003.2	DDBJ	gene	468937	469575	.	+	.	ID=gene408;Name=dsbA;gbkey=Gene;gene=dsbA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	468937	469575	.	+	0	ID=cds399;Parent=gene408;Dbxref=NCBI_GP:BAB13128.1;Name=BAB13128.1;Note=BU430;gbkey=CDS;gene=dsbA;product=thiol:disulfide interchange protein dsbA precursor;protein_id=BAB13128.1;transl_table=11
+BA000003.2	DDBJ	gene	469696	470556	.	+	.	ID=gene409;Name=polA;gbkey=Gene;gene=polA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	469696	470556	.	+	0	ID=cds400;Parent=gene409;Dbxref=NCBI_GP:BAB13129.1;Name=BAB13129.1;Note=BU431;gbkey=CDS;gene=polA;product=DNA polymerase I;protein_id=BAB13129.1;transl_table=11
+BA000003.2	DDBJ	gene	470619	471236	.	-	.	ID=gene410;Name=yihA;gbkey=Gene;gene=yihA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	470619	471236	.	-	0	ID=cds401;Parent=gene410;Dbxref=NCBI_GP:BAB13130.1;Name=BAB13130.1;Note=BU432;gbkey=CDS;gene=yihA;product=hypothetical GTP-binding protein;protein_id=BAB13130.1;transl_table=11
+BA000003.2	DDBJ	gene	471487	473310	.	+	.	ID=gene411;Name=typA;gbkey=Gene;gene=typA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	471487	473310	.	+	0	ID=cds402;Parent=gene411;Dbxref=NCBI_GP:BAB13131.1;Name=BAB13131.1;Note=BU433;gbkey=CDS;gene=typA;product=GTP-binding protein TypA/BipA;protein_id=BAB13131.1;transl_table=11
+BA000003.2	DDBJ	gene	473433	474056	.	-	.	ID=gene412;Name=gmk;gbkey=Gene;gene=gmk;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	473433	474056	.	-	0	ID=cds403;Parent=gene412;Dbxref=NCBI_GP:BAB13132.1;Name=BAB13132.1;Note=BU434;gbkey=CDS;gene=gmk;product=guanylate kinase;protein_id=BAB13132.1;transl_table=11
+BA000003.2	DDBJ	gene	474156	475115	.	-	.	ID=gene413;Name=ygfZ;gbkey=Gene;gene=ygfZ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	474156	475115	.	-	0	ID=cds404;Parent=gene413;Dbxref=NCBI_GP:BAB13133.1;Name=BAB13133.1;Note=BU435;gbkey=CDS;gene=ygfZ;product=hypothetical protein;protein_id=BAB13133.1;transl_table=11
+BA000003.2	DDBJ	gene	475334	476383	.	+	.	ID=gene414;Name=prfB;gbkey=Gene;gene=prfB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	475334	476383	.	+	0	ID=cds405;Parent=gene414;Dbxref=NCBI_GP:BAB13134.1;Name=BAB13134.1;Note=BU436;gbkey=CDS;gene=prfB;product=peptide chain release factor 2;protein_id=BAB13134.1;transl_table=11
+BA000003.2	DDBJ	gene	476393	477913	.	+	.	ID=gene415;Name=lysS;gbkey=Gene;gene=lysS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	476393	477913	.	+	0	ID=cds406;Parent=gene415;Dbxref=NCBI_GP:BAB13135.1;Name=BAB13135.1;Note=BU437;gbkey=CDS;gene=lysS;product=lysyl-tRNA synthetase;protein_id=BAB13135.1;transl_table=11
+BA000003.2	DDBJ	gene	477979	479226	.	+	.	ID=gene416;Name=lysA;gbkey=Gene;gene=lysA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	477979	479226	.	+	0	ID=cds407;Parent=gene416;Dbxref=NCBI_GP:BAB13136.1;Name=BAB13136.1;Note=BU438;gbkey=CDS;gene=lysA;product=diaminopimelate decarboxylase;protein_id=BAB13136.1;transl_table=11
+BA000003.2	DDBJ	gene	479292	480137	.	+	.	ID=gene417;Name=lgt;gbkey=Gene;gene=lgt;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	479292	480137	.	+	0	ID=cds408;Parent=gene417;Dbxref=NCBI_GP:BAB13137.1;Name=BAB13137.1;Note=BU439;gbkey=CDS;gene=lgt;product=prolipoprotein diacylglyceryl transferase;protein_id=BAB13137.1;transl_table=11
+BA000003.2	DDBJ	gene	480151	480945	.	+	.	ID=gene418;Name=thyA;gbkey=Gene;gene=thyA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	480151	480945	.	+	0	ID=cds409;Parent=gene418;Dbxref=NCBI_GP:BAB13138.1;Name=BAB13138.1;Note=BU440;gbkey=CDS;gene=thyA;product=thymidylate synthase;protein_id=BAB13138.1;transl_table=11
+BA000003.2	DDBJ	gene	481012	482331	.	+	.	ID=gene419;Name=yleA;gbkey=Gene;gene=yleA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	481012	482331	.	+	0	ID=cds410;Parent=gene419;Dbxref=NCBI_GP:BAB13139.1;Name=BAB13139.1;Note=BU441;gbkey=CDS;gene=yleA;product=hypothetical protein;protein_id=BAB13139.1;transl_table=11
+BA000003.2	DDBJ	gene	482486	482821	.	+	.	ID=gene420;Name=ybeY;gbkey=Gene;gene=ybeY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	482486	482821	.	+	0	ID=cds411;Parent=gene420;Dbxref=NCBI_GP:BAB13140.1;Name=BAB13140.1;Note=BU442;gbkey=CDS;gene=ybeY;product=hypothetical protein;protein_id=BAB13140.1;transl_table=11
+BA000003.2	DDBJ	gene	482902	483777	.	+	.	ID=gene421;Name=ybeX;gbkey=Gene;gene=ybeX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	482902	483777	.	+	0	ID=cds412;Parent=gene421;Dbxref=NCBI_GP:BAB13141.1;Name=BAB13141.1;Note=BU443;gbkey=CDS;gene=ybeX;product=hypothetical protein;protein_id=BAB13141.1;transl_table=11
+BA000003.2	DDBJ	gene	483881	486460	.	+	.	ID=gene422;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	483881	486460	.	+	0	ID=cds413;Parent=gene422;Dbxref=NCBI_GP:BAB13142.1;Name=BAB13142.1;Note=BU444;gbkey=CDS;gene=leuS;product=leucyl-tRNA synthetase;protein_id=BAB13142.1;transl_table=11
+BA000003.2	DDBJ	gene	486500	487495	.	+	.	ID=gene423;Name=holA;gbkey=Gene;gene=holA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	486500	487495	.	+	0	ID=cds414;Parent=gene423;Dbxref=NCBI_GP:BAB13143.1;Name=BAB13143.1;Note=BU445;gbkey=CDS;gene=holA;product=DNA polymerase III delta subunit;protein_id=BAB13143.1;transl_table=11
+BA000003.2	DDBJ	gene	487518	488162	.	+	.	ID=gene424;Name=ybeN;gbkey=Gene;gene=ybeN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	487518	488162	.	+	0	ID=cds415;Parent=gene424;Dbxref=NCBI_GP:BAB13144.1;Name=BAB13144.1;Note=BU446;gbkey=CDS;gene=ybeN;product=hypothetical protein;protein_id=BAB13144.1;transl_table=11
+BA000003.2	DDBJ	gene	488223	488453	.	+	.	ID=gene425;Name=yhhP;gbkey=Gene;gene=yhhP;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	488223	488453	.	+	0	ID=cds416;Parent=gene425;Dbxref=NCBI_GP:BAB13145.1;Name=BAB13145.1;Note=BU447;gbkey=CDS;gene=yhhP;product=hypothetical protein;protein_id=BAB13145.1;transl_table=11
+BA000003.2	DDBJ	gene	488600	489715	.	-	.	ID=gene426;Name=asd;gbkey=Gene;gene=asd;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	488600	489715	.	-	0	ID=cds417;Parent=gene426;Dbxref=NCBI_GP:BAB13146.1;Name=BAB13146.1;Note=BU448;gbkey=CDS;gene=asd;product=aspartate-semialdehyde dehydrogenase;protein_id=BAB13146.1;transl_table=11
+BA000003.2	DDBJ	gene	490053	490601	.	+	.	ID=gene427;Name=yhgN;gbkey=Gene;gene=yhgN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	490053	490601	.	+	0	ID=cds418;Parent=gene427;Dbxref=NCBI_GP:BAB13147.1;Name=BAB13147.1;Note=BU449;gbkey=CDS;gene=yhgN;product=hypothetical protein;protein_id=BAB13147.1;transl_table=11
+BA000003.2	DDBJ	gene	490715	491887	.	+	.	ID=gene428;Name=pgk;gbkey=Gene;gene=pgk;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	490715	491887	.	+	0	ID=cds419;Parent=gene428;Dbxref=NCBI_GP:BAB13148.1;Name=BAB13148.1;Note=BU450;gbkey=CDS;gene=pgk;product=phosphoglycerate kinase;protein_id=BAB13148.1;transl_table=11
+BA000003.2	DDBJ	gene	491903	492979	.	+	.	ID=gene429;Name=fba;gbkey=Gene;gene=fba;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	491903	492979	.	+	0	ID=cds420;Parent=gene429;Dbxref=NCBI_GP:BAB13149.1;Name=BAB13149.1;Note=BU451;gbkey=CDS;gene=fba;product=fructose-bisphosphate aldolase;protein_id=BAB13149.1;transl_table=11
+BA000003.2	DDBJ	gene	493043	493960	.	+	.	ID=gene430;Name=yggB;gbkey=Gene;gene=yggB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	493043	493960	.	+	0	ID=cds421;Parent=gene430;Dbxref=NCBI_GP:BAB13150.1;Name=BAB13150.1;Note=BU452;gbkey=CDS;gene=yggB;product=hypothetical protein;protein_id=BAB13150.1;transl_table=11
+BA000003.2	DDBJ	gene	494019	497231	.	+	.	ID=gene431;Name=recC;gbkey=Gene;gene=recC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	494019	497231	.	+	0	ID=cds422;Parent=gene431;Dbxref=NCBI_GP:BAB13151.1;Name=BAB13151.1;Note=BU453;gbkey=CDS;gene=recC;product=exodeoxyribonuclease V 125 kD polypeptide;protein_id=BAB13151.1;transl_table=11
+BA000003.2	DDBJ	gene	497248	500772	.	+	.	ID=gene432;Name=recB;gbkey=Gene;gene=recB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	497248	500772	.	+	0	ID=cds423;Parent=gene432;Dbxref=NCBI_GP:BAB13152.1;Name=BAB13152.1;Note=BU454;gbkey=CDS;gene=recB;product=exodeoxyribonuclease V 135 kD polypeptide;protein_id=BAB13152.1;transl_table=11
+BA000003.2	DDBJ	gene	500778	502586	.	+	.	ID=gene433;Name=recD;gbkey=Gene;gene=recD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	500778	502586	.	+	0	ID=cds424;Parent=gene433;Dbxref=NCBI_GP:BAB13153.1;Name=BAB13153.1;Note=BU455;gbkey=CDS;gene=recD;product=exodeoxyribonuclease V 67 kD polypeptide;protein_id=BAB13153.1;transl_table=11
+BA000003.2	DDBJ	gene	502625	503953	.	-	.	ID=gene434;Name=argA;gbkey=Gene;gene=argA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	502625	503953	.	-	0	ID=cds425;Parent=gene434;Dbxref=NCBI_GP:BAB13154.1;Name=BAB13154.1;Note=BU456;gbkey=CDS;gene=argA;product=amino-acid acetyltransferase;protein_id=BAB13154.1;transl_table=11
+BA000003.2	DDBJ	tRNA	504133	504209	.	-	.	ID=rna23;gbkey=tRNA;product=tRNA-Met
+BA000003.2	DDBJ	exon	504133	504209	.	-	.	ID=id31;Parent=rna23;gbkey=tRNA;product=tRNA-Met
+BA000003.2	DDBJ	gene	504321	505400	.	+	.	ID=gene435;Name=mltA;gbkey=Gene;gene=mltA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	504321	505400	.	+	0	ID=cds426;Parent=gene435;Dbxref=NCBI_GP:BAB13155.1;Name=BAB13155.1;Note=BU458;gbkey=CDS;gene=mltA;product=membrane-bound lytic murein transglycosylase A precursor;protein_id=BAB13155.1;transl_table=11
+BA000003.2	DDBJ	gene	505439	505921	.	+	.	ID=gene436;Name=ribH;gbkey=Gene;gene=ribH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	505439	505921	.	+	0	ID=cds427;Parent=gene436;Dbxref=NCBI_GP:BAB13156.1;Name=BAB13156.1;Note=BU459;gbkey=CDS;gene=ribH;product=6%2C7-dimethyl-8-ribityllumazine synthase;protein_id=BAB13156.1;transl_table=11
+BA000003.2	DDBJ	gene	505951	506922	.	+	.	ID=gene437;Name=thiL;gbkey=Gene;gene=thiL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	505951	506922	.	+	0	ID=cds428;Parent=gene437;Dbxref=NCBI_GP:BAB13157.1;Name=BAB13157.1;Note=BU460;gbkey=CDS;gene=thiL;product=thiamin-monophosphate kinase;protein_id=BAB13157.1;transl_table=11
+BA000003.2	DDBJ	gene	506978	507403	.	+	.	ID=gene438;Name=ribD1;gbkey=Gene;gene=ribD1;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	506978	507403	.	+	0	ID=cds429;Parent=gene438;Dbxref=NCBI_GP:BAB13158.1;Name=BAB13158.1;Note=BU461;gbkey=CDS;gene=ribD1;product=riboflavin deaminase;protein_id=BAB13158.1;transl_table=11
+BA000003.2	DDBJ	gene	507446	508069	.	+	.	ID=gene439;Name=ribD2;gbkey=Gene;gene=ribD2;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	507446	508069	.	+	0	ID=cds430;Parent=gene439;Dbxref=NCBI_GP:BAB13159.1;Name=BAB13159.1;Note=BU462;gbkey=CDS;gene=ribD2;product=riboflavin reductase;protein_id=BAB13159.1;transl_table=11
+BA000003.2	DDBJ	gene	508106	508537	.	+	.	ID=gene440;Name=nusB;gbkey=Gene;gene=nusB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	508106	508537	.	+	0	ID=cds431;Parent=gene440;Dbxref=NCBI_GP:BAB13160.1;Name=BAB13160.1;Note=BU463;gbkey=CDS;gene=nusB;product=N utilization substance protein B;protein_id=BAB13160.1;transl_table=11
+BA000003.2	DDBJ	gene	508592	510418	.	-	.	ID=gene441;Name=dxs;gbkey=Gene;gene=dxs;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	508592	510418	.	-	0	ID=cds432;Parent=gene441;Dbxref=NCBI_GP:BAB13161.1;Name=BAB13161.1;Note=BU464;gbkey=CDS;gene=dxs;product=dxs protein;protein_id=BAB13161.1;transl_table=11
+BA000003.2	DDBJ	gene	510476	511324	.	-	.	ID=gene442;Name=ispA;gbkey=Gene;gene=ispA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	510476	511324	.	-	0	ID=cds433;Parent=gene442;Dbxref=NCBI_GP:BAB13162.1;Name=BAB13162.1;Note=BU465;gbkey=CDS;gene=ispA;product=geranyltranstransferase;protein_id=BAB13162.1;transl_table=11
+BA000003.2	DDBJ	gene	511376	512548	.	-	.	ID=gene443;Name=yajR;gbkey=Gene;gene=yajR;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	511376	512548	.	-	0	ID=cds434;Parent=gene443;Dbxref=NCBI_GP:BAB13163.1;Name=BAB13163.1;Note=BU466;gbkey=CDS;gene=yajR;product=hypothetical protein;protein_id=BAB13163.1;transl_table=11
+BA000003.2	DDBJ	gene	512622	512966	.	+	.	ID=gene444;Name=yccK;gbkey=Gene;gene=yccK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	512622	512966	.	+	0	ID=cds435;Parent=gene444;Dbxref=NCBI_GP:BAB13164.1;Name=BAB13164.1;Note=BU467;gbkey=CDS;gene=yccK;product=hypothetical protein;protein_id=BAB13164.1;transl_table=11
+BA000003.2	DDBJ	gene	512987	513844	.	-	.	ID=gene445;Name=cyoE;gbkey=Gene;gene=cyoE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	512987	513844	.	-	0	ID=cds436;Parent=gene445;Dbxref=NCBI_GP:BAB13165.1;Name=BAB13165.1;Note=BU468;gbkey=CDS;gene=cyoE;product=protohaeme IX farnesyltransferase;protein_id=BAB13165.1;transl_table=11
+BA000003.2	DDBJ	gene	513872	514189	.	-	.	ID=gene446;Name=cyoD;gbkey=Gene;gene=cyoD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	513872	514189	.	-	0	ID=cds437;Parent=gene446;Dbxref=NCBI_GP:BAB13166.1;Name=BAB13166.1;Note=BU469;gbkey=CDS;gene=cyoD;product=cytochrome o ubiquinol oxidase subunit IV;protein_id=BAB13166.1;transl_table=11
+BA000003.2	DDBJ	gene	514189	514806	.	-	.	ID=gene447;Name=cyoC;gbkey=Gene;gene=cyoC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	514189	514806	.	-	0	ID=cds438;Parent=gene447;Dbxref=NCBI_GP:BAB13167.1;Name=BAB13167.1;Note=BU470;gbkey=CDS;gene=cyoC;product=cytochrome o ubiquinol oxidase subunit III;protein_id=BAB13167.1;transl_table=11
+BA000003.2	DDBJ	gene	514803	516791	.	-	.	ID=gene448;Name=cyoB;gbkey=Gene;gene=cyoB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	514803	516791	.	-	0	ID=cds439;Parent=gene448;Dbxref=NCBI_GP:BAB13168.1;Name=BAB13168.1;Note=BU471;gbkey=CDS;gene=cyoB;product=cytochrome o ubiquinol oxidase subunit I;protein_id=BAB13168.1;transl_table=11
+BA000003.2	DDBJ	gene	516796	517686	.	-	.	ID=gene449;Name=cyoA;gbkey=Gene;gene=cyoA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	516796	517686	.	-	0	ID=cds440;Parent=gene449;Dbxref=NCBI_GP:BAB13169.1;Name=BAB13169.1;Note=BU472;gbkey=CDS;gene=cyoA;product=cytochrome o ubiquinol oxidase subunit II;protein_id=BAB13169.1;transl_table=11
+BA000003.2	DDBJ	gene	517985	518299	.	+	.	ID=gene450;Name=bolA;gbkey=Gene;gene=bolA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	517985	518299	.	+	0	ID=cds441;Parent=gene450;Dbxref=NCBI_GP:BAB13170.1;Name=BAB13170.1;Note=BU473;gbkey=CDS;gene=bolA;product=bolA protein;protein_id=BAB13170.1;transl_table=11
+BA000003.2	DDBJ	gene	518435	519763	.	+	.	ID=gene451;Name=tig;gbkey=Gene;gene=tig;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	518435	519763	.	+	0	ID=cds442;Parent=gene451;Dbxref=NCBI_GP:BAB13171.1;Name=BAB13171.1;Note=BU474;gbkey=CDS;gene=tig;product=trigger factor;protein_id=BAB13171.1;transl_table=11
+BA000003.2	DDBJ	gene	519898	520524	.	+	.	ID=gene452;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	519898	520524	.	+	0	ID=cds443;Parent=gene452;Dbxref=NCBI_GP:BAB13172.1;Name=BAB13172.1;Note=BU475;gbkey=CDS;gene=clpP;product=ATP-dependent clp protease proteolytic subunit;protein_id=BAB13172.1;transl_table=11
+BA000003.2	DDBJ	gene	520623	521912	.	+	.	ID=gene453;Name=clpX;gbkey=Gene;gene=clpX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	520623	521912	.	+	0	ID=cds444;Parent=gene453;Dbxref=NCBI_GP:BAB13173.1;Name=BAB13173.1;Note=BU476;gbkey=CDS;gene=clpX;product=ATP-dependent clp protease ATP-binding subunit clpX;protein_id=BAB13173.1;transl_table=11
+BA000003.2	DDBJ	gene	522104	524437	.	+	.	ID=gene454;Name=lon;gbkey=Gene;gene=lon;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	522104	524437	.	+	0	ID=cds445;Parent=gene454;Dbxref=NCBI_GP:BAB13174.1;Name=BAB13174.1;Note=BU477;gbkey=CDS;gene=lon;product=ATP-dependent protease La;protein_id=BAB13174.1;transl_table=11
+BA000003.2	DDBJ	gene	524579	526450	.	+	.	ID=gene455;Name=ppiD;gbkey=Gene;gene=ppiD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	524579	526450	.	+	0	ID=cds446;Parent=gene455;Dbxref=NCBI_GP:BAB13175.1;Name=BAB13175.1;Note=BU478;gbkey=CDS;gene=ppiD;product=peptidyl-prolyl cis-trans isomerase D;protein_id=BAB13175.1;transl_table=11
+BA000003.2	DDBJ	gene	527423	529192	.	+	.	ID=gene456;Name=mdl;gbkey=Gene;gene=mdl;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	527423	529192	.	+	0	ID=cds447;Parent=gene456;Dbxref=NCBI_GP:BAB13176.1;Name=BAB13176.1;Note=BU479;gbkey=CDS;gene=mdl;product=multidrug resistance-like ATP-binding protein mdl;protein_id=BAB13176.1;transl_table=11
+BA000003.2	DDBJ	gene	529164	530936	.	+	.	ID=gene457;Name=mdlB;gbkey=Gene;gene=mdlB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	529164	530936	.	+	0	ID=cds448;Parent=gene457;Dbxref=NCBI_GP:BAB13177.1;Name=BAB13177.1;Note=BU480;gbkey=CDS;gene=mdlB;product=mdlB;protein_id=BAB13177.1;transl_table=11
+BA000003.2	DDBJ	gene	531231	532316	.	+	.	ID=gene458;Name=dnaX;gbkey=Gene;gene=dnaX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	531231	532316	.	+	0	ID=cds449;Parent=gene458;Dbxref=NCBI_GP:BAB13178.1;Name=BAB13178.1;Note=BU481;gbkey=CDS;gene=dnaX;product=DNA polymerase III subunits gamma and tau;protein_id=BAB13178.1;transl_table=11
+BA000003.2	DDBJ	gene	532636	532965	.	+	.	ID=gene459;Name=ybaB;gbkey=Gene;gene=ybaB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	532636	532965	.	+	0	ID=cds450;Parent=gene459;Dbxref=NCBI_GP:BAB13179.1;Name=BAB13179.1;Note=BU482;gbkey=CDS;gene=ybaB;product=hypothetical protein;protein_id=BAB13179.1;transl_table=11
+BA000003.2	DDBJ	gene	533111	534985	.	+	.	ID=gene460;Name=htpG;gbkey=Gene;gene=htpG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	533111	534985	.	+	0	ID=cds451;Parent=gene460;Dbxref=NCBI_GP:BAB13180.1;Name=BAB13180.1;Note=BU483;gbkey=CDS;gene=htpG;product=heat shock protein htpG;protein_id=BAB13180.1;transl_table=11
+BA000003.2	DDBJ	gene	535058	535705	.	+	.	ID=gene461;Name=adk;gbkey=Gene;gene=adk;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	535058	535705	.	+	0	ID=cds452;Parent=gene461;Dbxref=NCBI_GP:BAB13181.1;Name=BAB13181.1;Note=BU484;gbkey=CDS;gene=adk;product=adenylate kinase;protein_id=BAB13181.1;transl_table=11
+BA000003.2	DDBJ	tRNA	535708	535781	.	-	.	ID=rna24;gbkey=tRNA;product=tRNA-Arg
+BA000003.2	DDBJ	exon	535708	535781	.	-	.	ID=id32;Parent=rna24;gbkey=tRNA;product=tRNA-Arg
+BA000003.2	DDBJ	gene	535936	536793	.	+	.	ID=gene462;Name=folD;gbkey=Gene;gene=folD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	535936	536793	.	+	0	ID=cds453;Parent=gene462;Dbxref=NCBI_GP:BAB13182.1;Name=BAB13182.1;Note=BU486;gbkey=CDS;gene=folD;product=methylenetetrahydrofolate dehydrogenase / methenyltetrahydrofolate cyclohydrolase;protein_id=BAB13182.1;transl_table=11
+BA000003.2	DDBJ	gene	536790	538184	.	-	.	ID=gene463;Name=cysS;gbkey=Gene;gene=cysS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	536790	538184	.	-	0	ID=cds454;Parent=gene463;Dbxref=NCBI_GP:BAB13183.1;Name=BAB13183.1;Note=BU487;gbkey=CDS;gene=cysS;product=cysteinyl-tRNA synthetase;protein_id=BAB13183.1;transl_table=11
+BA000003.2	DDBJ	gene	538445	538708	.	+	.	ID=gene464;Name=ybeD;gbkey=Gene;gene=ybeD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	538445	538708	.	+	0	ID=cds455;Parent=gene464;Dbxref=NCBI_GP:BAB13184.1;Name=BAB13184.1;Note=BU488;gbkey=CDS;gene=ybeD;product=hypothetical protein;protein_id=BAB13184.1;transl_table=11
+BA000003.2	DDBJ	gene	538815	539024	.	-	.	ID=gene465;Name=cspE;gbkey=Gene;gene=cspE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	538815	539024	.	-	0	ID=cds456;Parent=gene465;Dbxref=NCBI_GP:BAB13185.1;Name=BAB13185.1;Note=BU489;gbkey=CDS;gene=cspE;product=cold shock-like protein cspE;protein_id=BAB13185.1;transl_table=11
+BA000003.2	DDBJ	gene	539312	539426	.	-	.	ID=gene466;Name=rrf;gbkey=Gene;gene=rrf;gene_biotype=rRNA
+BA000003.2	DDBJ	rRNA	539312	539426	.	-	.	ID=rna25;Parent=gene466;Note=BU490;gbkey=rRNA;gene=rrf;product=5S ribosomal RNA
+BA000003.2	DDBJ	exon	539312	539426	.	-	.	ID=id33;Parent=rna25;Note=BU490;gbkey=rRNA;gene=rrf;product=5S ribosomal RNA
+BA000003.2	DDBJ	gene	539539	542451	.	-	.	ID=gene467;Name=rrl;gbkey=Gene;gene=rrl;gene_biotype=rRNA
+BA000003.2	DDBJ	rRNA	539539	542451	.	-	.	ID=rna26;Parent=gene467;Note=BU491;gbkey=rRNA;gene=rrl;product=23S ribosomal RNA
+BA000003.2	DDBJ	exon	539539	542451	.	-	.	ID=id34;Parent=rna26;Note=BU491;gbkey=rRNA;gene=rrl;product=23S ribosomal RNA
+BA000003.2	DDBJ	tRNA	542613	542685	.	-	.	ID=rna27;gbkey=tRNA;product=tRNA-Glu
+BA000003.2	DDBJ	exon	542613	542685	.	-	.	ID=id35;Parent=rna27;gbkey=tRNA;product=tRNA-Glu
+BA000003.2	DDBJ	gene	542838	543659	.	-	.	ID=gene468;Name=aroE;gbkey=Gene;gene=aroE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	542838	543659	.	-	0	ID=cds457;Parent=gene468;Dbxref=NCBI_GP:BAB13186.1;Name=BAB13186.1;Note=BU493;gbkey=CDS;gene=aroE;product=shikimate 5-dehydrogenase;protein_id=BAB13186.1;transl_table=11
+BA000003.2	DDBJ	gene	543652	544179	.	-	.	ID=gene469;Name=yrdC;gbkey=Gene;gene=yrdC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	543652	544179	.	-	0	ID=cds458;Parent=gene469;Dbxref=NCBI_GP:BAB13187.1;Name=BAB13187.1;Note=BU494;gbkey=CDS;gene=yrdC;product=hypothetical protein;protein_id=BAB13187.1;transl_table=11
+BA000003.2	DDBJ	gene	544277	544750	.	-	.	ID=gene470;Name=smg;gbkey=Gene;gene=smg;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	544277	544750	.	-	0	ID=cds459;Parent=gene470;Dbxref=NCBI_GP:BAB13188.1;Name=BAB13188.1;Note=BU495;gbkey=CDS;gene=smg;product=smg protein;protein_id=BAB13188.1;transl_table=11
+BA000003.2	DDBJ	gene	544994	545515	.	+	.	ID=gene471;Name=def;gbkey=Gene;gene=def;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	544994	545515	.	+	0	ID=cds460;Parent=gene471;Dbxref=NCBI_GP:BAB13189.1;Name=BAB13189.1;Note=BU496;gbkey=CDS;gene=def;product=polypeptide deformylase;protein_id=BAB13189.1;transl_table=11
+BA000003.2	DDBJ	gene	545523	546467	.	+	.	ID=gene472;Name=fmt;gbkey=Gene;gene=fmt;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	545523	546467	.	+	0	ID=cds461;Parent=gene472;Dbxref=NCBI_GP:BAB13190.1;Name=BAB13190.1;Note=BU497;gbkey=CDS;gene=fmt;product=methionyl-tRNA formyltransferase;protein_id=BAB13190.1;transl_table=11
+BA000003.2	DDBJ	gene	546594	546986	.	-	.	ID=gene473;Name=rplQ;gbkey=Gene;gene=rplQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	546594	546986	.	-	0	ID=cds462;Parent=gene473;Dbxref=NCBI_GP:BAB13191.1;Name=BAB13191.1;Note=BU498;gbkey=CDS;gene=rplQ;product=50S ribosomal protein L17;protein_id=BAB13191.1;transl_table=11
+BA000003.2	DDBJ	gene	547031	548020	.	-	.	ID=gene474;Name=rpoA;gbkey=Gene;gene=rpoA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	547031	548020	.	-	0	ID=cds463;Parent=gene474;Dbxref=NCBI_GP:BAB13192.1;Name=BAB13192.1;Note=BU499;gbkey=CDS;gene=rpoA;product=DNA-directed RNA polymerase alpha chain;protein_id=BAB13192.1;transl_table=11
+BA000003.2	DDBJ	gene	548049	548669	.	-	.	ID=gene475;Name=rpsD;gbkey=Gene;gene=rpsD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	548049	548669	.	-	0	ID=cds464;Parent=gene475;Dbxref=NCBI_GP:BAB13193.1;Name=BAB13193.1;Note=BU500;gbkey=CDS;gene=rpsD;product=30S ribosomal protein S4;protein_id=BAB13193.1;transl_table=11
+BA000003.2	DDBJ	gene	548695	549090	.	-	.	ID=gene476;Name=rpsK;gbkey=Gene;gene=rpsK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	548695	549090	.	-	0	ID=cds465;Parent=gene476;Dbxref=NCBI_GP:BAB13194.1;Name=BAB13194.1;Note=BU501;gbkey=CDS;gene=rpsK;product=30S ribosomal protein S11;protein_id=BAB13194.1;transl_table=11
+BA000003.2	DDBJ	gene	549108	549464	.	-	.	ID=gene477;Name=rpsM;gbkey=Gene;gene=rpsM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	549108	549464	.	-	0	ID=cds466;Parent=gene477;Dbxref=NCBI_GP:BAB13195.1;Name=BAB13195.1;Note=BU502;gbkey=CDS;gene=rpsM;product=30S ribosomal protein S13;protein_id=BAB13195.1;transl_table=11
+BA000003.2	DDBJ	gene	549558	549674	.	-	.	ID=gene478;Name=rpmJ;gbkey=Gene;gene=rpmJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	549558	549674	.	-	0	ID=cds467;Parent=gene478;Dbxref=NCBI_GP:BAB13196.1;Name=BAB13196.1;Note=BU503;gbkey=CDS;gene=rpmJ;product=50S ribosomal protein L36;protein_id=BAB13196.1;transl_table=11
+BA000003.2	DDBJ	gene	549700	551013	.	-	.	ID=gene479;Name=secY;gbkey=Gene;gene=secY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	549700	551013	.	-	0	ID=cds468;Parent=gene479;Dbxref=NCBI_GP:BAB13197.1;Name=BAB13197.1;Note=BU504;gbkey=CDS;gene=secY;product=preprotein translocase secY subunit;protein_id=BAB13197.1;transl_table=11
+BA000003.2	DDBJ	gene	551024	551458	.	-	.	ID=gene480;Name=rplO;gbkey=Gene;gene=rplO;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	551024	551458	.	-	0	ID=cds469;Parent=gene480;Dbxref=NCBI_GP:BAB13198.1;Name=BAB13198.1;Note=BU505;gbkey=CDS;gene=rplO;product=50S ribosomal protein L15;protein_id=BAB13198.1;transl_table=11
+BA000003.2	DDBJ	gene	551463	551642	.	-	.	ID=gene481;Name=rpmD;gbkey=Gene;gene=rpmD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	551463	551642	.	-	0	ID=cds470;Parent=gene481;Dbxref=NCBI_GP:BAB13199.1;Name=BAB13199.1;Note=BU506;gbkey=CDS;gene=rpmD;product=50S ribosomal protein L30;protein_id=BAB13199.1;transl_table=11
+BA000003.2	DDBJ	gene	551652	552155	.	-	.	ID=gene482;Name=rpsE;gbkey=Gene;gene=rpsE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	551652	552155	.	-	0	ID=cds471;Parent=gene482;Dbxref=NCBI_GP:BAB13200.1;Name=BAB13200.1;Note=BU507;gbkey=CDS;gene=rpsE;product=30S ribosomal protein S5;protein_id=BAB13200.1;transl_table=11
+BA000003.2	DDBJ	gene	552171	552539	.	-	.	ID=gene483;Name=rplR;gbkey=Gene;gene=rplR;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	552171	552539	.	-	0	ID=cds472;Parent=gene483;Dbxref=NCBI_GP:BAB13201.1;Name=BAB13201.1;Note=BU508;gbkey=CDS;gene=rplR;product=50S ribosomal protein L18;protein_id=BAB13201.1;transl_table=11
+BA000003.2	DDBJ	gene	552541	553113	.	-	.	ID=gene484;Name=rplF;gbkey=Gene;gene=rplF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	552541	553113	.	-	0	ID=cds473;Parent=gene484;Dbxref=NCBI_GP:BAB13202.1;Name=BAB13202.1;Note=BU509;gbkey=CDS;gene=rplF;product=50S ribosomal protein L6;protein_id=BAB13202.1;transl_table=11
+BA000003.2	DDBJ	gene	553088	553480	.	-	.	ID=gene485;Name=rpsH;gbkey=Gene;gene=rpsH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	553088	553480	.	-	0	ID=cds474;Parent=gene485;Dbxref=NCBI_GP:BAB13203.1;Name=BAB13203.1;Note=BU510;gbkey=CDS;gene=rpsH;product=30S ribosomal protein S8;protein_id=BAB13203.1;transl_table=11
+BA000003.2	DDBJ	gene	553509	553814	.	-	.	ID=gene486;Name=rpsN;gbkey=Gene;gene=rpsN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	553509	553814	.	-	0	ID=cds475;Parent=gene486;Dbxref=NCBI_GP:BAB13204.1;Name=BAB13204.1;Note=BU511;gbkey=CDS;gene=rpsN;product=30S ribosomal protein S14;protein_id=BAB13204.1;transl_table=11
+BA000003.2	DDBJ	gene	553832	554371	.	-	.	ID=gene487;Name=rplE;gbkey=Gene;gene=rplE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	553832	554371	.	-	0	ID=cds476;Parent=gene487;Dbxref=NCBI_GP:BAB13205.1;Name=BAB13205.1;Note=BU512;gbkey=CDS;gene=rplE;product=50S ribosomal protein L5;protein_id=BAB13205.1;transl_table=11
+BA000003.2	DDBJ	gene	554386	554700	.	-	.	ID=gene488;Name=rplX;gbkey=Gene;gene=rplX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	554386	554700	.	-	0	ID=cds477;Parent=gene488;Dbxref=NCBI_GP:BAB13206.1;Name=BAB13206.1;Note=BU513;gbkey=CDS;gene=rplX;product=50S ribosomal protein L24;protein_id=BAB13206.1;transl_table=11
+BA000003.2	DDBJ	gene	554726	555094	.	-	.	ID=gene489;Name=rplN;gbkey=Gene;gene=rplN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	554726	555094	.	-	0	ID=cds478;Parent=gene489;Dbxref=NCBI_GP:BAB13207.1;Name=BAB13207.1;Note=BU514;gbkey=CDS;gene=rplN;product=50S ribosomal protein L14;protein_id=BAB13207.1;transl_table=11
+BA000003.2	DDBJ	gene	555209	555460	.	-	.	ID=gene490;Name=rpsQ;gbkey=Gene;gene=rpsQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	555209	555460	.	-	0	ID=cds479;Parent=gene490;Dbxref=NCBI_GP:BAB13208.1;Name=BAB13208.1;Note=BU515;gbkey=CDS;gene=rpsQ;product=30S ribosomal protein S17;protein_id=BAB13208.1;transl_table=11
+BA000003.2	DDBJ	gene	555460	555657	.	-	.	ID=gene491;Name=rpmC;gbkey=Gene;gene=rpmC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	555460	555657	.	-	0	ID=cds480;Parent=gene491;Dbxref=NCBI_GP:BAB13209.1;Name=BAB13209.1;Note=BU516;gbkey=CDS;gene=rpmC;product=50S ribosomal protein L29;protein_id=BAB13209.1;transl_table=11
+BA000003.2	DDBJ	gene	555657	556067	.	-	.	ID=gene492;Name=rplP;gbkey=Gene;gene=rplP;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	555657	556067	.	-	0	ID=cds481;Parent=gene492;Dbxref=NCBI_GP:BAB13210.1;Name=BAB13210.1;Note=BU517;gbkey=CDS;gene=rplP;product=50S ribosomal protein L16;protein_id=BAB13210.1;transl_table=11
+BA000003.2	DDBJ	gene	556088	556789	.	-	.	ID=gene493;Name=rpsC;gbkey=Gene;gene=rpsC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	556088	556789	.	-	0	ID=cds482;Parent=gene493;Dbxref=NCBI_GP:BAB13211.1;Name=BAB13211.1;Note=BU518;gbkey=CDS;gene=rpsC;product=30S ribosomal protein S3;protein_id=BAB13211.1;transl_table=11
+BA000003.2	DDBJ	gene	556808	557140	.	-	.	ID=gene494;Name=rplV;gbkey=Gene;gene=rplV;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	556808	557140	.	-	0	ID=cds483;Parent=gene494;Dbxref=NCBI_GP:BAB13212.1;Name=BAB13212.1;Note=BU519;gbkey=CDS;gene=rplV;product=50S ribosomal protein L22;protein_id=BAB13212.1;transl_table=11
+BA000003.2	DDBJ	gene	557176	557454	.	-	.	ID=gene495;Name=rpsS;gbkey=Gene;gene=rpsS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	557176	557454	.	-	0	ID=cds484;Parent=gene495;Dbxref=NCBI_GP:BAB13213.1;Name=BAB13213.1;Note=BU520;gbkey=CDS;gene=rpsS;product=30S ribosomal protein S19;protein_id=BAB13213.1;transl_table=11
+BA000003.2	DDBJ	gene	557474	558295	.	-	.	ID=gene496;Name=rplB;gbkey=Gene;gene=rplB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	557474	558295	.	-	0	ID=cds485;Parent=gene496;Dbxref=NCBI_GP:BAB13214.1;Name=BAB13214.1;Note=BU521;gbkey=CDS;gene=rplB;product=50S ribosomal protein L2;protein_id=BAB13214.1;transl_table=11
+BA000003.2	DDBJ	gene	558310	558612	.	-	.	ID=gene497;Name=rplW;gbkey=Gene;gene=rplW;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	558310	558612	.	-	0	ID=cds486;Parent=gene497;Dbxref=NCBI_GP:BAB13215.1;Name=BAB13215.1;Note=BU522;gbkey=CDS;gene=rplW;product=50S ribosomal protein L23;protein_id=BAB13215.1;transl_table=11
+BA000003.2	DDBJ	gene	558609	559214	.	-	.	ID=gene498;Name=rplD;gbkey=Gene;gene=rplD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	558609	559214	.	-	0	ID=cds487;Parent=gene498;Dbxref=NCBI_GP:BAB13216.1;Name=BAB13216.1;Note=BU523;gbkey=CDS;gene=rplD;product=50S ribosomal protein L4;protein_id=BAB13216.1;transl_table=11
+BA000003.2	DDBJ	gene	559232	559861	.	-	.	ID=gene499;Name=rplC;gbkey=Gene;gene=rplC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	559232	559861	.	-	0	ID=cds488;Parent=gene499;Dbxref=NCBI_GP:BAB13217.1;Name=BAB13217.1;Note=BU524;gbkey=CDS;gene=rplC;product=50S ribosomal protein L3;protein_id=BAB13217.1;transl_table=11
+BA000003.2	DDBJ	gene	559892	560203	.	-	.	ID=gene500;Name=rpsJ;gbkey=Gene;gene=rpsJ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	559892	560203	.	-	0	ID=cds489;Parent=gene500;Dbxref=NCBI_GP:BAB13218.1;Name=BAB13218.1;Note=BU525;gbkey=CDS;gene=rpsJ;product=30S ribosomal protein S10;protein_id=BAB13218.1;transl_table=11
+BA000003.2	DDBJ	gene	560535	561806	.	-	.	ID=gene501;Name=tufB;gbkey=Gene;gene=tufB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	560535	561806	.	-	0	ID=cds490;Parent=gene501;Dbxref=NCBI_GP:BAB13219.1;Name=BAB13219.1;Note=BU526;gbkey=CDS;gene=tufB;product=elongation factor EF-Tu;protein_id=BAB13219.1;transl_table=11
+BA000003.2	DDBJ	gene	561787	563895	.	-	.	ID=gene502;Name=fusA;gbkey=Gene;gene=fusA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	561787	563895	.	-	0	ID=cds491;Parent=gene502;Dbxref=NCBI_GP:BAB13220.1;Name=BAB13220.1;Note=BU527;gbkey=CDS;gene=fusA;product=elongation factor G;protein_id=BAB13220.1;transl_table=11
+BA000003.2	DDBJ	gene	564010	564480	.	-	.	ID=gene503;Name=rpsG;gbkey=Gene;gene=rpsG;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	564010	564480	.	-	0	ID=cds492;Parent=gene503;Dbxref=NCBI_GP:BAB13221.1;Name=BAB13221.1;Note=BU528;gbkey=CDS;gene=rpsG;product=30S ribosomal protein S7;protein_id=BAB13221.1;transl_table=11
+BA000003.2	DDBJ	gene	564522	564896	.	-	.	ID=gene504;Name=rpsL;gbkey=Gene;gene=rpsL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	564522	564896	.	-	0	ID=cds493;Parent=gene504;Dbxref=NCBI_GP:BAB13222.1;Name=BAB13222.1;Note=BU529;gbkey=CDS;gene=rpsL;product=30S ribosomal protein S12;protein_id=BAB13222.1;transl_table=11
+BA000003.2	DDBJ	gene	565030	565302	.	-	.	ID=gene505;Name=yheL;gbkey=Gene;gene=yheL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	565030	565302	.	-	0	ID=cds494;Parent=gene505;Dbxref=NCBI_GP:BAB13223.1;Name=BAB13223.1;Note=BU530;gbkey=CDS;gene=yheL;product=hypothetical protein;protein_id=BAB13223.1;transl_table=11
+BA000003.2	DDBJ	gene	565329	565688	.	-	.	ID=gene506;Name=yheM;gbkey=Gene;gene=yheM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	565329	565688	.	-	0	ID=cds495;Parent=gene506;Dbxref=NCBI_GP:BAB13224.1;Name=BAB13224.1;Note=BU531;gbkey=CDS;gene=yheM;product=hypothetical protein;protein_id=BAB13224.1;transl_table=11
+BA000003.2	DDBJ	gene	565707	566093	.	-	.	ID=gene507;Name=yheN;gbkey=Gene;gene=yheN;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	565707	566093	.	-	0	ID=cds496;Parent=gene507;Dbxref=NCBI_GP:BAB13225.1;Name=BAB13225.1;Note=BU532;gbkey=CDS;gene=yheN;product=hypothetical protein;protein_id=BAB13225.1;transl_table=11
+BA000003.2	DDBJ	gene	566176	566901	.	-	.	ID=gene508;Name=fkpA;gbkey=Gene;gene=fkpA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	566176	566901	.	-	0	ID=cds497;Parent=gene508;Dbxref=NCBI_GP:BAB13226.1;Name=BAB13226.1;Note=BU533;gbkey=CDS;gene=fkpA;product=fkbp-type peptidyl-prolyl cis-trans isomerase fkpA precursor;protein_id=BAB13226.1;transl_table=11
+BA000003.2	DDBJ	gene	567364	568590	.	-	.	ID=gene509;Name=argD;gbkey=Gene;gene=argD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	567364	568590	.	-	0	ID=cds498;Parent=gene509;Dbxref=NCBI_GP:BAB13227.1;Name=BAB13227.1;Note=BU534;gbkey=CDS;gene=argD;product=acetylornithine aminotransferase;protein_id=BAB13227.1;transl_table=11
+BA000003.2	DDBJ	gene	568906	570072	.	+	.	ID=gene510;Name=yhfC;gbkey=Gene;gene=yhfC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	568906	570072	.	+	0	ID=cds499;Parent=gene510;Dbxref=NCBI_GP:BAB13228.1;Name=BAB13228.1;Note=BU535;gbkey=CDS;gene=yhfC;product=hypothetical protein;protein_id=BAB13228.1;transl_table=11
+BA000003.2	DDBJ	gene	570134	571141	.	-	.	ID=gene511;Name=trpS;gbkey=Gene;gene=trpS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	570134	571141	.	-	0	ID=cds500;Parent=gene511;Dbxref=NCBI_GP:BAB13229.1;Name=BAB13229.1;Note=BU536;gbkey=CDS;gene=trpS;product=tryptophanyl-tRNA synthetase;protein_id=BAB13229.1;transl_table=11
+BA000003.2	DDBJ	gene	571164	571850	.	-	.	ID=gene512;Name=rpe;gbkey=Gene;gene=rpe;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	571164	571850	.	-	0	ID=cds501;Parent=gene512;Dbxref=NCBI_GP:BAB13230.1;Name=BAB13230.1;Note=BU537;gbkey=CDS;gene=rpe;product=ribulose-phosphate 3-epimerase;protein_id=BAB13230.1;transl_table=11
+BA000003.2	DDBJ	gene	572734	573825	.	-	.	ID=gene513;Name=aroB;gbkey=Gene;gene=aroB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	572734	573825	.	-	0	ID=cds502;Parent=gene513;Dbxref=NCBI_GP:BAB13231.1;Name=BAB13231.1;Note=BU538;gbkey=CDS;gene=aroB;product=3-dehydroquinate synthase;protein_id=BAB13231.1;transl_table=11
+BA000003.2	DDBJ	gene	573843	574364	.	-	.	ID=gene514;Name=aroK;gbkey=Gene;gene=aroK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	573843	574364	.	-	0	ID=cds503;Parent=gene514;Dbxref=NCBI_GP:BAB13232.1;Name=BAB13232.1;Note=BU539;gbkey=CDS;gene=aroK;product=shikimate kinase I;protein_id=BAB13232.1;transl_table=11
+BA000003.2	DDBJ	tRNA	574863	574947	.	+	.	ID=rna28;gbkey=tRNA;product=tRNA-Ser
+BA000003.2	DDBJ	exon	574863	574947	.	+	.	ID=id36;Parent=rna28;gbkey=tRNA;product=tRNA-Ser
+BA000003.2	DDBJ	gene	574967	575671	.	-	.	ID=gene515;Name=deoD;gbkey=Gene;gene=deoD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	574967	575671	.	-	0	ID=cds504;Parent=gene515;Dbxref=NCBI_GP:BAB13233.1;Name=BAB13233.1;Note=BU541;gbkey=CDS;gene=deoD;product=purine nucleoside phosphorylase;protein_id=BAB13233.1;transl_table=11
+BA000003.2	DDBJ	gene	575715	576938	.	-	.	ID=gene516;Name=deoB;gbkey=Gene;gene=deoB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	575715	576938	.	-	0	ID=cds505;Parent=gene516;Dbxref=NCBI_GP:BAB13234.1;Name=BAB13234.1;Note=BU542;gbkey=CDS;gene=deoB;product=phosphopentomutase;protein_id=BAB13234.1;transl_table=11
+BA000003.2	DDBJ	gene	576996	578576	.	-	.	ID=gene517;Name=prfC;gbkey=Gene;gene=prfC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	576996	578576	.	-	0	ID=cds506;Parent=gene517;Dbxref=NCBI_GP:BAB13235.1;Name=BAB13235.1;Note=BU543;gbkey=CDS;gene=prfC;product=peptide chain release factor 3;protein_id=BAB13235.1;transl_table=11
+BA000003.2	DDBJ	gene	579687	580265	.	-	.	ID=gene518;Name=yhgI;gbkey=Gene;gene=yhgI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	579687	580265	.	-	0	ID=cds507;Parent=gene518;Dbxref=NCBI_GP:BAB13236.1;Name=BAB13236.1;Note=BU544;gbkey=CDS;gene=yhgI;product=hypothetical protein;protein_id=BAB13236.1;transl_table=11
+BA000003.2	DDBJ	gene	580878	581393	.	-	.	ID=gene519;Name=ssb;gbkey=Gene;gene=ssb;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	580878	581393	.	-	0	ID=cds508;Parent=gene519;Dbxref=NCBI_GP:BAB13237.1;Name=BAB13237.1;Note=BU545;gbkey=CDS;gene=ssb;product=single-strand binding protein;protein_id=BAB13237.1;transl_table=11
+BA000003.2	DDBJ	gene	582081	583460	.	+	.	ID=gene520;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	582081	583460	.	+	0	ID=cds509;Parent=gene520;Dbxref=NCBI_GP:BAB13238.1;Name=BAB13238.1;Note=BU546;gbkey=CDS;gene=dnaB;product=replicative DNA helicase;protein_id=BAB13238.1;transl_table=11
+BA000003.2	DDBJ	gene	583707	584669	.	+	.	ID=gene521;Name=gshB;gbkey=Gene;gene=gshB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	583707	584669	.	+	0	ID=cds510;Parent=gene521;Dbxref=NCBI_GP:BAB13239.1;Name=BAB13239.1;Note=BU547;gbkey=CDS;gene=gshB;product=glutathione synthetase;protein_id=BAB13239.1;transl_table=11
+BA000003.2	DDBJ	gene	584680	585087	.	+	.	ID=gene522;Name=yqgF;gbkey=Gene;gene=yqgF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	584680	585087	.	+	0	ID=cds511;Parent=gene522;Dbxref=NCBI_GP:BAB13240.1;Name=BAB13240.1;Note=BU548;gbkey=CDS;gene=yqgF;product=hypothetical protein;protein_id=BAB13240.1;transl_table=11
+BA000003.2	DDBJ	gene	585205	585807	.	+	.	ID=gene523;Name=yggS;gbkey=Gene;gene=yggS;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	585205	585807	.	+	0	ID=cds512;Parent=gene523;Dbxref=NCBI_GP:BAB13241.1;Name=BAB13241.1;Note=BU549;gbkey=CDS;gene=yggS;product=hypothetical protein;protein_id=BAB13241.1;transl_table=11
+BA000003.2	DDBJ	gene	585850	586980	.	+	.	ID=gene524;Name=yggW;gbkey=Gene;gene=yggW;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	585850	586980	.	+	0	ID=cds513;Parent=gene524;Dbxref=NCBI_GP:BAB13242.1;Name=BAB13242.1;Note=BU550;gbkey=CDS;gene=yggW;product=hypothetical protein;protein_id=BAB13242.1;transl_table=11
+BA000003.2	DDBJ	gene	586987	587706	.	-	.	ID=gene525;Name=yggH;gbkey=Gene;gene=yggH;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	586987	587706	.	-	0	ID=cds514;Parent=gene525;Dbxref=NCBI_GP:BAB13243.1;Name=BAB13243.1;Note=BU551;gbkey=CDS;gene=yggH;product=hypothetical protein;protein_id=BAB13243.1;transl_table=11
+BA000003.2	DDBJ	gene	587804	588856	.	+	.	ID=gene526;Name=mutY;gbkey=Gene;gene=mutY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	587804	588856	.	+	0	ID=cds515;Parent=gene526;Dbxref=NCBI_GP:BAB13244.1;Name=BAB13244.1;Note=BU552;gbkey=CDS;gene=mutY;product=A/G-specific adenine glycosylase;protein_id=BAB13244.1;transl_table=11
+BA000003.2	DDBJ	gene	588828	589109	.	+	.	ID=gene527;Name=yggX;gbkey=Gene;gene=yggX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	588828	589109	.	+	0	ID=cds516;Parent=gene527;Dbxref=NCBI_GP:BAB13245.1;Name=BAB13245.1;Note=BU553;gbkey=CDS;gene=yggX;product=hypothetical protein;protein_id=BAB13245.1;transl_table=11
+BA000003.2	DDBJ	gene	589203	589991	.	+	.	ID=gene528;Name=murI;gbkey=Gene;gene=murI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	589203	589991	.	+	0	ID=cds517;Parent=gene528;Dbxref=NCBI_GP:BAB13246.1;Name=BAB13246.1;Note=BU554;gbkey=CDS;gene=murI;product=glutamate racemase;protein_id=BAB13246.1;transl_table=11
+BA000003.2	DDBJ	gene	590182	591423	.	-	.	ID=gene529;Name=sbcB;gbkey=Gene;gene=sbcB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	590182	591423	.	-	0	ID=cds518;Parent=gene529;Dbxref=NCBI_GP:BAB13247.1;Name=BAB13247.1;Note=BU555;gbkey=CDS;gene=sbcB;product=exodeoxyribonuclease I;protein_id=BAB13247.1;transl_table=11
+BA000003.2	DDBJ	gene	591503	591811	.	+	.	ID=gene530;Name=yeeX;gbkey=Gene;gene=yeeX;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	591503	591811	.	+	0	ID=cds519;Parent=gene530;Dbxref=NCBI_GP:BAB13248.1;Name=BAB13248.1;Note=BU556;gbkey=CDS;gene=yeeX;product=hypothetical protein;protein_id=BAB13248.1;transl_table=11
+BA000003.2	DDBJ	tRNA	591818	591890	.	-	.	ID=rna29;gbkey=tRNA;product=tRNA-Asn
+BA000003.2	DDBJ	exon	591818	591890	.	-	.	ID=id37;Parent=rna29;gbkey=tRNA;product=tRNA-Asn
+BA000003.2	DDBJ	tRNA	592025	592097	.	+	.	ID=rna30;gbkey=tRNA;product=tRNA-Met
+BA000003.2	DDBJ	exon	592025	592097	.	+	.	ID=id38;Parent=rna30;gbkey=tRNA;product=tRNA-Met
+BA000003.2	DDBJ	gene	592193	592834	.	+	.	ID=gene531;Name=pyrE;gbkey=Gene;gene=pyrE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	592193	592834	.	+	0	ID=cds520;Parent=gene531;Dbxref=NCBI_GP:BAB13249.1;Name=BAB13249.1;Note=BU559;gbkey=CDS;gene=pyrE;product=orotate phosphoribosyltransferase;protein_id=BAB13249.1;transl_table=11
+BA000003.2	DDBJ	gene	592846	593310	.	-	.	ID=gene532;Name=dut;gbkey=Gene;gene=dut;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	592846	593310	.	-	0	ID=cds521;Parent=gene532;Dbxref=NCBI_GP:BAB13250.1;Name=BAB13250.1;Note=BU560;gbkey=CDS;gene=dut;product=deoxyuridine 5'-triphosphate nucleotidohydrolase;protein_id=BAB13250.1;transl_table=11
+BA000003.2	DDBJ	gene	593354	594151	.	-	.	ID=gene533;Name=cysQ;gbkey=Gene;gene=cysQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	593354	594151	.	-	0	ID=cds522;Parent=gene533;Dbxref=NCBI_GP:BAB13251.1;Name=BAB13251.1;Note=BU561;gbkey=CDS;gene=cysQ;product=cysQ protein;protein_id=BAB13251.1;transl_table=11
+BA000003.2	DDBJ	gene	594138	594590	.	-	.	ID=gene534;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	594138	594590	.	-	0	ID=cds523;Parent=gene534;Dbxref=NCBI_GP:BAB13252.1;Name=BAB13252.1;Note=BU562;gbkey=CDS;gene=rplI;product=50S ribosomal protein L9;protein_id=BAB13252.1;transl_table=11
+BA000003.2	DDBJ	gene	594639	594866	.	-	.	ID=gene535;Name=rpsR;gbkey=Gene;gene=rpsR;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	594639	594866	.	-	0	ID=cds524;Parent=gene535;Dbxref=NCBI_GP:BAB13253.1;Name=BAB13253.1;Note=BU563;gbkey=CDS;gene=rpsR;product=30S ribosomal protein S18;protein_id=BAB13253.1;transl_table=11
+BA000003.2	DDBJ	gene	594992	595333	.	-	.	ID=gene536;Name=rpsF;gbkey=Gene;gene=rpsF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	594992	595333	.	-	0	ID=cds525;Parent=gene536;Dbxref=NCBI_GP:BAB13254.1;Name=BAB13254.1;Note=BU564;gbkey=CDS;gene=rpsF;product=30S ribosomal protein S6;protein_id=BAB13254.1;transl_table=11
+BA000003.2	DDBJ	gene	595499	597736	.	-	.	ID=gene537;Name=vacB;gbkey=Gene;gene=vacB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	595499	597736	.	-	0	ID=cds526;Parent=gene537;Dbxref=NCBI_GP:BAB13255.1;Name=BAB13255.1;Note=BU565;gbkey=CDS;gene=vacB;product=vacB protein;protein_id=BAB13255.1;transl_table=11
+BA000003.2	DDBJ	gene	597824	599125	.	-	.	ID=gene538;Name=purA;gbkey=Gene;gene=purA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	597824	599125	.	-	0	ID=cds527;Parent=gene538;Dbxref=NCBI_GP:BAB13256.1;Name=BAB13256.1;Note=BU566;gbkey=CDS;gene=purA;product=adenylosuccinate synthetase;protein_id=BAB13256.1;transl_table=11
+BA000003.2	DDBJ	gene	599175	600107	.	-	.	ID=gene539;Name=hflC;gbkey=Gene;gene=hflC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	599175	600107	.	-	0	ID=cds528;Parent=gene539;Dbxref=NCBI_GP:BAB13257.1;Name=BAB13257.1;Note=BU567;gbkey=CDS;gene=hflC;product=hflC protein;protein_id=BAB13257.1;transl_table=11
+BA000003.2	DDBJ	gene	600110	601330	.	-	.	ID=gene540;Name=hflK;gbkey=Gene;gene=hflK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	600110	601330	.	-	0	ID=cds529;Parent=gene540;Dbxref=NCBI_GP:BAB13258.1;Name=BAB13258.1;Note=BU568;gbkey=CDS;gene=hflK;product=hflK protein;protein_id=BAB13258.1;transl_table=11
+BA000003.2	DDBJ	gene	601487	602395	.	-	.	ID=gene541;Name=miaA;gbkey=Gene;gene=miaA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	601487	602395	.	-	0	ID=cds530;Parent=gene541;Dbxref=NCBI_GP:BAB13259.1;Name=BAB13259.1;Note=BU569;gbkey=CDS;gene=miaA;product=tRNA delta(2)-isopentenylpyrophosphate transferase;protein_id=BAB13259.1;transl_table=11
+BA000003.2	DDBJ	gene	602433	604187	.	-	.	ID=gene542;Name=mutL;gbkey=Gene;gene=mutL;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	602433	604187	.	-	0	ID=cds531;Parent=gene542;Dbxref=NCBI_GP:BAB13260.1;Name=BAB13260.1;Note=BU570;gbkey=CDS;gene=mutL;product=DNA mismatch repair protein mutL;protein_id=BAB13260.1;transl_table=11
+BA000003.2	DDBJ	gene	604287	605444	.	-	.	ID=gene543;Name=mtlD;gbkey=Gene;gene=mtlD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	604287	605444	.	-	0	ID=cds532;Parent=gene543;Dbxref=NCBI_GP:BAB13261.1;Name=BAB13261.1;Note=BU571;gbkey=CDS;gene=mtlD;product=mannitol-1-phosphate 5-dehydrogenase;protein_id=BAB13261.1;transl_table=11
+BA000003.2	DDBJ	gene	605486	607384	.	-	.	ID=gene544;Name=mtlA;gbkey=Gene;gene=mtlA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	605486	607384	.	-	0	ID=cds533;Parent=gene544;Dbxref=NCBI_GP:BAB13262.1;Name=BAB13262.1;Note=BU572;gbkey=CDS;gene=mtlA;product=pts system mannitol-specific IIABC component;protein_id=BAB13262.1;transl_table=11
+BA000003.2	DDBJ	gene	607559	609208	.	-	.	ID=gene545;Name=pgi;gbkey=Gene;gene=pgi;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	607559	609208	.	-	0	ID=cds534;Parent=gene545;Dbxref=NCBI_GP:BAB13263.1;Name=BAB13263.1;Note=BU573;gbkey=CDS;gene=pgi;product=glucose-6-phosphate isomerase;protein_id=BAB13263.1;transl_table=11
+BA000003.2	DDBJ	gene	609522	610076	.	+	.	ID=gene546;Name=orn;gbkey=Gene;gene=orn;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	609522	610076	.	+	0	ID=cds535;Parent=gene546;Dbxref=NCBI_GP:BAB13264.1;Name=BAB13264.1;Note=BU574;gbkey=CDS;gene=orn;product=oligoribonuclease;protein_id=BAB13264.1;transl_table=11
+BA000003.2	DDBJ	tRNA	610162	610237	.	+	.	ID=rna31;gbkey=tRNA;product=tRNA-Gly
+BA000003.2	DDBJ	exon	610162	610237	.	+	.	ID=id39;Parent=rna31;gbkey=tRNA;product=tRNA-Gly
+BA000003.2	DDBJ	gene	610528	611241	.	+	.	ID=gene547;Name=amiB;gbkey=Gene;gene=amiB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	610528	611241	.	+	0	ID=cds536;Parent=gene547;Dbxref=NCBI_GP:BAB13265.1;Name=BAB13265.1;Note=BU576;gbkey=CDS;gene=amiB;product=N-acetylmuramoyl-L-alanine amidase precursor;protein_id=BAB13265.1;transl_table=11
+BA000003.2	DDBJ	gene	611349	611567	.	-	.	ID=gene548;Name=rpmE;gbkey=Gene;gene=rpmE;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	611349	611567	.	-	0	ID=cds537;Parent=gene548;Dbxref=NCBI_GP:BAB13266.1;Name=BAB13266.1;Note=BU577;gbkey=CDS;gene=rpmE;product=50S ribosomal protein L31;protein_id=BAB13266.1;transl_table=11
+BA000003.2	DDBJ	gene	612173	612685	.	+	.	ID=gene549;Name=hslV;gbkey=Gene;gene=hslV;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	612173	612685	.	+	0	ID=cds538;Parent=gene549;Dbxref=NCBI_GP:BAB13267.1;Name=BAB13267.1;Note=BU578;gbkey=CDS;gene=hslV;product=heat shock protein hslV;protein_id=BAB13267.1;transl_table=11
+BA000003.2	DDBJ	gene	612698	614029	.	+	.	ID=gene550;Name=hslU;gbkey=Gene;gene=hslU;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	612698	614029	.	+	0	ID=cds539;Parent=gene550;Dbxref=NCBI_GP:BAB13268.1;Name=BAB13268.1;Note=BU579;gbkey=CDS;gene=hslU;product=heat shock protein hslU;protein_id=BAB13268.1;transl_table=11
+BA000003.2	DDBJ	gene	614236	614709	.	+	.	ID=gene551;Name=ibpA;gbkey=Gene;gene=ibpA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	614236	614709	.	+	0	ID=cds540;Parent=gene551;Dbxref=NCBI_GP:BAB13269.1;Name=BAB13269.1;Note=BU580;gbkey=CDS;gene=ibpA;product=16 kD heat shock protein A;protein_id=BAB13269.1;transl_table=11
+BA000003.2	DDBJ	gene	614786	615544	.	+	.	ID=gene552;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	614786	615544	.	+	0	ID=cds541;Parent=gene552;Dbxref=NCBI_GP:BAB13270.1;Name=BAB13270.1;Note=BU581;gbkey=CDS;gene=fpr;product=ferredoxin-NADP reductase;protein_id=BAB13270.1;transl_table=11
+BA000003.2	DDBJ	gene	615562	616536	.	-	.	ID=gene553;Name=yjeA;gbkey=Gene;gene=yjeA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	615562	616536	.	-	0	ID=cds542;Parent=gene553;Dbxref=NCBI_GP:BAB13271.1;Name=BAB13271.1;Note=BU582;gbkey=CDS;gene=yjeA;product=hypothetical lysyl-tRNA synthetase homolog;protein_id=BAB13271.1;transl_table=11
+BA000003.2	DDBJ	gene	616608	617105	.	+	.	ID=gene554;Name=kdtB;gbkey=Gene;gene=kdtB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	616608	617105	.	+	0	ID=cds543;Parent=gene554;Dbxref=NCBI_GP:BAB13272.1;Name=BAB13272.1;Note=BU583;gbkey=CDS;gene=kdtB;product=lipopolysaccharide core biosynthesis protein kdtB;protein_id=BAB13272.1;transl_table=11
+BA000003.2	DDBJ	gene	617192	618295	.	-	.	ID=gene555;Name=yba3;gbkey=Gene;gene=yba3;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	617192	618295	.	-	0	ID=cds544;Parent=gene555;Dbxref=NCBI_GP:BAB13273.1;Name=BAB13273.1;Note=BU584;gbkey=CDS;gene=yba3;product=hypothetical protein;protein_id=BAB13273.1;transl_table=11
+BA000003.2	DDBJ	gene	618288	618626	.	-	.	ID=gene556;Name=yba4;gbkey=Gene;gene=yba4;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	618288	618626	.	-	0	ID=cds545;Parent=gene556;Dbxref=NCBI_GP:BAB13274.1;Name=BAB13274.1;Note=BU585;gbkey=CDS;gene=yba4;product=hypothetical protein;protein_id=BAB13274.1;transl_table=11
+BA000003.2	DDBJ	gene	618781	619521	.	+	.	ID=gene557;Name=yhiQ;gbkey=Gene;gene=yhiQ;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	618781	619521	.	+	0	ID=cds546;Parent=gene557;Dbxref=NCBI_GP:BAB13275.1;Name=BAB13275.1;Note=BU586;gbkey=CDS;gene=yhiQ;product=hypothetical protein;protein_id=BAB13275.1;transl_table=11
+BA000003.2	DDBJ	gene	619604	621076	.	-	.	ID=gene558;Name=pitA;gbkey=Gene;gene=pitA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	619604	621076	.	-	0	ID=cds547;Parent=gene558;Dbxref=NCBI_GP:BAB13276.1;Name=BAB13276.1;Note=BU587;gbkey=CDS;gene=pitA;product=low-affinity inorganic phosphate transporter;protein_id=BAB13276.1;transl_table=11
+BA000003.2	DDBJ	gene	621227	622459	.	-	.	ID=gene559;Name=ynfM;gbkey=Gene;gene=ynfM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	621227	622459	.	-	0	ID=cds548;Parent=gene559;Dbxref=NCBI_GP:BAB13277.1;Name=BAB13277.1;Note=BU588;gbkey=CDS;gene=ynfM;product=hypothetical protein;protein_id=BAB13277.1;transl_table=11
+BA000003.2	DDBJ	gene	622493	623410	.	-	.	ID=gene560;Name=dapF;gbkey=Gene;gene=dapF;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	622493	623410	.	-	0	ID=cds549;Parent=gene560;Dbxref=NCBI_GP:BAB13278.1;Name=BAB13278.1;Note=BU589;gbkey=CDS;gene=dapF;product=diaminopimelate epimerase;protein_id=BAB13278.1;transl_table=11
+BA000003.2	DDBJ	gene	623535	623885	.	+	.	ID=gene561;Name=cyaY;gbkey=Gene;gene=cyaY;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	623535	623885	.	+	0	ID=cds550;Parent=gene561;Dbxref=NCBI_GP:BAB13279.1;Name=BAB13279.1;Note=BU590;gbkey=CDS;gene=cyaY;product=cyaY protein;protein_id=BAB13279.1;transl_table=11
+BA000003.2	DDBJ	gene	624014	624958	.	+	.	ID=gene562;Name=hemC;gbkey=Gene;gene=hemC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	624014	624958	.	+	0	ID=cds551;Parent=gene562;Dbxref=NCBI_GP:BAB13280.1;Name=BAB13280.1;Note=BU591;gbkey=CDS;gene=hemC;product=porphobilinogen deaminase;protein_id=BAB13280.1;transl_table=11
+BA000003.2	DDBJ	gene	624955	625712	.	+	.	ID=gene563;Name=hemD;gbkey=Gene;gene=hemD;gene_biotype=other
+BA000003.2	DDBJ	sequence_feature	624955	625712	.	+	.	ID=id40;Note=authentic frameshift%3B 35 pct identical to HEM4_ECOLI SW:P09126;gbkey=misc_feature;gene=hemD
+BA000003.2	DDBJ	tRNA	625716	625792	.	-	.	ID=rna32;gbkey=tRNA;product=tRNA-Pro
+BA000003.2	DDBJ	exon	625716	625792	.	-	.	ID=id41;Parent=rna32;gbkey=tRNA;product=tRNA-Pro
+BA000003.2	DDBJ	tRNA	625829	625904	.	-	.	ID=rna33;gbkey=tRNA;product=tRNA-His
+BA000003.2	DDBJ	exon	625829	625904	.	-	.	ID=id42;Parent=rna33;gbkey=tRNA;product=tRNA-His
+BA000003.2	DDBJ	tRNA	625934	626007	.	-	.	ID=rna34;gbkey=tRNA;product=tRNA-Arg
+BA000003.2	DDBJ	exon	625934	626007	.	-	.	ID=id43;Parent=rna34;gbkey=tRNA;product=tRNA-Arg
+BA000003.2	DDBJ	gene	626196	627455	.	-	.	ID=gene564;Name=rho;gbkey=Gene;gene=rho;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	626196	627455	.	-	0	ID=cds552;Parent=gene564;Dbxref=NCBI_GP:BAB13281.1;Name=BAB13281.1;Note=BU596;gbkey=CDS;gene=rho;product=transcription termination factor rho;protein_id=BAB13281.1;transl_table=11
+BA000003.2	DDBJ	gene	627585	627911	.	-	.	ID=gene565;Name=trxA;gbkey=Gene;gene=trxA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	627585	627911	.	-	0	ID=cds553;Parent=gene565;Dbxref=NCBI_GP:BAB13282.1;Name=BAB13282.1;Note=BU597;gbkey=CDS;gene=trxA;product=thioredoxin;protein_id=BAB13282.1;transl_table=11
+BA000003.2	DDBJ	gene	628113	630050	.	-	.	ID=gene566;Name=rep;gbkey=Gene;gene=rep;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	628113	630050	.	-	0	ID=cds554;Parent=gene566;Dbxref=NCBI_GP:BAB13283.1;Name=BAB13283.1;Note=BU598;gbkey=CDS;gene=rep;product=ATP-dependent DNA helicase Rep;protein_id=BAB13283.1;transl_table=11
+BA000003.2	DDBJ	gene	630120	631592	.	-	.	ID=gene567;Name=ilvC;gbkey=Gene;gene=ilvC;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	630120	631592	.	-	0	ID=cds555;Parent=gene567;Dbxref=NCBI_GP:BAB13284.1;Name=BAB13284.1;Note=BU599;gbkey=CDS;gene=ilvC;product=ketol-acid reductoisomerase;protein_id=BAB13284.1;transl_table=11
+BA000003.2	DDBJ	gene	631640	633493	.	-	.	ID=gene568;Name=ilvD;gbkey=Gene;gene=ilvD;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	631640	633493	.	-	0	ID=cds556;Parent=gene568;Dbxref=NCBI_GP:BAB13285.1;Name=BAB13285.1;Note=BU600;gbkey=CDS;gene=ilvD;product=dihydroxy-acid dehydratase;protein_id=BAB13285.1;transl_table=11
+BA000003.2	DDBJ	tRNA	633734	633807	.	-	.	ID=rna35;gbkey=tRNA;product=tRNA-Trp
+BA000003.2	DDBJ	exon	633734	633807	.	-	.	ID=id44;Parent=rna35;gbkey=tRNA;product=tRNA-Trp
+BA000003.2	DDBJ	gene	633980	635194	.	+	.	ID=gene569;Name=yfhO;gbkey=Gene;gene=yfhO;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	633980	635194	.	+	0	ID=cds557;Parent=gene569;Dbxref=NCBI_GP:BAB13286.1;Name=BAB13286.1;Note=BU602;gbkey=CDS;gene=yfhO;product=hypothetical protein;protein_id=BAB13286.1;transl_table=11
+BA000003.2	DDBJ	gene	635225	635608	.	+	.	ID=gene570;Name=iscU;gbkey=Gene;gene=iscU;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	635225	635608	.	+	0	ID=cds558;Parent=gene570;Dbxref=NCBI_GP:BAB13287.1;Name=BAB13287.1;Note=BU603;gbkey=CDS;gene=iscU;product=hypothetiacl protein iscU;protein_id=BAB13287.1;transl_table=11
+BA000003.2	DDBJ	gene	635703	636227	.	+	.	ID=gene571;Name=hscB;gbkey=Gene;gene=hscB;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	635703	636227	.	+	0	ID=cds559;Parent=gene571;Dbxref=NCBI_GP:BAB13288.1;Name=BAB13288.1;Note=BU604;gbkey=CDS;gene=hscB;product=chaperone protein hscB;protein_id=BAB13288.1;transl_table=11
+BA000003.2	DDBJ	gene	636239	638074	.	+	.	ID=gene572;Name=hscA;gbkey=Gene;gene=hscA;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	636239	638074	.	+	0	ID=cds560;Parent=gene572;Dbxref=NCBI_GP:BAB13289.1;Name=BAB13289.1;Note=BU605;gbkey=CDS;gene=hscA;product=heat shock protein hscA;protein_id=BAB13289.1;transl_table=11
+BA000003.2	DDBJ	gene	638074	638409	.	+	.	ID=gene573;Name=fdx;gbkey=Gene;gene=fdx;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	638074	638409	.	+	0	ID=cds561;Parent=gene573;Dbxref=NCBI_GP:BAB13290.1;Name=BAB13290.1;Note=BU606;gbkey=CDS;gene=fdx;product=ferredoxin 2fe-2s;protein_id=BAB13290.1;transl_table=11
+BA000003.2	DDBJ	gene	638406	639767	.	-	.	ID=gene574;Name=yfgK;gbkey=Gene;gene=yfgK;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	638406	639767	.	-	0	ID=cds562;Parent=gene574;Dbxref=NCBI_GP:BAB13291.1;Name=BAB13291.1;Note=BU607;gbkey=CDS;gene=yfgK;product=hypothetical GTP-binding protein;protein_id=BAB13291.1;transl_table=11
+BA000003.2	DDBJ	gene	639860	640441	.	-	.	ID=gene575;Name=yfgM;gbkey=Gene;gene=yfgM;gene_biotype=protein_coding
+BA000003.2	DDBJ	CDS	639860	640441	.	-	0	ID=cds563;Parent=gene575;Dbxref=NCBI_GP:BAB13292.1;Name=BAB13292.1;Note=BU608;gbkey=CDS;gene=yfgM;product=hypothetical protein;protein_id=BAB13292.1;transl_table=11
+##sequence-region AP001071.1 1 7786
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=107806
+AP001071.1	DDBJ	region	1	7786	.	+	.	ID=id45;Dbxref=taxon:107806;Is_circular=true;Name=pLeu;gbkey=Src;genome=plasmid;isolate=Tokyo1998;mol_type=genomic DNA;nat-host=Acyrthosiphon pisum;note=leucine plasmid%3B~primary endosymbiont of Acyrthosiphon pisum%3B~synonym:Buchnera sp. APS;plasmid-name=pLeu;strain=APS
+AP001071.1	DDBJ	gene	346	1197	.	-	.	ID=gene576;Name=repA1;gbkey=Gene;gene=repA1;gene_biotype=protein_coding
+AP001071.1	DDBJ	CDS	346	1197	.	-	0	ID=cds564;Parent=gene576;Dbxref=NCBI_GP:BAA95420.1;Name=BAA95420.1;Note=BUpL01;gbkey=CDS;gene=repA1;product=replication-associated protein RepA1;protein_id=BAA95420.1;transl_table=11
+AP001071.1	DDBJ	gene	1514	2017	.	+	.	ID=gene577;Name=yqhA;gbkey=Gene;gene=yqhA;gene_biotype=protein_coding
+AP001071.1	DDBJ	CDS	1514	2017	.	+	0	ID=cds565;Parent=gene577;Dbxref=NCBI_GP:BAA95421.1;Name=BAA95421.1;Note=BUpL02;gbkey=CDS;gene=yqhA;product=hypothetical protien;protein_id=BAA95421.1;transl_table=11
+AP001071.1	DDBJ	gene	2357	2893	.	+	.	ID=gene578;Name=RepA2;gbkey=Gene;gene=RepA2;gene_biotype=protein_coding
+AP001071.1	DDBJ	CDS	2357	2893	.	+	0	ID=cds566;Parent=gene578;Dbxref=NCBI_GP:BAA95422.1;Name=BAA95422.1;Note=BUpL03;gbkey=CDS;gene=RepA2;product=replication-associated protein RepA2;protein_id=BAA95422.1;transl_table=11
+AP001071.1	DDBJ	gene	3032	4591	.	+	.	ID=gene579;Name=leuA;gbkey=Gene;gene=leuA;gene_biotype=protein_coding
+AP001071.1	DDBJ	CDS	3032	4591	.	+	0	ID=cds567;Parent=gene579;Dbxref=NCBI_GP:BAA95423.1;Name=BAA95423.1;Note=BUpL04;gbkey=CDS;gene=leuA;product=2-isopropylmalate synthase;protein_id=BAA95423.1;transl_table=11
+AP001071.1	DDBJ	gene	4652	5743	.	+	.	ID=gene580;Name=leuB;gbkey=Gene;gene=leuB;gene_biotype=protein_coding
+AP001071.1	DDBJ	CDS	4652	5743	.	+	0	ID=cds568;Parent=gene580;Dbxref=NCBI_GP:BAA95424.1;Name=BAA95424.1;Note=BUpL05;gbkey=CDS;gene=leuB;product=3-isopropylmalate dehydrogenase;protein_id=BAA95424.1;transl_table=11
+AP001071.1	DDBJ	gene	5733	7160	.	+	.	ID=gene581;Name=leuC;gbkey=Gene;gene=leuC;gene_biotype=protein_coding
+AP001071.1	DDBJ	CDS	5733	7160	.	+	0	ID=cds569;Parent=gene581;Dbxref=NCBI_GP:BAA95425.1;Name=BAA95425.1;Note=BUpL06;gbkey=CDS;gene=leuC;product=3-isopropylmalate dehydratase;protein_id=BAA95425.1;transl_table=11
+AP001071.1	DDBJ	gene	7163	7786	.	+	.	ID=gene582;Name=leuD;gbkey=Gene;gene=leuD;gene_biotype=protein_coding
+AP001071.1	DDBJ	CDS	7163	7786	.	+	0	ID=cds570;Parent=gene582;Dbxref=NCBI_GP:BAA95426.1;Name=BAA95426.1;Note=BUpL07;gbkey=CDS;gene=leuD;product=3-isopropylmalate dehydratase small subunit;protein_id=BAA95426.1;transl_table=11
+##sequence-region AP001070.1 1 7258
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=107806
+AP001070.1	DDBJ	region	1	7258	.	+	.	ID=id46;Dbxref=taxon:107806;Is_circular=true;Name=pTrp;gbkey=Src;genome=plasmid;isolate=Tokyo1998;mol_type=genomic DNA;nat-host=Acyrthosiphon pisum;note=primary endosymbiont of Acyrthosiphon pisum%3B~synonym:Buchnera sp. APS%3B~trpEG plasmid;plasmid-name=pTrp;strain=APS (Acyrthosiphon pisum)
+AP001070.1	DDBJ	gene	1	1566	.	+	.	ID=gene583;Name=trpE;gbkey=Gene;gene=trpE;gene_biotype=protein_coding
+AP001070.1	DDBJ	CDS	1	1566	.	+	0	ID=cds571;Parent=gene583;Dbxref=NCBI_GP:BAA95417.1;Name=BAA95417.1;Note=ATT start%3B~BUpT01;gbkey=CDS;gene=trpE;product=anthranilate synthase large subunit;protein_id=BAA95417.1;transl_table=11
+AP001070.1	DDBJ	sequence_alteration	256	256	.	+	.	ID=id47;Note=polymorphism: G or A;gbkey=variation;gene=trpE
+AP001070.1	DDBJ	sequence_alteration	1215	1215	.	+	.	ID=id48;Note=polymorphism: G or C;gbkey=variation;gene=trpE
+AP001070.1	DDBJ	sequence_alteration	1512	1512	.	+	.	ID=id49;Note=polymorphism: G or A;gbkey=variation;gene=trpE
+AP001070.1	DDBJ	gene	1569	2171	.	+	.	ID=gene584;Name=trpG;gbkey=Gene;gene=trpG;gene_biotype=protein_coding
+AP001070.1	DDBJ	CDS	1569	2171	.	+	0	ID=cds572;Parent=gene584;Dbxref=NCBI_GP:BAA95418.1;Name=BAA95418.1;Note=BUpT02;gbkey=CDS;gene=trpG;product=anthranilate synthase small subunit;protein_id=BAA95418.1;transl_table=11
+AP001070.1	DDBJ	sequence_alteration	2170	2170	.	+	.	ID=id50;Note=polymorphism: A or none;gbkey=variation;gene=trpG
+AP001070.1	DDBJ	gene	3629	5196	.	+	.	ID=gene585;Name=trpE2;gbkey=Gene;gene=trpE2;gene_biotype=other
+AP001070.1	DDBJ	sequence_feature	3629	5196	.	+	.	ID=id51;Note=BUpT03%3B~authentic frameshift%3B This 1568 nt putative ORF is 99 pct identical to trpE;gbkey=misc_feature;gene=trpE2
+AP001070.1	DDBJ	gene	5199	5801	.	+	.	ID=gene586;Name=trpG2;gbkey=Gene;gene=trpG2;gene_biotype=protein_coding
+AP001070.1	DDBJ	CDS	5199	5801	.	+	0	ID=cds573;Parent=gene586;Dbxref=NCBI_GP:BAA95419.1;Name=BAA95419.1;Note=100 pct identical to trpG%3B~BUpT04;gbkey=CDS;gene=trpG2;product=anthranilate synthase small subunit;protein_id=BAA95419.1;transl_table=11
+AP001070.1	DDBJ	sequence_alteration	6041	6041	.	+	.	ID=id52;Note=polymorphism: T or C;gbkey=variation
+AP001070.1	DDBJ	sequence_alteration	6242	6242	.	+	.	ID=id53;Note=polymorphism: A or T;gbkey=variation
+AP001070.1	DDBJ	sequence_alteration	6993	6993	.	+	.	ID=id54;Note=polymorphism: G or A;gbkey=variation
+AP001070.1	DDBJ	sequence_alteration	7149	7149	.	+	.	ID=id55;Note=polymorphism: A or G;gbkey=variation
+###
