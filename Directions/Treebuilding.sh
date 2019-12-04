@@ -14,6 +14,6 @@
 # -m type of database used protein wag the specific database
 # -p -x random variable start for parsimony
 # -# number of bootstraps
-# -s input concatenated tree
+# -s input concatenated file
 # -n output name
 # raxml -T 12 -f a -m "PROTGAMMAWAG" -p 590 -x 590 -# 100 -s core80.tree.masked.afa -n core80

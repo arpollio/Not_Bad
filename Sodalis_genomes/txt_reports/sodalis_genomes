@@ -14,8 +14,8 @@ S-endosymbiont of Ctenarytaina eucalypti, Psyllid, NC_018419, Thao et al 2000
 Candidatus Carsonella rudii CU, Psyllid, CP003541, Thao et al 2000
 Sodalis-like symbiont of Philaneus spumarius PSPU, spittlebug, BASS01000000, Koga et al 2013
 Sulcia muelleri PSPU, Spittlebug, PRJDB96, Koga et al 2013
-Candidatus Zinderia insecticola CARI, Spittlebug, PRJNA51243, Mccutcheon et al 2010
-P-endosymbiont of Henestaris halophilus, True bug, PRJEB12882, santos-garcia 2017
+Candidatus Zinderia insecticola CARI, Spittlebug, CP002161, Mccutcheon et al 2010
+P-endosymbiont of Henestaris halophilus, True bug, LT897836.1, santos-garcia 2017
 Sodalis-like endosymbiont of Proechinophthirus fluctus str. SPI-1, Seal louse, LECR01000000, Boyd et al 2016
 Sodalis glossinidius str. “morsitans”, Tsetse fly, NC_007712-15
 Wigglesworthia glossinidius, Tsetse fly, SAMD00061079
@@ -27,12 +27,13 @@ Ca. Sodalis melophagi, Hippoboscid louse fly, http://users.prf.jcu.cz/novake01/ 
 Ca. Arsenophenous melophagi, Hippoboscid louse fly, http://users.prf.jcu.cz/novake01/ , fully finished genome, Novakova et al 2015
 >>>>>>> 4287d5741aec1afa5366afffe9c48915294d7f9b
 Sodalis praecaptivus, Human wound, NZ_CP006569-70
+Candidatus Sodalis pierantonius str. SOPE (taxid:2342)
 
 Additional organisms
 Wigglesworthia brevipalpis - 	PRJNA274
 Wigglesworthia glossinidia - PRJNA242143
-Serratia symbiotica Cinara cedri - PRJNA32211
-Candidatus Hamiltonella - PRJNA224116
-Buchnera bp - PRJNA256
-Buchnera bcc - PRJNA82811
-Buchnera aps - PRJNA57805
+Serratia symbiotica Cinara cedri - AP019531.1
+Candidatus Hamiltonella - NZ_CP017605.1
+Buchnera bp - AF492591.1
+Buchnera bcc - NC_008513.1
+Buchnera aps - BA000003.2
