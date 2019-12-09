@@ -13,6 +13,7 @@ CAE13175
 CAE13174
 
 Sodalis glossinidius merged genes
-BAE73871
-BAE73870
+BAE73860
+BAE73861
+
 
