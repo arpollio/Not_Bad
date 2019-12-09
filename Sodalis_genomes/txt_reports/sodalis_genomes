@@ -1,36 +1,35 @@
 All ncbi call numbers come from
-Ca. Mikella endobia, Mealybug PMAR, LN999831, Husnik Mccutcheon 2016
-Tremblaya princeps PMAR, Mealybug PMAR,GCA_900014395.1, Husnik Mccutcheon 2016
-Ca. Moranella endobia PCVAL, Mealybug, NC_021057, Thao et al 2000
+Ca. Mikella endobia, Mealybug PMAR, 1778264, Husnik Mccutcheon 2016
+Tremblaya princeps PMAR, Mealybug PMAR, , Husnik Mccutcheon 2016
+Ca. Moranella endobia PCVAL, Mealybug, 1234603, Thao et al 2000
 Tremblaya princeps PCVAL, Mealybug, CP002918, Thao et al 2000
-Ca. Moranella endobia PCIT, Mealybug, CP002243, Thao et al 2000
+Ca. Moranella endobia PCIT, Mealybug, 903503, Thao et al 2000
 Tremblaya princeps PCIT, Mealybug, CP002244, Thao et al 2000
-Ca. Hoaglandella endobia, Mealybug, LN999835, Husnik Mccutcheon 2016
-Ca. Doolittlea endobia, Mealybug, LN999833, Husnik Mccutcheon 2016
-Ca. Gullanella endobia, Mealybug, LN999832, Husnik Mccutcheon 2016
-S-endosymbiont of Heteropsylla cubana, Psyllid, NC_018420, Sloan and Moran 2012
+Ca. Hoaglandella endobia, Mealybug, 1778263, Husnik Mccutcheon 2016
+Ca. Doolittlea endobia, Mealybug, 1778262, Husnik Mccutcheon 2016
+Ca. Gullanella endobia, Mealybug, 1070130, Husnik Mccutcheon 2016
+S-endosymbiont of Heteropsylla cubana, Psyllid, 134287, Sloan and Moran 2012
 Candidatus Carsonella HC, Psyllid, PRJNA165187, Thao et al 2000
-S-endosymbiont of Ctenarytaina eucalypti, Psyllid, NC_018419, Thao et al 2000
+S-endosymbiont of Ctenarytaina eucalypti, Psyllid, 1199245, Thao et al 2000
 Candidatus Carsonella rudii CU, Psyllid, CP003541, Thao et al 2000
-Sodalis-like symbiont of Philaneus spumarius PSPU, spittlebug, BASS01000000, Koga et al 2013
+Sodalis-like symbiont of Philaneus spumarius PSPU, spittlebug, 1273402, Koga et al 2013
 Sulcia muelleri PSPU, Spittlebug, PRJDB96, Koga et al 2013
-Candidatus Zinderia insecticola CARI, Spittlebug, CP002161, Mccutcheon et al 2010
-P-endosymbiont of Henestaris halophilus, True bug, LT897836.1, santos-garcia 2017
-Sodalis-like endosymbiont of Proechinophthirus fluctus str. SPI-1, Seal louse, LECR01000000, Boyd et al 2016
-Sodalis glossinidius str. “morsitans”, Tsetse fly, NC_007712-15
+Candidatus Zinderia insecticola CARI, Spittlebug, 884215, Mccutcheon et al 2010
+P-endosymbiont of Henestaris halophilus, True bug, 1929246, santos-garcia 2017
+Sodalis-like endosymbiont of Proechinophthirus fluctus str. SPI-1, Seal louse, 1462730, Boyd et al 2016
+Sodalis glossinidius str. “morsitans”, Tsetse fly, 1173031
 Wigglesworthia glossinidius, Tsetse fly, SAMD00061079
-Ca. Sodalis pierantonius str. SOPE, Weevil, CP006568, Heddi 1998
-Ca. Sodalis melophagi, Hippoboscid louse fly, http://users.prf.jcu.cz/novake01/ , Novakova et al 2015
+Ca. Sodalis pierantonius str. SOPE, Weevil, CP006568 2342, Heddi 1998
+Ca. Sodalis melophagi, Hippoboscid louse fly, 343509 http://users.prf.jcu.cz/novake01/ , Novakova et al 2015
 Ca. Arsenophenous melophagi, Hippoboscid louse fly, http://users.prf.jcu.cz/novake01/ , Novakova et al 2015
 Ca. Bartonella melophagi, Hippoboscid louse fly, http://users.prf.jcu.cz/novake01/ , Novakova et al 2015
 Ca. Sodalis melophagi, Hippoboscid louse fly, http://users.prf.jcu.cz/novake01/ ,contigs, Novakova et al 2015
 Ca. Arsenophenous melophagi, Hippoboscid louse fly, http://users.prf.jcu.cz/novake01/ , fully finished genome, Novakova et al 2015
-Sodalis praecaptivus, Human wound, NZ_CP006569-70
-Candidatus Sodalis pierantonius str. SOPE (taxid:2342)
+Sodalis praecaptivus, Human wound, 1239307
 
 Additional organisms
 Wigglesworthia brevipalpis - 	PRJNA274
-Wigglesworthia glossinidia - PRJNA242143
+Sodalis glossinidius str. “morsitans”, Tsetse fly, 1173031
 Serratia symbiotica Cinara cedri - AP019531.1
 Candidatus Hamiltonella - NZ_CP017605.1
 Buchnera bp - AF492591.1
