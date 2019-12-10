@@ -1,0 +1,5 @@
+#copy all of a single file type from a bunch of folders to a single folder
+cp -r ~/Not_Bad/Sodalis_genomes/organism_protein/*/*.faa all_fasta
+
+#replace a string with an aditional string using sed
+sed -i -r 's/^>(.*)$/ \1 (Bartonella_melophagi)/g' Bartonella_melophagi_edit.faa
