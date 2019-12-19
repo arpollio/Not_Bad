@@ -1,0 +1,8 @@
+source("http://bioconductor.org/biocLite.R")
+biocLite("ballgown")
+library(ballgown)
+library(ggplot2)
+library(gplots)
+library(genefilter)
+library(GenomicRanges)
+library(plyr)
