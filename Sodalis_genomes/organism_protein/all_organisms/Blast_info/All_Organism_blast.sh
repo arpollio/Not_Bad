@@ -48,7 +48,7 @@
 
 ## Give your job a name
 #
-#PBS -N Blastp_1
+#PBS -N All_organism_Blast_1
 
 ## Provide your email address, to receive notification when your job starts and ends
 #

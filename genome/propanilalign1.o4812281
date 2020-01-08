@@ -1,0 +1,9 @@
+
+
+Building a new DB, current time: 12/15/2019 22:43:24
+New DB name:   /gpfs/scratch/arpollio/Not_Bad/genome/enterobactericiae
+New DB title:  entero30.faa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 39253 sequences in 2.28055 seconds.

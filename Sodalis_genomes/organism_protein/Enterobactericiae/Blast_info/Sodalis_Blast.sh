@@ -48,7 +48,7 @@
 
 ## Give your job a name
 #
-#PBS -N Blastp_1
+#PBS -N Sodalis_clade_blast_1
 
 ## Provide your email address, to receive notification when your job starts and ends
 #

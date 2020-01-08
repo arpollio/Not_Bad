@@ -1,0 +1,11 @@
+
+	 Conda 4.4 now uses a new script that needs to be sourced, execute:
+
+
+ source /shared/software/miniconda3/etc/profile.d/conda.sh
+
+
+	 To activate the bioconda environment created for you execute:
+
+
+ conda activate CONDA_ENV_NAME
