@@ -1,0 +1,30 @@
+Arsenophenous melophagi	5124
+Bartonella melophagi	1385
+Buchnera aphidicola BCc	362
+Buchnera aphidicola str. APS (Acyrthosiphon pisum)	574
+Buchnera aphidicola str. Bp (Baizongia pistaciae)	507
+Candidatus Carsonella ruddii CE isolate Thao2000	190
+Candidatus Carsonella ruddii HC isolate Thao2000	192
+Candidatus Doolittlea endobia	568
+Candidatus Gullanella endobia	461
+Candidatus Hamiltonella defensa	1790
+Candidatus Hoaglandella endobia	517
+Candidatus Mikella endobia	273
+Candidatus Moranella endobia PCIT	406
+Candidatus Moranella endobia PCVAL	411
+Candidatus Sodalis pierantonius str. SOPE	2309
+Candidatus Sulcia muelleri PSPU	251
+Candidatus Tremblaya princeps	124
+Candidatus Tremblaya princeps PCIT	121
+Candidatus Tremblaya princeps PCVAL	116
+Candidatus Zinderia insecticola CARI	206
+Escherichia coli str. K-12 substr. MG1655	4242
+Serratia symbiotica	2096
+Sodalis endosymbiont of Henestaris halophilus	713
+Sodalis glossinidius str. morsitans	2516
+Sodalis melophagi	5968
+Sodalis praecaptivus	4432
+Sodalis-like endosymbiont of Proechinophthirus fluctus	1287
+Wigglesworthia glossinidia endosymbiont of Glossina morsitans morsitans	618
+secondary endosymbiont of Ctenarytaina eucalypti	918
+secondary endosymbiont of Heteropsylla cubana	576
